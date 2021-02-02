@@ -56,79 +56,96 @@
 
 int main(int argc,char** argv) {
 
-  //detect interactive mode (if no arguments) and define UI session
-  G4UIExecutive* ui = nullptr;
-  if (argc == 1) ui = new G4UIExecutive(argc,argv);
+    //detect interactive mode (if no arguments) and define UI session
+    G4UIExecutive* ui = nullptr;
+    if (argc == 1) ui = new G4UIExecutive(argc,argv);
 
-  //choose the Random engine
-  G4Random::setTheEngine(new CLHEP::RanecuEngine);
+    //choose the Random engine
+    G4Random::setTheEngine(new CLHEP::RanecuEngine);
 
-  // Construct the default run manager
+    // Construct the default run manager
 #ifdef G4MULTITHREADED
-  G4MTRunManager* runManager = new G4MTRunManager;
-  G4int nThreads = G4Threading::G4GetNumberOfCores();
-  nThreads = 2; //G4UIcommand::ConvertToInt(argv[2]);
-  runManager->SetNumberOfThreads(nThreads);
+    G4MTRunManager* runManager = new G4MTRunManager;
+    G4int nThreads = G4Threading::G4GetNumberOfCores();
+    nThreads = 2; //G4UIcommand::ConvertToInt(argv[2]);
+    runManager->SetNumberOfThreads(nThreads);
 #else
-  //my Verbose output class
-  G4VSteppingVerbose::SetInstance(new SteppingVerbose);
-  G4RunManager* runManager = new G4RunManager;
+    //my Verbose output class
+    G4VSteppingVerbose::SetInstance(new SteppingVerbose);
+    G4RunManager* runManager = new G4RunManager;
 #endif
 
-  //set mandatory initialization classes
-  DetectorConstruction* det = new DetectorConstruction;
-  runManager->SetUserInitialization(det);
+    //set mandatory initialization classes
+    DetectorConstruction* det = new DetectorConstruction;
+    runManager->SetUserInitialization(det);
 
-  PhysicsList* phys = new PhysicsList;
-  runManager->SetUserInitialization(phys);
+    PhysicsList* phys = new PhysicsList;
+    runManager->SetUserInitialization(phys);
 
-  runManager->SetUserInitialization(new ActionInitialization(det));
+    runManager->SetUserInitialization(new ActionInitialization(det));
 
-  //initialize visualization
-  G4VisManager* visManager = nullptr;
+    //initialize visualization
+    G4VisManager* visManager = nullptr;
 
-  //get the pointer to the User Interface manager
-  G4UImanager* UImanager = G4UImanager::GetUIpointer();
+    //get the pointer to the User Interface manager
+    G4UImanager* UImanager = G4UImanager::GetUIpointer();
 
-  if (ui)  {
-   //interactive mode
-   visManager = new G4VisExecutive;
-   visManager->Initialize();
-   ui->SessionStart();
-   delete ui;
-  }
-  else if(argc == 6) //if there are 5 arguments ./exe macro.mac Emin Emax Estep NbOfParticle
-    {
-      G4String command = "/control/execute ";
-      G4String fileName = argv[1];
-      UImanager->ApplyCommand(command+fileName);
-
-      G4double Emin = G4UIcommand::ConvertToDouble(argv[2]);
-      G4double Emax = G4UIcommand::ConvertToDouble(argv[3]);
-      G4double Estep = G4UIcommand::ConvertToDouble(argv[4]);
-
-      for(double i = Emin; i<=Emax; i+=Estep)
-	{
-	  G4String energy = "/gun/energy " + std::to_string(i) + " MeV";
-	  G4String particle = "/run/beamOn " +(G4String)argv[5];
-
-	  UImanager->ApplyCommand("/analysis/setFileName " + std::to_string((int)i)+"MeV");
-	  UImanager->ApplyCommand(energy);
-	  UImanager->ApplyCommand(particle);
-	  
-	}
-      
+    if (ui)  {
+        //interactive mode
+        visManager = new G4VisExecutive;
+        visManager->Initialize();
+        ui->SessionStart();
+        delete ui;
     }
-  else  {
-   //batch mode
-   G4String command = "/control/execute ";
-   G4String fileName = argv[1];
-   UImanager->ApplyCommand(command+fileName);
-  }
+    else if(argc == 6) //if there are 5 arguments ./exe macro.mac Emin Emax                Estep             NbOfParticle
+    {
 
-  //job termination
-  delete visManager;
-  delete runManager;
+
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+        UImanager->ApplyCommand(command+fileName);
+
+        G4double Emin = G4UIcommand::ConvertToDouble(argv[2]);
+        G4double Emax = G4UIcommand::ConvertToDouble(argv[3]);
+        G4double Estep = G4UIcommand::ConvertToDouble(argv[4]);
+
+        for(double i = Emin; i<=Emax; i+=Estep)
+        {
+            std::string s_ene = std::to_string(i);
+            std::string toReplace (".");
+
+            std::size_t pos = s_ene.find(toReplace);
+            s_ene = s_ene.substr(0, pos+3);
+            if (pos == std::string::npos){
+                /* s_ene = std::to_string(i); */
+            }
+            else{
+                s_ene = s_ene.replace(pos, toReplace.length(), "_");
+            }
+            G4cout << "Energy post  = " << s_ene << G4endl;
+
+            std::cout << std::setprecision(2);
+
+            G4String energy = "/gun/energy " + std::to_string(i) + " MeV";
+            G4String particle = "/run/beamOn " +(G4String)argv[5];
+
+            UImanager->ApplyCommand("/analysis/setFileName " + s_ene+"MeV");
+            UImanager->ApplyCommand(energy);
+            UImanager->ApplyCommand(particle);
+
+
+        }
+    }
+    else  {
+        //batch mode
+        G4String command = "/control/execute ";
+        G4String fileName = argv[1];
+        UImanager->ApplyCommand(command+fileName);
+    }
+
+    //job termination
+    delete visManager;
+    delete runManager;
 }
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

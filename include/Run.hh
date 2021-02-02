@@ -37,6 +37,7 @@
 #include "G4VProcess.hh"
 #include "globals.hh"
 #include <map>
+#include <fstream>
 
 class DetectorConstruction;
 class G4ParticleDefinition;

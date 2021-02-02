@@ -245,42 +245,42 @@ void Run::Merge(const G4Run* run)
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
+
 void Run::EndOfRun(G4bool print) 
 {
+    std::ofstream outputF("hardXXX.txt");
   G4int prec = 5, wid = prec + 2;  
   G4int dfprec = G4cout.precision(prec);
-  
-  //run condition
+ //run condition
   //
   G4Material* material = fDetector->GetMaterial();
   G4double density = material->GetDensity();
   const G4double* vec = material -> GetVecNbOfAtomsPerVolume();
-  G4cout << "\n****************\n" <<material -> GetTotNbOfAtomsPerVolume()/(1/cm3) <<vec[0]/(1/cm3) << " " <<vec[1]/(1/cm3) << G4endl; 
+  outputF << "\n****************\n" <<material -> GetTotNbOfAtomsPerVolume()/(1/cm3) <<vec[0]/(1/cm3) << " " <<vec[1]/(1/cm3) << G4endl; 
    
   G4String Particle = fParticle->GetParticleName();    
-  G4cout << "\n The run is " << numberOfEvent << " "<< Particle << " of "
+  outputF << "\n The run is " << numberOfEvent << " "<< Particle << " of "
          << G4BestUnit(fEkin,"Energy") << " through " 
          << G4BestUnit(fDetector->GetSize(),"Length") << " of "
          << material->GetName() << " (density: " 
          << G4BestUnit(density,"Volumic Mass") << ")" << G4endl;
 
-  if (numberOfEvent == 0) { G4cout.precision(dfprec);   return;}
-             
+
   //frequency of processes
   //
-  G4cout << "\n Process calls frequency:" << G4endl;  
+  outputF << "\n Process calls frequency:" << G4endl;  
   G4int survive = 0;
   std::map<G4String,G4int>::iterator it;    
   for (it = fProcCounter.begin(); it != fProcCounter.end(); it++) {
      G4String procName = it->first;
      G4int    count    = it->second;
-     G4cout << "\t" << procName << "= " << count;
+     outputF << "\t" << procName << "= " << count;
      if (procName == "Transportation") survive = count;
   }
-  G4cout << G4endl;
+  outputF << G4endl;
       
   if (survive > 0) {
-    G4cout << "\n Nb of incident particles surviving after "
+    outputF << "\n Nb of incident particles surviving after "
            << G4BestUnit(fDetector->GetSize(),"Length") << " of "
            << material->GetName() << " : " << survive << G4endl;
   }
@@ -298,7 +298,7 @@ void Run::EndOfRun(G4bool print)
   G4double massicCS  = 0.0;
   if(massicMFP > 0.0) { massicCS = 1./massicMFP; }
    
-  G4cout << "\n\n MeanFreePath:\t"   << G4BestUnit(MeanFreePath,"Length")
+  outputF << "\n\n MeanFreePath:\t"   << G4BestUnit(MeanFreePath,"Length")
          << " +- "                   << G4BestUnit( rms,"Length")
          << "\tmassic: "             << G4BestUnit(massicMFP, "Mass/Surface")
          << "\n CrossSection:\t"     << CrossSection*cm << " cm^-1 "
@@ -310,12 +310,12 @@ void Run::EndOfRun(G4bool print)
   if (material->GetNumberOfElements() == 1) {
     G4double nbAtoms = material->GetTotNbOfAtomsPerVolume();
     G4double crossSection = CrossSection/nbAtoms;
-    G4cout << " crossSection per atom:\t"
+    outputF << " crossSection per atom:\t"
            << G4BestUnit(crossSection,"Surface") << G4endl;     
   }         
   //check cross section from G4HadronicProcessStore
   //
-  G4cout << "\n Verification: "
+  outputF << "\n Verification: "
          << "crossSections from G4HadronicProcessStore:";
   
   G4ProcessTable* processTable  = G4ProcessTable::GetProcessTable();
@@ -333,12 +333,12 @@ void Run::EndOfRun(G4bool print)
       G4double xs2 =
       store->GetCrossSectionPerAtom(fParticle,fEkin,process,element,material);
       sumc2 += xs2;
-      G4cout << "\n" << std::setw(20) << procName << "= "
+      outputF << "\n" << std::setw(20) << procName << "= "
              << G4BestUnit(massSigma, "Surface/Mass") << "\t"
              << G4BestUnit(xs2, "Surface");
       
     }             
-    G4cout << "\n" << std::setw(20) << "total" << "= "
+    outputF << "\n" << std::setw(20) << "total" << "= "
            << G4BestUnit(sumc1, "Surface/Mass") << "\t" 
            << G4BestUnit(sumc2, "Surface") << G4endl;  
   } else {
@@ -349,16 +349,16 @@ void Run::EndOfRun(G4bool print)
       store->GetCrossSectionPerVolume(fParticle,fEkin,process,material);
       G4double massSigma = xs/density;
       sumc1 += massSigma;
-      G4cout << "\n" << std::setw(20)  << procName << "= " 
+      outputF << "\n" << std::setw(20)  << procName << "= " 
              << G4BestUnit(massSigma, "Surface/Mass");
     }             
-    G4cout << "\n" << std::setw(20) << "total" << "= " 
+    outputF << "\n" << std::setw(20) << "total" << "= " 
            << G4BestUnit(sumc1, "Surface/Mass") << G4endl;  
   }
               
  //nuclear channel count
  //
- G4cout << "\n List of nuclear reactions: \n" << G4endl; 
+ outputF << "\n List of nuclear reactions: \n" << G4endl; 
  std::map<G4String,NuclChannel>::iterator ic;               
  for (ic = fNuclChannelMap.begin(); ic != fNuclChannelMap.end(); ic++) { 
     G4String name    = ic->first;
@@ -366,7 +366,7 @@ void Run::EndOfRun(G4bool print)
     G4int count = data.fCount;
     G4double Q  = data.fQ/count; 
     if (print)         
-      G4cout << "  " << std::setw(60) << name << ": " << std::setw(7) << count
+      outputF << "  " << std::setw(60) << name << ": " << std::setw(7) << count
              << "   Q = " << std::setw(wid) << G4BestUnit(Q, "Energy")
              << G4endl;           
  } 
@@ -374,19 +374,19 @@ void Run::EndOfRun(G4bool print)
  //Gamma count
  //
  if (print && (fGammaCount > 0)) {       
-   G4cout << "\n" << std::setw(58) << "number of gamma or e- (ic): N = " 
+   outputF << "\n" << std::setw(58) << "number of gamma or e- (ic): N = " 
            << fNbGamma[1] << " --> " << fNbGamma[2] << G4endl;
  }
  
  if (print && fTargetXXX) {
-   G4cout 
+   outputF 
    << "\n   --> NOTE: XXXX because neutronHP is unable to return target nucleus"
    << G4endl;
  }
             
  //particles count
  //
- G4cout << "\n List of generated particles:" << G4endl;
+ outputF << "\n List of generated particles:" << G4endl;
      
  std::map<G4String,ParticleData>::iterator itn;               
  for (itn = fParticleDataMap.begin(); itn != fParticleDataMap.end(); itn++) { 
@@ -397,7 +397,7 @@ void Run::EndOfRun(G4bool print)
     G4double eMin = data.fEmin;
     G4double eMax = data.fEmax;    
     if (print)         
-    G4cout << "  " << std::setw(13) << name << ": " << std::setw(7) << count
+    outputF << "  " << std::setw(13) << name << ": " << std::setw(7) << count
            << "  Emean = " << std::setw(wid) << G4BestUnit(eMean, "Energy")
            << "\t( "  << G4BestUnit(eMin, "Energy")
            << " --> " << G4BestUnit(eMax, "Energy") 
@@ -408,7 +408,7 @@ void Run::EndOfRun(G4bool print)
  //
  if (fTotalCount > 1) {
     G4double Pbmean = fPbalance[0]/fTotalCount;           
-    G4cout << "\n   Momentum balance: Pmean = " 
+    outputF << "\n   Momentum balance: Pmean = " 
            << std::setw(wid) << G4BestUnit(Pbmean, "Energy")
            << "\t( "  << G4BestUnit(fPbalance[1], "Energy")
            << " --> " << G4BestUnit(fPbalance[2], "Energy")

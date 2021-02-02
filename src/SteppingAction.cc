@@ -87,10 +87,10 @@ void SteppingAction::UserSteppingAction(const G4Step* aStep)
   G4HadronicProcess* hproc = dynamic_cast<G4HadronicProcess*>(process);
   const G4Isotope* target = NULL;
   if (hproc) target = hproc->GetTargetIsotope();
-  G4String targetName = "XXXX";  
+  G4String targetName = "XXX";  
   if (target) targetName = target->GetName();
   nuclearChannel += " + " + targetName + " --> ";
-  if (targetName == "XXXX") run->SetTargetXXX(true);
+  if (targetName == "XXX") run->SetTargetXXX(true);
     
   //scattered primary particle (if any)
   //

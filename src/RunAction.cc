@@ -43,6 +43,7 @@
 
 #include "Randomize.hh"
 #include <iomanip>
+#include <fstream>
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
@@ -98,6 +99,7 @@ void RunAction::BeginOfRunAction(const G4Run*)
 
 void RunAction::EndOfRunAction(const G4Run*)
 {
+
   if (isMaster) fRun->EndOfRun(fPrint);    
   
   //save histograms      

@@ -36,6 +36,7 @@
 #include "G4UserRunAction.hh"
 #include "G4VProcess.hh"
 #include "globals.hh"
+#include <fstream>
 #include <map>
 
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......

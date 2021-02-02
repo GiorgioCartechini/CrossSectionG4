@@ -51,5 +51,8 @@ _deps
 # swmp di vim
 *.swp
 
+# merda di giorgio
+*.cc~
+
 # merda di file di output che si tira dietro sempre
 #radioprotection-build/*

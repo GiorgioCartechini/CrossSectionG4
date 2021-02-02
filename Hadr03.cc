@@ -120,7 +120,7 @@ int main(int argc,char** argv) {
                 /* s_ene = std::to_string(i); */
             }
             else{
-                s_ene = s_ene.replace(pos, toReplace.length(), "_");
+                s_ene = s_ene.replace(pos, toReplace.length(), "p");
             }
             G4cout << "Energy post  = " << s_ene << G4endl;
 
@@ -129,7 +129,7 @@ int main(int argc,char** argv) {
             G4String energy = "/gun/energy " + std::to_string(i) + " MeV";
             G4String particle = "/run/beamOn " +(G4String)argv[5];
 
-            UImanager->ApplyCommand("/analysis/setFileName " + s_ene+"MeV");
+            UImanager->ApplyCommand("/analysis/setFileName HISTO_" + s_ene + "MeV");
             UImanager->ApplyCommand(energy);
             UImanager->ApplyCommand(particle);
 

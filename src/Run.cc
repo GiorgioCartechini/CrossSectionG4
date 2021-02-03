@@ -268,12 +268,13 @@ void Run::EndOfRun(G4bool print)
 	//
 	G4Material* material = fDetector->GetMaterial();
 	G4double density = material->GetDensity();
-	const G4double* vec = material -> GetVecNbOfAtomsPerVolume();
 
 	std::string fileName = "OUTPUT_" + material->GetName() + '_' + s_ene+"MeV.txt"; //OUTPUT_89Y_50p00MeV.txt
 	std::ofstream outputF(fileName.c_str());
 
-	outputF << "\n****************\n" <<material -> GetTotNbOfAtomsPerVolume()/(1/cm3) <<vec[0]/(1/cm3) << " " <<vec[1]/(1/cm3) << G4endl; 
+	fileName = "SUMMARY_" + material->GetName() + '_' + s_ene+"MeV.txt"; //OUTPUT_89Y_50p00MeV.txt
+	std::ofstream outputS(fileName.c_str());
+
 	G4String Particle = fParticle->GetParticleName();    
 	outputF << "\n The run is " << numberOfEvent << " "<< Particle << " of "
 		<< G4BestUnit(fEkin,"Energy") << " through " 
@@ -281,6 +282,11 @@ void Run::EndOfRun(G4bool print)
 		<< material->GetName() << " (density: " 
 		<< G4BestUnit(density,"Volumic Mass") << ")" << G4endl;
 
+	outputS <<"EVENTS->" <<numberOfEvent <<G4endl
+		<<"TARGET->" << material->GetName() <<G4endl
+		<<"DENSITY->" << G4BestUnit(density,"Volumic Mass") << G4endl;
+
+	outputS <<"\n\nSTART PROCESS\n";
 
 	//frequency of processes
 	//
@@ -291,9 +297,11 @@ void Run::EndOfRun(G4bool print)
 		G4String procName = it->first;
 		G4int    count    = it->second;
 		outputF << "\t" << procName << "= " << count;
+		outputS <<procName <<"->"<<count<<G4endl;
 		if (procName == "Transportation") survive = count;
 	}
 	outputF << G4endl;
+	outputS << "END PROCESS\n\n\n";
 
 	if (survive > 0) {
 		outputF << "\n Nb of incident particles surviving after "
@@ -375,6 +383,7 @@ void Run::EndOfRun(G4bool print)
 	//nuclear channel count
 	//
 	outputF << "\n List of nuclear reactions: \n" << G4endl; 
+	outputS << "START REACTIONS" << G4endl; 
 	std::map<G4String,NuclChannel>::iterator ic;               
 	for (ic = fNuclChannelMap.begin(); ic != fNuclChannelMap.end(); ic++) { 
 		G4String name    = ic->first;
@@ -384,9 +393,10 @@ void Run::EndOfRun(G4bool print)
 		if (print)         
 			outputF << "  " << std::setw(60) << name << ": " << std::setw(7) << count
 				<< "   Q = " << std::setw(wid) << G4BestUnit(Q, "Energy")
-				<< G4endl;           
+				<< G4endl;
+			outputS <<name <<"=>" << count << G4endl;           
 	} 
-
+	outputS <<"END REACTIONS\n\n\n";
 	//Gamma count
 	//
 	if (print && (fGammaCount > 0)) {       
@@ -403,6 +413,7 @@ void Run::EndOfRun(G4bool print)
 	//particles count
 	//
 	outputF << "\n List of generated particles:" << G4endl;
+	outputS << "START PARTICLES" << G4endl;
 
 	std::map<G4String,ParticleData>::iterator itn;               
 	for (itn = fParticleDataMap.begin(); itn != fParticleDataMap.end(); itn++) { 
@@ -417,8 +428,10 @@ void Run::EndOfRun(G4bool print)
 				<< "  Emean = " << std::setw(wid) << G4BestUnit(eMean, "Energy")
 				<< "\t( "  << G4BestUnit(eMin, "Energy")
 				<< " --> " << G4BestUnit(eMax, "Energy") 
-				<< ")" << G4endl;           
+				<< ")" << G4endl;
+			outputS << name << "->" << count << G4endl;        
 	}
+	G4cout <<"END PARTICLES\n";
 
 	//energy momentum balance
 	//

@@ -1,0 +1,34 @@
+
+ The run is 10000 proton of 15 MeV through 20 m   of O16 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	12.1672 cm  +- 12.0912 cm 	massic: 54.4119 g/cm2 
+ CrossSection:	0.0821879 cm^-1 		massic: 1.83783 mm2/g 
+ crossSection per atom:	488.132 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 1.82604 mm2/g 	485 mbarn 
+               total= 1.82604 mm2/g 	485 mbarn 
+
+ List of nuclear reactions: 
+
+                               proton + O16 --> 2 proton + N15:      20   Q = -12.1269 MeV
+                 proton + O16 --> proton + O16 + N gamma or e-:    2013   Q = -3.33802e-07 eV 
+                         proton + O16 --> proton + alpha + C12:    7372   Q = -7.16085 MeV
+         proton + O16 --> proton + alpha + N gamma or e- + C12:     595   Q = -7.16085 MeV
+
+                          number of gamma or e- (ic): N = 1 --> 2
+
+ List of generated particles:
+            C12:    7967  Emean = 1.58598 MeV	( 1.43655 keV --> 4.70254 MeV)
+            N15:      20  Emean = 1.14921 MeV	( 454.185 keV --> 1.68886 MeV)
+            O16:    2013  Emean =  1.1881 MeV	( 79.9611 keV --> 2.62087 MeV)
+          alpha:    7967  Emean = 2.75171 MeV	( 27.6246 keV --> 6.65361 MeV)
+          gamma:    3581  Emean = 5.18615 MeV	( 878.4 keV --> 8.97591 MeV)
+         proton:   10020  Emean = 3.70881 MeV	( 120.12 keV --> 8.73604 MeV)
+
+   Momentum balance: Pmean = 4.29943e-05 eV 	( 2.80282e-07 eV  --> 0.000887184 eV ) 
+

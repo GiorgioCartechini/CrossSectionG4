@@ -1,0 +1,187 @@
+
+ The run is 10000 proton of 55 MeV through 20 m   of Y89 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	29.7048 cm  +- 29.7217 cm 	massic: 132.84 g/cm2 
+ CrossSection:	0.0336646 cm^-1 		massic: 752.786 um2/mg
+ crossSection per atom:	1.11135 barn  
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 753.503 um2/mg	1.11241 barn  
+               total= 753.503 um2/mg	1.11241 barn  
+
+ List of nuclear reactions: 
+
+                     proton + Y89 --> 2 proton + Sr88[126.968]:       1   Q = -7.19817 MeV
+                     proton + Y89 --> 2 proton + Sr88[266.070]:       1   Q = -7.33727 MeV
+                     proton + Y89 --> 2 proton + Sr88[319.994]:       1   Q = -7.3912 MeV
+                     proton + Y89 --> 2 proton + Sr88[556.347]:       1   Q = -7.62755 MeV
+                     proton + Y89 --> 2 proton + Sr88[563.218]:       1   Q = -7.63442 MeV
+                     proton + Y89 --> 2 proton + Sr88[863.117]:       1   Q = -7.93432 MeV
+                     proton + Y89 --> 2 proton + Sr88[864.685]:       1   Q = -7.93589 MeV
+            proton + Y89 --> N gamma or e- + 2 deuteron + Sr86:       1   Q = -22.1633 MeV
+   proton + Y89 --> N gamma or e- + 2 neutron + 2 alpha + Kr80:      28   Q = -23.5032 MeV
+       proton + Y89 --> N gamma or e- + 2 neutron + He3 + Sr85:      16   Q = -30.3849 MeV
+  proton + Y89 --> N gamma or e- + 2 neutron + He3 + Sr85[238.790]:       1   Q = -30.6237 MeV
+             proton + Y89 --> N gamma or e- + 2 neutron + Zr88:     524   Q = -12.9403 MeV
+     proton + Y89 --> N gamma or e- + 2 neutron + alpha + Sr84:     225   Q = -18.3326 MeV
+  proton + Y89 --> N gamma or e- + 2 neutron + alpha + deuteron + Rb82:       1   Q = -35.9249 MeV
+   proton + Y89 --> N gamma or e- + 2 neutron + deuteron + Y86:      28   Q = -30.4156 MeV
+  proton + Y89 --> N gamma or e- + 2 neutron + deuteron + Y86[218.210]:     228   Q = -30.6338 MeV
+     proton + Y89 --> N gamma or e- + 2 neutron + triton + Y85:      12   Q = -33.6706 MeV
+  proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + Sr86:     522   Q = -26.612 MeV
+  proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + Sr85:       1   Q = -38.1033 MeV
+  proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + Sr85[238.790]:       1   Q = -38.3421 MeV
+              proton + Y89 --> N gamma or e- + 2 proton + Sr88:     185   Q = -7.0712 MeV
+      proton + Y89 --> N gamma or e- + 2 proton + alpha + Kr84:       4   Q = -14.9675 MeV
+   proton + Y89 --> N gamma or e- + 2 proton + deuteron + Rb86:       2   Q = -25.3761 MeV
+    proton + Y89 --> N gamma or e- + 2 proton + neutron + Sr87:      51   Q = -18.1839 MeV
+  proton + Y89 --> N gamma or e- + 2 proton + neutron + Sr87[388.533]:     412   Q = -18.5724 MeV
+  proton + Y89 --> N gamma or e- + 2 proton + neutron + alpha + Kr83[41.557]:       2   Q = -25.5297 MeV
+               proton + Y89 --> N gamma or e- + 3 alpha + Se78:       2   Q = -10.643 MeV
+             proton + Y89 --> N gamma or e- + 3 neutron + Zr87:     664   Q = -25.2934 MeV
+     proton + Y89 --> N gamma or e- + 3 neutron + alpha + Sr83:     261   Q = -30.2559 MeV
+   proton + Y89 --> N gamma or e- + 3 neutron + deuteron + Y85:      20   Q = -39.928 MeV
+              proton + Y89 --> N gamma or e- + 3 proton + Rb87:       7   Q = -17.6784 MeV
+    proton + Y89 --> N gamma or e- + 3 proton + neutron + Rb86:       9   Q = -27.6005 MeV
+             proton + Y89 --> N gamma or e- + 4 neutron + Zr86:     416   Q = -34.7426 MeV
+                   proton + Y89 --> N gamma or e- + He3 + Sr87:       2   Q = -10.4655 MeV
+          proton + Y89 --> N gamma or e- + He3 + Sr87[388.533]:       3   Q = -10.854 MeV
+      proton + Y89 --> N gamma or e- + alpha + deuteron + Rb84:       6   Q = -16.2111 MeV
+  proton + Y89 --> N gamma or e- + alpha + deuteron + Rb84[463.590]:       2   Q = -16.6747 MeV
+        proton + Y89 --> N gamma or e- + alpha + triton + Rb83:       1   Q = -18.7134 MeV
+               proton + Y89 --> N gamma or e- + deuteron + Y88:      19   Q = -9.25736 MeV
+     proton + Y89 --> N gamma or e- + neutron + 2 alpha + Kr81:      20   Q = -15.6303 MeV
+         proton + Y89 --> N gamma or e- + neutron + He3 + Sr86:      13   Q = -18.8936 MeV
+               proton + Y89 --> N gamma or e- + neutron + Zr89:     187   Q = -3.6209 MeV
+  proton + Y89 --> N gamma or e- + neutron + alpha + He3 + Kr82:       2   Q = -25.2408 MeV
+       proton + Y89 --> N gamma or e- + neutron + alpha + Sr85:      18   Q = -9.80753 MeV
+  proton + Y89 --> N gamma or e- + neutron + alpha + deuteron + Rb83:      15   Q = -24.9707 MeV
+  proton + Y89 --> N gamma or e- + neutron + alpha + triton + Rb82:       2   Q = -29.6675 MeV
+  proton + Y89 --> N gamma or e- + neutron + deuteron + Y87[380.820]:     107   Q = -18.9899 MeV
+  proton + Y89 --> N gamma or e- + neutron + triton + Y86[218.210]:      19   Q = -24.3764 MeV
+      proton + Y89 --> N gamma or e- + proton + 2 alpha + Br81:       2   Q = -14.5622 MeV
+     proton + Y89 --> N gamma or e- + proton + 2 neutron + Y87:      38   Q = -20.8335 MeV
+  proton + Y89 --> N gamma or e- + proton + 2 neutron + Y87[380.820]:    1888   Q = -21.2143 MeV
+  proton + Y89 --> N gamma or e- + proton + 2 neutron + alpha + Rb83:     129   Q = -27.1951 MeV
+  proton + Y89 --> N gamma or e- + proton + 2 neutron + deuteron + Sr85:      17   Q = -35.8789 MeV
+  proton + Y89 --> N gamma or e- + proton + 2 neutron + deuteron + Sr85[238.790]:       1   Q = -36.1177 MeV
+     proton + Y89 --> N gamma or e- + proton + 3 neutron + Y86:     237   Q = -32.6399 MeV
+  proton + Y89 --> N gamma or e- + proton + 3 neutron + Y86[218.210]:    1311   Q = -32.8582 MeV
+     proton + Y89 --> N gamma or e- + proton + 4 neutron + Y85:       2   Q = -42.1524 MeV
+          proton + Y89 --> N gamma or e- + proton + He3 + Rb86:       3   Q = -19.8821 MeV
+                 proton + Y89 --> N gamma or e- + proton + Y89:     472   Q = 0.0204415 eV 
+        proton + Y89 --> N gamma or e- + proton + alpha + Rb85:       6   Q = -7.95575 MeV
+     proton + Y89 --> N gamma or e- + proton + deuteron + Sr87:       5   Q = -15.9595 MeV
+  proton + Y89 --> N gamma or e- + proton + deuteron + Sr87[388.533]:       9   Q = -16.348 MeV
+  proton + Y89 --> N gamma or e- + proton + neutron + 2 alpha + Br80:       1   Q = -24.7201 MeV
+       proton + Y89 --> N gamma or e- + proton + neutron + Y88:    1553   Q = -11.4817 MeV
+  proton + Y89 --> N gamma or e- + proton + neutron + alpha + Rb84:      93   Q = -18.4354 MeV
+  proton + Y89 --> N gamma or e- + proton + neutron + alpha + Rb84[463.590]:      42   Q = -18.899 MeV
+  proton + Y89 --> N gamma or e- + proton + neutron + deuteron + Sr86:     103   Q = -24.3876 MeV
+  proton + Y89 --> N gamma or e- + proton + neutron + triton + Sr85:      12   Q = -29.6215 MeV
+       proton + Y89 --> N gamma or e- + proton + triton + Sr86:       3   Q = -18.1303 MeV
+        proton + Y89 --> N gamma or e- + triton + Y87[380.820]:       5   Q = -12.7326 MeV
+             proton + Y89 --> proton + 3 neutron + Y86[96.932]:       1   Q = -32.7369 MeV
+                        proton + Y89 --> proton + Y89[174.844]:       1   Q = -174.844 keV
+                        proton + Y89 --> proton + Y89[354.656]:       1   Q = -354.656 keV
+                        proton + Y89 --> proton + Y89[408.220]:       1   Q = -408.22 keV
+                        proton + Y89 --> proton + Y89[425.095]:       1   Q = -425.095 keV
+                        proton + Y89 --> proton + Y89[447.962]:       1   Q = -447.962 keV
+                proton + Y89 --> proton + neutron + Y88[1.844]:       1   Q = -11.4836 MeV
+               proton + Y89 --> proton + neutron + Y88[17.100]:       1   Q = -11.4988 MeV
+               proton + Y89 --> proton + neutron + Y88[26.536]:       1   Q = -11.5083 MeV
+               proton + Y89 --> proton + neutron + Y88[33.469]:       1   Q = -11.5152 MeV
+               proton + Y89 --> proton + neutron + Y88[40.333]:       1   Q = -11.5221 MeV
+               proton + Y89 --> proton + neutron + Y88[46.456]:       1   Q = -11.5282 MeV
+                proton + Y89 --> proton + neutron + Y88[5.058]:       1   Q = -11.4868 MeV
+               proton + Y89 --> proton + neutron + Y88[51.133]:       1   Q = -11.5329 MeV
+               proton + Y89 --> proton + neutron + Y88[54.320]:       1   Q = -11.5361 MeV
+               proton + Y89 --> proton + neutron + Y88[69.044]:       1   Q = -11.5508 MeV
+                proton + Y89 --> proton + neutron + Y88[8.013]:       1   Q = -11.4897 MeV
+                proton + Y89 --> proton + neutron + Y88[8.537]:       1   Q = -11.4903 MeV
+               proton + Y89 --> proton + neutron + Y88[95.079]:       1   Q = -11.5768 MeV
+               proton + Y89 --> proton + neutron + Y88[96.581]:       1   Q = -11.5783 MeV
+               proton + Y89 --> proton + neutron + Y88[97.582]:       1   Q = -11.5793 MeV
+               proton + Y89 --> proton + neutron + Y88[98.757]:       1   Q = -11.5805 MeV
+
+                          number of gamma or e- (ic): N = 1 --> 16
+
+ List of generated particles:
+           Br80:       1  Emean = 1.72165 MeV	( 1.72165 MeV --> 1.72165 MeV)
+           Br81:       2  Emean = 1.27293 MeV	( 1.13344 MeV --> 1.41242 MeV)
+            He3:      40  Emean = 19.7282 MeV	( 9.79417 MeV --> 39.8209 MeV)
+           Kr80:      28  Emean = 1.71646 MeV	( 230.492 keV --> 4.3179 MeV)
+           Kr81:      20  Emean = 1.50436 MeV	( 46.525 keV --> 4.14429 MeV)
+           Kr82:       2  Emean =  736.54 keV	( 434.621 keV --> 1.03846 MeV)
+   Kr83[41.557]:       2  Emean = 759.872 keV	( 425.658 keV --> 1.09409 MeV)
+           Kr84:       4  Emean = 1.68405 MeV	( 350.5 keV --> 3.04386 MeV)
+           Rb82:       3  Emean = 1.40046 MeV	( 836.857 keV --> 2.04872 MeV)
+           Rb83:     145  Emean = 1.12968 MeV	( 42.1213 keV --> 3.22197 MeV)
+           Rb84:      99  Emean = 1.24396 MeV	( 17.4482 keV --> 3.15124 MeV)
+  Rb84[463.590]:      44  Emean = 1.34174 MeV	( 108.624 keV --> 4.49801 MeV)
+           Rb85:       6  Emean = 1.53569 MeV	( 525.947 keV --> 3.11543 MeV)
+           Rb86:      14  Emean = 847.791 keV	( 223.552 keV --> 1.63582 MeV)
+           Rb87:       7  Emean = 811.233 keV	( 103.031 keV --> 1.83966 MeV)
+           Se78:       2  Emean =  2.8103 MeV	( 1.5864 MeV --> 4.03419 MeV)
+           Sr83:     261  Emean = 1.19991 MeV	( 2.99354 keV --> 3.06825 MeV)
+           Sr84:     225  Emean = 1.32974 MeV	( 21.1192 keV --> 3.76662 MeV)
+           Sr85:      64  Emean = 1.03446 MeV	( 34.9888 keV --> 3.4475 MeV)
+  Sr85[238.790]:       3  Emean = 1.50103 MeV	( 821.473 keV --> 2.56881 MeV)
+           Sr86:     642  Emean = 832.854 keV	( 15.8773 keV --> 2.80213 MeV)
+           Sr87:      58  Emean = 941.285 keV	( 23.3104 keV --> 2.9534 MeV)
+  Sr87[388.533]:     424  Emean = 842.168 keV	( 748.005 eV  --> 2.5816 MeV)
+           Sr88:     185  Emean = 940.715 keV	( 24.8255 keV --> 2.72801 MeV)
+  Sr88[126.968]:       1  Emean = 791.058 keV	( 791.058 keV --> 791.058 keV)
+  Sr88[266.070]:       1  Emean = 1.54713 MeV	( 1.54713 MeV --> 1.54713 MeV)
+  Sr88[319.994]:       1  Emean = 495.124 keV	( 495.124 keV --> 495.124 keV)
+  Sr88[556.347]:       1  Emean = 364.892 keV	( 364.892 keV --> 364.892 keV)
+  Sr88[563.218]:       1  Emean =  942.08 keV	( 942.08 keV --> 942.08 keV)
+  Sr88[863.117]:       1  Emean = 1.22385 MeV	( 1.22385 MeV --> 1.22385 MeV)
+  Sr88[864.685]:       1  Emean = 343.591 keV	( 343.591 keV --> 343.591 keV)
+            Y85:      34  Emean = 912.388 keV	( 198.453 keV --> 2.58258 MeV)
+            Y86:     265  Emean = 830.936 keV	( 24.7313 keV --> 2.18747 MeV)
+   Y86[218.210]:    1558  Emean = 794.436 keV	( 11.8066 keV --> 2.57725 MeV)
+    Y86[96.932]:       1  Emean = 1.35502 MeV	( 1.35502 MeV --> 1.35502 MeV)
+            Y87:      38  Emean = 831.112 keV	( 28.2271 keV --> 2.27189 MeV)
+   Y87[380.820]:    2000  Emean = 788.856 keV	( 7.54766 keV --> 2.98404 MeV)
+            Y88:    1572  Emean = 701.117 keV	( 3.33682 keV --> 2.83519 MeV)
+     Y88[1.844]:       1  Emean = 609.166 keV	( 609.166 keV --> 609.166 keV)
+    Y88[17.100]:       1  Emean = 121.095 keV	( 121.095 keV --> 121.095 keV)
+    Y88[26.536]:       1  Emean = 1.64021 MeV	( 1.64021 MeV --> 1.64021 MeV)
+    Y88[33.469]:       1  Emean = 2.41171 MeV	( 2.41171 MeV --> 2.41171 MeV)
+    Y88[40.333]:       1  Emean = 2.76826 MeV	( 2.76826 MeV --> 2.76826 MeV)
+    Y88[46.456]:       1  Emean = 916.179 keV	( 916.179 keV --> 916.179 keV)
+     Y88[5.058]:       1  Emean = 57.7486 keV	( 57.7486 keV --> 57.7486 keV)
+    Y88[51.133]:       1  Emean = 2.36909 MeV	( 2.36909 MeV --> 2.36909 MeV)
+    Y88[54.320]:       1  Emean = 336.397 keV	( 336.397 keV --> 336.397 keV)
+    Y88[69.044]:       1  Emean = 163.656 keV	( 163.656 keV --> 163.656 keV)
+     Y88[8.013]:       1  Emean = 164.973 keV	( 164.973 keV --> 164.973 keV)
+     Y88[8.537]:       1  Emean = 163.569 keV	( 163.569 keV --> 163.569 keV)
+    Y88[95.079]:       1  Emean = 1.28129 MeV	( 1.28129 MeV --> 1.28129 MeV)
+    Y88[96.581]:       1  Emean = 18.3407 keV	( 18.3407 keV --> 18.3407 keV)
+    Y88[97.582]:       1  Emean = 437.217 keV	( 437.217 keV --> 437.217 keV)
+    Y88[98.757]:       1  Emean = 1.07161 MeV	( 1.07161 MeV --> 1.07161 MeV)
+            Y89:     472  Emean = 522.182 keV	( 1.61361 keV --> 2.27682 MeV)
+   Y89[174.844]:       1  Emean = 20.1458 keV	( 20.1458 keV --> 20.1458 keV)
+   Y89[354.656]:       1  Emean = 49.1777 keV	( 49.1777 keV --> 49.1777 keV)
+   Y89[408.220]:       1  Emean =  279.53 keV	( 279.53 keV --> 279.53 keV)
+   Y89[425.095]:       1  Emean = 136.369 eV 	( 136.369 eV  --> 136.369 eV )
+   Y89[447.962]:       1  Emean = 1.08559 MeV	( 1.08559 MeV --> 1.08559 MeV)
+           Zr86:     416  Emean = 717.258 keV	( 70.9045 keV --> 2.24977 MeV)
+           Zr87:     664  Emean = 716.385 keV	( 13.8386 keV --> 2.00975 MeV)
+           Zr88:     524  Emean = 605.953 keV	( 11.8828 keV --> 2.2315 MeV)
+           Zr89:     187  Emean = 533.663 keV	( 10.058 keV --> 1.946 MeV)
+          alpha:     917  Emean = 11.8284 MeV	( 5.89709 MeV --> 39.4088 MeV)
+       deuteron:     565  Emean = 13.9812 MeV	( 3.73768 MeV --> 42.6422 MeV)
+             e-:    1525  Emean = 103.986 keV	( 2.74686 keV --> 1.80803 MeV)
+          gamma:   68550  Emean = 1.02021 MeV	( 458.306 eV  --> 14.8386 MeV)
+        neutron:   19153  Emean = 5.53515 MeV	( 5.87965 keV --> 50.9257 MeV)
+         proton:    8371  Emean =  16.277 MeV	( 43.7741 keV --> 54.805 MeV)
+         triton:      54  Emean =  14.434 MeV	( 5.04445 MeV --> 34.4912 MeV)
+
+   Momentum balance: Pmean = 341.385 eV 	( 7.7237e-07 eV  --> 15.0198 keV) 
+

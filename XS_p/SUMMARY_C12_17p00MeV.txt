@@ -1,0 +1,22 @@
+EVENTS->10000
+TARGET->C12
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + C12 --> N gamma or e- + proton + C12=>410
+proton + C12 --> proton + 3 alpha=>9490
+proton + C12 --> proton + C12=>100
+END REACTIONS
+
+
+START PARTICLES
+C12->510
+alpha->28470
+gamma->410
+proton->10000

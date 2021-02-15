@@ -1,0 +1,90 @@
+EVENTS->10000
+TARGET->Y89
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Y89 --> N gamma or e- + 2 alpha + Kr82=>8
+proton + Y89 --> N gamma or e- + 2 neutron + Zr88=>1430
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + Sr84=>344
+proton + Y89 --> N gamma or e- + 2 neutron + deuteron + Y86=>9
+proton + Y89 --> N gamma or e- + 2 proton + Sr88=>131
+proton + Y89 --> N gamma or e- + 2 proton + neutron + Sr87=>52
+proton + Y89 --> N gamma or e- + 2 proton + neutron + Sr87[388.533]=>181
+proton + Y89 --> N gamma or e- + 3 neutron + Zr87=>1556
+proton + Y89 --> N gamma or e- + He3 + Sr87[388.533]=>12
+proton + Y89 --> N gamma or e- + alpha + Sr86=>2
+proton + Y89 --> N gamma or e- + alpha + deuteron + Rb84=>1
+proton + Y89 --> N gamma or e- + deuteron + Y88=>351
+proton + Y89 --> N gamma or e- + neutron + 2 alpha + Kr81=>5
+proton + Y89 --> N gamma or e- + neutron + He3 + Sr86=>8
+proton + Y89 --> N gamma or e- + neutron + Zr89=>490
+proton + Y89 --> N gamma or e- + neutron + alpha + Sr85=>193
+proton + Y89 --> N gamma or e- + neutron + alpha + Sr85[238.790]=>1
+proton + Y89 --> N gamma or e- + neutron + deuteron + Y87=>8
+proton + Y89 --> N gamma or e- + neutron + deuteron + Y87[380.820]=>293
+proton + Y89 --> N gamma or e- + neutron + triton + Y86=>4
+proton + Y89 --> N gamma or e- + neutron + triton + Y86[218.210]=>16
+proton + Y89 --> N gamma or e- + proton + 2 neutron + Y87=>82
+proton + Y89 --> N gamma or e- + proton + 2 neutron + Y87[380.820]=>2365
+proton + Y89 --> N gamma or e- + proton + Y89=>452
+proton + Y89 --> N gamma or e- + proton + alpha + Rb85=>17
+proton + Y89 --> N gamma or e- + proton + deuteron + Sr87=>6
+proton + Y89 --> N gamma or e- + proton + deuteron + Sr87[388.533]=>18
+proton + Y89 --> N gamma or e- + proton + neutron + Y88=>1905
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + Rb84=>26
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + Rb84[463.590]=>9
+proton + Y89 --> N gamma or e- + proton + triton + Sr86=>1
+proton + Y89 --> N gamma or e- + triton + Y87[380.820]=>17
+proton + Y89 --> deuteron + Y88[16.573]=>1
+proton + Y89 --> deuteron + Y88[4.714]=>1
+proton + Y89 --> deuteron + Y88[73.199]=>1
+proton + Y89 --> deuteron + Y88[8.898]=>1
+proton + Y89 --> deuteron + Y88[91.956]=>1
+proton + Y89 --> neutron + Zr89[230.728]=>1
+proton + Y89 --> proton + neutron + Y88[20.542]=>1
+END REACTIONS
+
+
+START PARTICLES
+He3->20
+Kr81->5
+Kr82->8
+Rb84->27
+Rb84[463.590]->9
+Rb85->17
+Sr84->344
+Sr85->193
+Sr85[238.790]->1
+Sr86->11
+Sr87->58
+Sr87[388.533]->211
+Sr88->131
+Y86->13
+Y86[218.210]->16
+Y87->90
+Y87[380.820]->2675
+Y88->2256
+Y88[16.573]->1
+Y88[20.542]->1
+Y88[4.714]->1
+Y88[73.199]->1
+Y88[8.898]->1
+Y88[91.956]->1
+Y89->452
+Zr87->1556
+Zr88->1430
+Zr89->490
+Zr89[230.728]->1
+alpha->619
+deuteron->691
+e-->1653
+gamma->74506
+neutron->16321
+proton->5610
+triton->38

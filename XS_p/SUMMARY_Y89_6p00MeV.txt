@@ -1,0 +1,25 @@
+EVENTS->10000
+TARGET->Y89
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Y89 --> N gamma or e- + Zr90=>8712
+proton + Y89 --> N gamma or e- + neutron + Zr89=>1285
+proton + Y89 --> N gamma or e- + proton + Y89=>3
+END REACTIONS
+
+
+START PARTICLES
+Y89->3
+Zr89->1285
+Zr90->8712
+e-->85
+gamma->19591
+neutron->1285
+proton->3

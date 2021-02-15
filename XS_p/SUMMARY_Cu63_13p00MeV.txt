@@ -1,0 +1,43 @@
+EVENTS->10000
+TARGET->Cu63
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Cu63 --> N gamma or e- + alpha + Ni60=>3914
+proton + Cu63 --> N gamma or e- + deuteron + Cu62=>1
+proton + Cu63 --> N gamma or e- + neutron + Zn63=>3246
+proton + Cu63 --> N gamma or e- + proton + Cu63=>2832
+proton + Cu63 --> neutron + Zn63[45.788]=>1
+proton + Cu63 --> proton + Cu63[190.446]=>1
+proton + Cu63 --> proton + Cu63[192.283]=>1
+proton + Cu63 --> proton + Cu63[195.509]=>1
+proton + Cu63 --> proton + Cu63[20.186]=>1
+proton + Cu63 --> proton + Cu63[251.792]=>1
+proton + Cu63 --> proton + Cu63[301.408]=>1
+END REACTIONS
+
+
+START PARTICLES
+Cu62->1
+Cu63->2832
+Cu63[190.446]->1
+Cu63[192.283]->1
+Cu63[195.509]->1
+Cu63[20.186]->1
+Cu63[251.792]->1
+Cu63[301.408]->1
+Ni60->3914
+Zn63->3246
+Zn63[45.788]->1
+alpha->3914
+deuteron->1
+e-->26
+gamma->42401
+neutron->3247
+proton->2838

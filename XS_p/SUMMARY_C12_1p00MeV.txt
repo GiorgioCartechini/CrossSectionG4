@@ -1,0 +1,19 @@
+EVENTS->10000
+TARGET->C12
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+Transportation->9293
+protonInelastic->707
+END PROCESS
+
+
+START REACTIONS
+proton + C12 --> proton + C12=>707
+END REACTIONS
+
+
+START PARTICLES
+C12->707
+proton->707

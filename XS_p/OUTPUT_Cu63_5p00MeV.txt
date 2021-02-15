@@ -1,0 +1,34 @@
+
+ The run is 10000 proton of 5 MeV through 20 m   of Cu63 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	1.24217 m   +- 1.25268 m  	massic: 555.5 g/cm2 
+ CrossSection:	0.00805041 cm^-1 		massic: 180.018 um2/mg
+ crossSection per atom:	188.114 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 179.761 um2/mg	187.845 mbarn 
+               total= 179.761 um2/mg	187.845 mbarn 
+
+ List of nuclear reactions: 
+
+                        proton + Cu63 --> N gamma or e- + Zn64:    9983   Q = 7.70964 MeV
+              proton + Cu63 --> N gamma or e- + neutron + Zn63:       3   Q = -4.15237 MeV
+               proton + Cu63 --> N gamma or e- + proton + Cu63:      14   Q = -1.16407e-06 eV 
+
+                          number of gamma or e- (ic): N = 1 --> 13
+
+ List of generated particles:
+           Cu63:      14  Emean = 176.922 keV	( 65.716 keV --> 260.233 keV)
+           Zn63:       3  Emean = 53.8017 keV	( 44.0415 keV --> 61.219 keV)
+           Zn64:    9983  Emean = 79.1261 keV	( 64.9682 keV --> 93.379 keV)
+             e-:      17  Emean = 814.488 keV	( 153.794 keV --> 1.68611 MeV)
+          gamma:  103748  Emean = 1.21542 MeV	( 3.38437 keV --> 3.00026 MeV)
+        neutron:       3  Emean = 423.706 keV	( 296.805 keV --> 516.261 keV)
+         proton:      14  Emean = 3.40734 MeV	( 3.31892 MeV --> 3.52428 MeV)
+
+   Momentum balance: Pmean = 1.41816 eV 	( 3.12721e-07 eV  --> 868.741 eV ) 
+

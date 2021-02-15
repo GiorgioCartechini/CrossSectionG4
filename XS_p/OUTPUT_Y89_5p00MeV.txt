@@ -1,0 +1,30 @@
+
+ The run is 10000 proton of 5 MeV through 20 m   of Y89 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	1.93687 m   +- 1.95325 m  	massic: 866.168 g/cm2 
+ CrossSection:	0.00516297 cm^-1 		massic: 115.451 um2/mg
+ crossSection per atom:	170.442 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 115.286 um2/mg	170.199 mbarn 
+               total= 115.286 um2/mg	170.199 mbarn 
+
+ List of nuclear reactions: 
+
+                         proton + Y89 --> N gamma or e- + Zr90:    9994   Q =  8.3476 MeV
+               proton + Y89 --> N gamma or e- + neutron + Zr89:       6   Q = -3.6209 MeV
+
+                          number of gamma or e- (ic): N = 1 --> 2
+
+ List of generated particles:
+           Zr89:       6  Emean = 56.9896 keV	( 36.2154 keV --> 71.5017 keV)
+           Zr90:    9994  Emean = 57.1561 keV	( 41.8792 keV --> 72.6024 keV)
+          gamma:   19999  Emean = 6.64186 MeV	( 181.217 keV --> 13.1242 MeV)
+        neutron:       6  Emean = 349.161 keV	( 108.724 keV --> 508.978 keV)
+
+   Momentum balance: Pmean = 0.00351923 eV 	( 6.30326e-07 eV  --> 0.0115664 eV ) 
+

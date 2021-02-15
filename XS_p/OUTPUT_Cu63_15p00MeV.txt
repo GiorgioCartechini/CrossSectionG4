@@ -1,0 +1,43 @@
+
+ The run is 10000 proton of 15 MeV through 20 m   of Cu63 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	23.2171 cm  +- 23.072 cm 	massic: 103.827 g/cm2 
+ CrossSection:	0.0430718 cm^-1 		massic: 963.144 um2/mg
+ crossSection per atom:	1.00646 barn  
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 956.965 um2/mg	1 barn  
+               total= 956.965 um2/mg	1 barn  
+
+ List of nuclear reactions: 
+
+                proton + Cu63 --> N gamma or e- + alpha + Ni60:    3683   Q = 3.76098 MeV
+             proton + Cu63 --> N gamma or e- + deuteron + Cu62:      34   Q = -8.63929 MeV
+              proton + Cu63 --> N gamma or e- + neutron + Zn63:    3398   Q = -4.15237 MeV
+               proton + Cu63 --> N gamma or e- + proton + Cu63:    2873   Q = 0.0012686 eV 
+     proton + Cu63 --> N gamma or e- + proton + neutron + Cu62:      10   Q = -10.8637 MeV
+                      proton + Cu63 --> neutron + Zn63[75.591]:       1   Q = -4.22796 MeV
+                       proton + Cu63 --> proton + Cu63[32.156]:       1   Q = -32.1561 keV
+
+                          number of gamma or e- (ic): N = 1 --> 13
+
+ List of generated particles:
+           Cu62:      44  Emean = 301.047 keV	( 11.7762 keV --> 761.763 keV)
+           Cu63:    2873  Emean = 327.415 keV	( 1.71388 keV --> 887.18 keV)
+   Cu63[32.156]:       1  Emean = 482.178 keV	( 482.178 keV --> 482.178 keV)
+           Ni60:    3683  Emean = 772.455 keV	( 25.3065 keV --> 1.92276 MeV)
+           Zn63:    3398  Emean =  272.02 keV	( 14.2746 keV --> 676.37 keV)
+   Zn63[75.591]:       1  Emean = 797.328 keV	( 797.328 keV --> 797.328 keV)
+          alpha:    3683  Emean = 8.22068 MeV	( 4.91224 MeV --> 14.8384 MeV)
+       deuteron:      34  Emean = 5.19572 MeV	( 3.00402 MeV --> 6.21219 MeV)
+             e-:      39  Emean = 606.609 keV	( 40.3691 keV --> 2.83349 MeV)
+          gamma:   50896  Emean = 1.70713 MeV	( 690.74 eV  --> 11.4349 MeV)
+        neutron:    3409  Emean = 2.59405 MeV	( 35.5282 keV --> 10.2835 MeV)
+         proton:    2884  Emean = 6.38159 MeV	( 3.27794 MeV --> 14.4857 MeV)
+
+   Momentum balance: Pmean = 6.54949 eV 	( 2.26149e-07 eV  --> 3.04143 keV) 
+

@@ -1,0 +1,51 @@
+
+ The run is 10000 proton of 13 MeV through 20 m   of Y89 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	34.2091 cm  +- 34.3852 cm 	massic: 152.983 g/cm2 
+ CrossSection:	0.029232 cm^-1 		massic: 653.667 um2/mg
+ crossSection per atom:	965.019 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 655.716 um2/mg	968.044 mbarn 
+               total= 655.716 um2/mg	968.044 mbarn 
+
+ List of nuclear reactions: 
+
+                         proton + Y89 --> N gamma or e- + Zr90:      74   Q =  8.3476 MeV
+                 proton + Y89 --> N gamma or e- + alpha + Sr86:      34   Q = 1.68373 MeV
+               proton + Y89 --> N gamma or e- + neutron + Zr89:    7973   Q = -3.6209 MeV
+                 proton + Y89 --> N gamma or e- + proton + Y89:    1912   Q = 0.0195281 eV 
+                      proton + Y89 --> neutron + Zr89[188.815]:       1   Q = -3.80971 MeV
+                      proton + Y89 --> neutron + Zr89[224.910]:       1   Q = -3.84581 MeV
+                      proton + Y89 --> neutron + Zr89[283.299]:       1   Q = -3.9042 MeV
+                        proton + Y89 --> proton + Y89[170.121]:       1   Q = -170.121 keV
+                        proton + Y89 --> proton + Y89[172.976]:       1   Q = -172.976 keV
+                        proton + Y89 --> proton + Y89[318.013]:       1   Q = -318.013 keV
+                        proton + Y89 --> proton + Y89[425.606]:       1   Q = -425.606 keV
+
+                          number of gamma or e- (ic): N = 1 --> 15
+
+ List of generated particles:
+           Sr86:      34  Emean = 561.353 keV	( 82.9938 keV --> 1.14305 MeV)
+            Y89:    1912  Emean = 215.507 keV	( 4.38135 keV --> 519.694 keV)
+   Y89[170.121]:       1  Emean = 484.552 keV	( 484.552 keV --> 484.552 keV)
+   Y89[172.976]:       1  Emean = 48.2602 keV	( 48.2602 keV --> 48.2602 keV)
+   Y89[318.013]:       1  Emean =  320.96 keV	( 320.96 keV --> 320.96 keV)
+   Y89[425.606]:       1  Emean = 31.2129 keV	( 31.2129 keV --> 31.2129 keV)
+           Zr89:    7973  Emean = 164.338 keV	( 8.71673 keV --> 418.369 keV)
+  Zr89[188.815]:       1  Emean = 52.3366 keV	( 52.3366 keV --> 52.3366 keV)
+  Zr89[224.910]:       1  Emean = 197.054 keV	( 197.054 keV --> 197.054 keV)
+  Zr89[283.299]:       1  Emean = 198.432 keV	( 198.432 keV --> 198.432 keV)
+           Zr90:      74  Emean = 148.584 keV	( 113.516 keV --> 186.57 keV)
+          alpha:      34  Emean = 8.63291 MeV	( 7.17165 MeV --> 9.8474 MeV)
+             e-:    2082  Emean = 72.6414 keV	( 8.13579 keV --> 2.22475 MeV)
+          gamma:   65365  Emean =  1.1035 MeV	( 458.82 eV  --> 13.131 MeV)
+        neutron:    7976  Emean = 1.84232 MeV	( 24.4041 keV --> 9.13795 MeV)
+         proton:    1916  Emean = 6.66475 MeV	( 4.66719 MeV --> 12.7788 MeV)
+
+   Momentum balance: Pmean = 211.223 eV 	( 1.4215e-07 eV  --> 4.73996 keV) 
+

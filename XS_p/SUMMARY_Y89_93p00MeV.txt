@@ -1,0 +1,356 @@
+EVENTS->10000
+TARGET->Y89
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Y89 --> 2 proton + Sr88[194.912]=>1
+proton + Y89 --> 2 proton + Sr88[24.479]=>1
+proton + Y89 --> 2 proton + Sr88[258.863]=>1
+proton + Y89 --> 2 proton + Sr88[313.582]=>1
+proton + Y89 --> 2 proton + Sr88[44.073]=>1
+proton + Y89 --> 2 proton + Sr88[60.839]=>1
+proton + Y89 --> 2 proton + Sr88[85.592]=>1
+proton + Y89 --> 2 proton + Sr88[850.476]=>1
+proton + Y89 --> 2 proton + Sr88[870.963]=>1
+proton + Y89 --> 2 proton + Sr88[89.560]=>1
+proton + Y89 --> 2 proton + Sr88[891.552]=>1
+proton + Y89 --> 3 proton + 3 neutron + Rb84[92.807]=>1
+proton + Y89 --> N gamma or e- + 2 neutron + 2 alpha + Kr80=>18
+proton + Y89 --> N gamma or e- + 2 neutron + 2 alpha + deuteron + Br78=>10
+proton + Y89 --> N gamma or e- + 2 neutron + 2 alpha + triton + Br77=>1
+proton + Y89 --> N gamma or e- + 2 neutron + 2 deuteron + Sr84=>20
+proton + Y89 --> N gamma or e- + 2 neutron + 3 alpha + Se76=>1
+proton + Y89 --> N gamma or e- + 2 neutron + 3 alpha + deuteron + As74=>1
+proton + Y89 --> N gamma or e- + 2 neutron + He3 + Sr85=>10
+proton + Y89 --> N gamma or e- + 2 neutron + Zr88=>310
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + 2 deuteron + Kr80=>3
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + He3 + Kr81=>5
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + Sr84=>33
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + deuteron + Li6 + Se76=>1
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + deuteron + Rb82=>27
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + deuteron + triton + Kr79=>2
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + triton + Rb81=>2
+proton + Y89 --> N gamma or e- + 2 neutron + alpha + triton + Rb81[86.310]=>4
+proton + Y89 --> N gamma or e- + 2 neutron + deuteron + He3 + Rb83=>1
+proton + Y89 --> N gamma or e- + 2 neutron + deuteron + Li7 + Kr79=>1
+proton + Y89 --> N gamma or e- + 2 neutron + deuteron + Y86=>1
+proton + Y89 --> N gamma or e- + 2 neutron + deuteron + Y86[218.210]=>50
+proton + Y89 --> N gamma or e- + 2 neutron + deuteron + triton + Sr83=>5
+proton + Y89 --> N gamma or e- + 2 neutron + triton + Y85=>7
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + Be7 + Se79=>1
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + Sr86=>599
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + alpha + Kr82=>66
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + alpha + deuteron + Br80[85.843]=>2
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + deuteron + Rb84=>41
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + deuteron + Rb84[463.590]=>23
+proton + Y89 --> N gamma or e- + 2 proton + 2 neutron + triton + Rb83=>9
+proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + 2 alpha + Se77=>1
+proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + Sr85=>772
+proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + Sr85[238.790]=>12
+proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + alpha + Kr81=>91
+proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + deuteron + Rb83=>31
+proton + Y89 --> N gamma or e- + 2 proton + 3 neutron + triton + Rb82=>7
+proton + Y89 --> N gamma or e- + 2 proton + 4 neutron + Sr84=>516
+proton + Y89 --> N gamma or e- + 2 proton + 4 neutron + alpha + Kr80=>17
+proton + Y89 --> N gamma or e- + 2 proton + 5 neutron + Sr83=>59
+proton + Y89 --> N gamma or e- + 2 proton + Sr88=>133
+proton + Y89 --> N gamma or e- + 2 proton + alpha + Kr84=>2
+proton + Y89 --> N gamma or e- + 2 proton + deuteron + Rb86=>3
+proton + Y89 --> N gamma or e- + 2 proton + neutron + 2 alpha + Se79=>2
+proton + Y89 --> N gamma or e- + 2 proton + neutron + 2 deuteron + Kr83=>1
+proton + Y89 --> N gamma or e- + 2 proton + neutron + He3 + Kr84=>1
+proton + Y89 --> N gamma or e- + 2 proton + neutron + Sr87=>44
+proton + Y89 --> N gamma or e- + 2 proton + neutron + Sr87[388.533]=>227
+proton + Y89 --> N gamma or e- + 2 proton + neutron + alpha + Kr83=>17
+proton + Y89 --> N gamma or e- + 2 proton + neutron + alpha + Kr83[41.557]=>1
+proton + Y89 --> N gamma or e- + 2 proton + neutron + alpha + deuteron + Br81=>3
+proton + Y89 --> N gamma or e- + 2 proton + neutron + alpha + triton + Br80[85.843]=>1
+proton + Y89 --> N gamma or e- + 2 proton + neutron + deuteron + Rb85=>15
+proton + Y89 --> N gamma or e- + 2 proton + neutron + triton + Rb84=>5
+proton + Y89 --> N gamma or e- + 2 proton + neutron + triton + Rb84[463.590]=>2
+proton + Y89 --> N gamma or e- + 3 neutron + 2 alpha + Kr79=>27
+proton + Y89 --> N gamma or e- + 3 neutron + 2 alpha + deuteron + Br77=>4
+proton + Y89 --> N gamma or e- + 3 neutron + 2 alpha + triton + Br76=>1
+proton + Y89 --> N gamma or e- + 3 neutron + 2 deuteron + Sr83=>15
+proton + Y89 --> N gamma or e- + 3 neutron + 3 alpha + Se75=>11
+proton + Y89 --> N gamma or e- + 3 neutron + He3 + Sr84=>27
+proton + Y89 --> N gamma or e- + 3 neutron + Zr87=>250
+proton + Y89 --> N gamma or e- + 3 neutron + alpha + He3 + Kr80=>4
+proton + Y89 --> N gamma or e- + 3 neutron + alpha + Sr83=>83
+proton + Y89 --> N gamma or e- + 3 neutron + alpha + deuteron + Rb81=>20
+proton + Y89 --> N gamma or e- + 3 neutron + alpha + deuteron + Rb81[86.310]=>20
+proton + Y89 --> N gamma or e- + 3 neutron + alpha + triton + Rb80=>6
+proton + Y89 --> N gamma or e- + 3 neutron + deuteron + He3 + Rb82=>1
+proton + Y89 --> N gamma or e- + 3 neutron + deuteron + Y85=>63
+proton + Y89 --> N gamma or e- + 3 neutron + deuteron + triton + Sr82=>1
+proton + Y89 --> N gamma or e- + 3 neutron + triton + Y84=>17
+proton + Y89 --> N gamma or e- + 3 proton + 2 neutron + Rb85=>105
+proton + Y89 --> N gamma or e- + 3 proton + 2 neutron + alpha + Br81=>5
+proton + Y89 --> N gamma or e- + 3 proton + 3 neutron + Rb84=>58
+proton + Y89 --> N gamma or e- + 3 proton + 3 neutron + Rb84[463.590]=>37
+proton + Y89 --> N gamma or e- + 3 proton + 4 neutron + Rb83=>9
+proton + Y89 --> N gamma or e- + 3 proton + Rb87=>7
+proton + Y89 --> N gamma or e- + 3 proton + neutron + Rb86=>53
+proton + Y89 --> N gamma or e- + 3 proton + neutron + alpha + Br82=>2
+proton + Y89 --> N gamma or e- + 3 proton + neutron + deuteron + Kr84=>2
+proton + Y89 --> N gamma or e- + 4 neutron + 2 alpha + Kr78=>28
+proton + Y89 --> N gamma or e- + 4 neutron + C12 + Se74=>1
+proton + Y89 --> N gamma or e- + 4 neutron + He3 + Sr83=>15
+proton + Y89 --> N gamma or e- + 4 neutron + Li6 + Rb80=>2
+proton + Y89 --> N gamma or e- + 4 neutron + Zr86=>161
+proton + Y89 --> N gamma or e- + 4 neutron + alpha + Sr82=>108
+proton + Y89 --> N gamma or e- + 4 neutron + alpha + deuteron + Rb80=>20
+proton + Y89 --> N gamma or e- + 4 neutron + alpha + triton + Rb79=>2
+proton + Y89 --> N gamma or e- + 4 neutron + deuteron + Y84=>48
+proton + Y89 --> N gamma or e- + 4 proton + 2 neutron + Kr84=>6
+proton + Y89 --> N gamma or e- + 4 proton + 3 neutron + Kr83=>2
+proton + Y89 --> N gamma or e- + 5 neutron + 2 alpha + Kr77=>4
+proton + Y89 --> N gamma or e- + 5 neutron + He3 + Sr82=>1
+proton + Y89 --> N gamma or e- + 5 neutron + Zr85=>65
+proton + Y89 --> N gamma or e- + 5 neutron + alpha + Sr81=>37
+proton + Y89 --> N gamma or e- + 5 neutron + deuteron + Y83=>3
+proton + Y89 --> N gamma or e- + 6 neutron + Zr84=>16
+proton + Y89 --> N gamma or e- + alpha + deuteron + Rb84[463.590]=>1
+proton + Y89 --> N gamma or e- + neutron + 2 alpha + Kr81=>2
+proton + Y89 --> N gamma or e- + neutron + 2 alpha + deuteron + Br79=>3
+proton + Y89 --> N gamma or e- + neutron + 2 deuteron + Sr85=>4
+proton + Y89 --> N gamma or e- + neutron + 3 alpha + deuteron + As75=>1
+proton + Y89 --> N gamma or e- + neutron + 3 alpha + triton + As74=>1
+proton + Y89 --> N gamma or e- + neutron + He3 + Sr86=>3
+proton + Y89 --> N gamma or e- + neutron + Zr89=>169
+proton + Y89 --> N gamma or e- + neutron + alpha + 2 deuteron + Kr81=>5
+proton + Y89 --> N gamma or e- + neutron + alpha + 2 triton + Kr79=>1
+proton + Y89 --> N gamma or e- + neutron + alpha + He3 + Kr82=>1
+proton + Y89 --> N gamma or e- + neutron + alpha + Sr85=>8
+proton + Y89 --> N gamma or e- + neutron + alpha + deuteron + He3 + Br80[85.843]=>1
+proton + Y89 --> N gamma or e- + neutron + alpha + deuteron + Rb83=>5
+proton + Y89 --> N gamma or e- + neutron + alpha + triton + Rb82=>3
+proton + Y89 --> N gamma or e- + neutron + deuteron + He3 + Rb84=>3
+proton + Y89 --> N gamma or e- + neutron + deuteron + Y87[380.820]=>16
+proton + Y89 --> N gamma or e- + neutron + deuteron + triton + Sr84=>1
+proton + Y89 --> N gamma or e- + neutron + triton + Y86[218.210]=>1
+proton + Y89 --> N gamma or e- + proton + 2 alpha + deuteron + Se79=>1
+proton + Y89 --> N gamma or e- + proton + 2 deuteron + Rb85=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + 2 alpha + Br79=>25
+proton + Y89 --> N gamma or e- + proton + 2 neutron + 2 alpha + deuteron + Se77=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + 2 deuteron + Rb83=>10
+proton + Y89 --> N gamma or e- + proton + 2 neutron + 3 alpha + As75=>4
+proton + Y89 --> N gamma or e- + proton + 2 neutron + He3 + Rb84=>9
+proton + Y89 --> N gamma or e- + proton + 2 neutron + He3 + Rb84[463.590]=>5
+proton + Y89 --> N gamma or e- + proton + 2 neutron + Y87=>18
+proton + Y89 --> N gamma or e- + proton + 2 neutron + Y87[380.820]=>879
+proton + Y89 --> N gamma or e- + proton + 2 neutron + alpha + He3 + Br80=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + alpha + Li6 + Se77=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + alpha + Rb83=>92
+proton + Y89 --> N gamma or e- + proton + 2 neutron + alpha + deuteron + Kr81=>35
+proton + Y89 --> N gamma or e- + proton + 2 neutron + alpha + triton + Kr80=>12
+proton + Y89 --> N gamma or e- + proton + 2 neutron + deuteron + He3 + Kr82=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + deuteron + Sr85=>159
+proton + Y89 --> N gamma or e- + proton + 2 neutron + deuteron + Sr85[238.790]=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + deuteron + triton + Rb82=>1
+proton + Y89 --> N gamma or e- + proton + 2 neutron + triton + Sr84=>31
+proton + Y89 --> N gamma or e- + proton + 3 neutron + 2 alpha + Br78=>36
+proton + Y89 --> N gamma or e- + proton + 3 neutron + 2 deuteron + Rb82=>1
+proton + Y89 --> N gamma or e- + proton + 3 neutron + He3 + Rb83=>22
+proton + Y89 --> N gamma or e- + proton + 3 neutron + Li6 + Kr80=>1
+proton + Y89 --> N gamma or e- + proton + 3 neutron + Y86=>100
+proton + Y89 --> N gamma or e- + proton + 3 neutron + Y86[218.210]=>871
+proton + Y89 --> N gamma or e- + proton + 3 neutron + alpha + Rb82=>192
+proton + Y89 --> N gamma or e- + proton + 3 neutron + alpha + deuteron + Kr80=>27
+proton + Y89 --> N gamma or e- + proton + 3 neutron + deuteron + Sr84=>221
+proton + Y89 --> N gamma or e- + proton + 3 neutron + triton + Sr83=>36
+proton + Y89 --> N gamma or e- + proton + 4 neutron + Be7 + Br78=>1
+proton + Y89 --> N gamma or e- + proton + 4 neutron + He3 + Rb82=>2
+proton + Y89 --> N gamma or e- + proton + 4 neutron + Li6 + Kr79=>3
+proton + Y89 --> N gamma or e- + proton + 4 neutron + Y85=>527
+proton + Y89 --> N gamma or e- + proton + 4 neutron + alpha + Rb81=>69
+proton + Y89 --> N gamma or e- + proton + 4 neutron + alpha + Rb81[86.310]=>84
+proton + Y89 --> N gamma or e- + proton + 4 neutron + alpha + deuteron + Kr79=>1
+proton + Y89 --> N gamma or e- + proton + 4 neutron + deuteron + Sr83=>75
+proton + Y89 --> N gamma or e- + proton + 4 neutron + triton + Sr82=>5
+proton + Y89 --> N gamma or e- + proton + 5 neutron + Y84=>180
+proton + Y89 --> N gamma or e- + proton + 5 neutron + alpha + Rb80=>16
+proton + Y89 --> N gamma or e- + proton + 5 neutron + deuteron + Sr82=>1
+proton + Y89 --> N gamma or e- + proton + 6 neutron + Y83=>10
+proton + Y89 --> N gamma or e- + proton + Y89=>260
+proton + Y89 --> N gamma or e- + proton + alpha + Rb85=>4
+proton + Y89 --> N gamma or e- + proton + deuteron + Sr87=>3
+proton + Y89 --> N gamma or e- + proton + deuteron + Sr87[388.533]=>6
+proton + Y89 --> N gamma or e- + proton + neutron + 2 alpha + Br80[85.843]=>4
+proton + Y89 --> N gamma or e- + proton + neutron + 2 alpha + deuteron + Se78=>2
+proton + Y89 --> N gamma or e- + proton + neutron + 2 deuteron + Rb84=>1
+proton + Y89 --> N gamma or e- + proton + neutron + 2 deuteron + Rb84[463.590]=>1
+proton + Y89 --> N gamma or e- + proton + neutron + 3 alpha + As76=>1
+proton + Y89 --> N gamma or e- + proton + neutron + He3 + Rb85=>7
+proton + Y89 --> N gamma or e- + proton + neutron + Y88=>983
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + 2 deuteron + Br80[85.843]=>1
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + Rb84=>22
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + Rb84[463.590]=>18
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + deuteron + Kr82=>14
+proton + Y89 --> N gamma or e- + proton + neutron + alpha + triton + Kr81=>2
+proton + Y89 --> N gamma or e- + proton + neutron + deuteron + Sr86=>49
+proton + Y89 --> N gamma or e- + proton + neutron + triton + He3 + Kr82=>1
+proton + Y89 --> N gamma or e- + proton + neutron + triton + Sr85=>13
+proton + Y89 --> N gamma or e- + proton + triton + Sr86=>2
+proton + Y89 --> neutron + Zr89[77.622]=>1
+proton + Y89 --> proton + 3 neutron + Y86[32.253]=>1
+proton + Y89 --> proton + 3 neutron + Y86[69.512]=>1
+proton + Y89 --> proton + 3 neutron + Y86[73.642]=>1
+proton + Y89 --> proton + Y89[79.790]=>1
+proton + Y89 --> proton + neutron + Y88[0.899]=>1
+proton + Y89 --> proton + neutron + Y88[1.198]=>1
+proton + Y89 --> proton + neutron + Y88[1.741]=>1
+proton + Y89 --> proton + neutron + Y88[10.941]=>1
+proton + Y89 --> proton + neutron + Y88[105.238]=>1
+proton + Y89 --> proton + neutron + Y88[13.163]=>1
+proton + Y89 --> proton + neutron + Y88[15.257]=>1
+proton + Y89 --> proton + neutron + Y88[15.300]=>1
+proton + Y89 --> proton + neutron + Y88[18.589]=>1
+proton + Y89 --> proton + neutron + Y88[19.799]=>1
+proton + Y89 --> proton + neutron + Y88[2.286]=>1
+proton + Y89 --> proton + neutron + Y88[2.522]=>1
+proton + Y89 --> proton + neutron + Y88[2.587]=>1
+proton + Y89 --> proton + neutron + Y88[2.867]=>1
+proton + Y89 --> proton + neutron + Y88[28.752]=>1
+proton + Y89 --> proton + neutron + Y88[29.740]=>1
+proton + Y89 --> proton + neutron + Y88[35.167]=>1
+proton + Y89 --> proton + neutron + Y88[36.582]=>1
+proton + Y89 --> proton + neutron + Y88[50.373]=>1
+proton + Y89 --> proton + neutron + Y88[51.711]=>1
+proton + Y89 --> proton + neutron + Y88[61.290]=>1
+proton + Y89 --> proton + neutron + Y88[72.066]=>1
+proton + Y89 --> proton + neutron + Y88[77.423]=>1
+proton + Y89 --> proton + neutron + Y88[8.003]=>1
+proton + Y89 --> proton + neutron + Y88[81.326]=>1
+proton + Y89 --> proton + neutron + Y88[82.508]=>1
+proton + Y89 --> proton + neutron + Y88[84.868]=>1
+proton + Y89 --> proton + neutron + Y88[92.808]=>1
+END REACTIONS
+
+
+START PARTICLES
+As74->2
+As75->5
+As76->1
+Be7->2
+Br76->1
+Br77->5
+Br78->47
+Br79->28
+Br80->1
+Br80[85.843]->9
+Br81->8
+Br82->2
+C12->1
+He3->121
+Kr77->4
+Kr78->28
+Kr79->35
+Kr80->82
+Kr81->140
+Kr82->83
+Kr83->20
+Kr83[41.557]->1
+Kr84->11
+Li6->8
+Li7->1
+Rb79->2
+Rb80->44
+Rb81->91
+Rb81[86.310]->108
+Rb82->234
+Rb83->179
+Rb84->139
+Rb84[463.590]->87
+Rb84[92.807]->1
+Rb85->132
+Rb86->56
+Rb87->7
+Se74->1
+Se75->11
+Se76->2
+Se77->3
+Se78->2
+Se79->4
+Sr81->37
+Sr82->116
+Sr83->288
+Sr84->849
+Sr85->966
+Sr85[238.790]->13
+Sr86->653
+Sr87->47
+Sr87[388.533]->233
+Sr88->133
+Sr88[194.912]->1
+Sr88[24.479]->1
+Sr88[258.863]->1
+Sr88[313.582]->1
+Sr88[44.073]->1
+Sr88[60.839]->1
+Sr88[85.592]->1
+Sr88[850.476]->1
+Sr88[870.963]->1
+Sr88[89.560]->1
+Sr88[891.552]->1
+Y83->13
+Y84->245
+Y85->597
+Y86->101
+Y86[218.210]->922
+Y86[32.253]->1
+Y86[69.512]->1
+Y86[73.642]->1
+Y87->18
+Y87[380.820]->895
+Y88->983
+Y88[0.899]->1
+Y88[1.198]->1
+Y88[1.741]->1
+Y88[10.941]->1
+Y88[105.238]->1
+Y88[13.163]->1
+Y88[15.257]->1
+Y88[15.300]->1
+Y88[18.589]->1
+Y88[19.799]->1
+Y88[2.286]->1
+Y88[2.522]->1
+Y88[2.587]->1
+Y88[2.867]->1
+Y88[28.752]->1
+Y88[29.740]->1
+Y88[35.167]->1
+Y88[36.582]->1
+Y88[50.373]->1
+Y88[51.711]->1
+Y88[61.290]->1
+Y88[72.066]->1
+Y88[77.423]->1
+Y88[8.003]->1
+Y88[81.326]->1
+Y88[82.508]->1
+Y88[84.868]->1
+Y88[92.808]->1
+Y89->260
+Y89[79.790]->1
+Zr84->16
+Zr85->65
+Zr86->161
+Zr87->250
+Zr88->310
+Zr89->169
+Zr89[77.622]->1
+alpha->1600
+deuteron->1154
+e-->1944
+gamma->72968
+neutron->25040
+proton->11493
+triton->183

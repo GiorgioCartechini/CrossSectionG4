@@ -1,0 +1,43 @@
+
+ The run is 10000 proton of 9 MeV through 20 m   of Cu63 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	36.2459 cm  +- 36.5427 cm 	massic: 162.092 g/cm2 
+ CrossSection:	0.0275893 cm^-1 		massic: 616.935 um2/mg
+ crossSection per atom:	644.679 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 612.667 um2/mg	640.219 mbarn 
+               total= 612.667 um2/mg	640.219 mbarn 
+
+ List of nuclear reactions: 
+
+                        proton + Cu63 --> N gamma or e- + Zn64:       4   Q = 7.70964 MeV
+                proton + Cu63 --> N gamma or e- + alpha + Ni60:    4548   Q = 3.76098 MeV
+              proton + Cu63 --> N gamma or e- + neutron + Zn63:    2820   Q = -4.15237 MeV
+               proton + Cu63 --> N gamma or e- + proton + Cu63:    2625   Q = 9.08975e-07 eV 
+                      proton + Cu63 --> proton + Cu63[148.257]:       1   Q = -148.257 keV
+                      proton + Cu63 --> proton + Cu63[160.408]:       1   Q = -160.408 keV
+                       proton + Cu63 --> proton + Cu63[48.907]:       1   Q = -48.9067 keV
+
+                          number of gamma or e- (ic): N = 1 --> 12
+
+ List of generated particles:
+           Cu63:    2625  Emean = 216.915 keV	( 4.11541 keV --> 495.021 keV)
+  Cu63[148.257]:       1  Emean = 235.107 keV	( 235.107 keV --> 235.107 keV)
+  Cu63[160.408]:       1  Emean = 465.523 keV	( 465.523 keV --> 465.523 keV)
+   Cu63[48.907]:       1  Emean = 76.5721 keV	( 76.5721 keV --> 76.5721 keV)
+           Ni60:    4548  Emean = 591.725 keV	( 61.3658 keV --> 1.29841 MeV)
+           Zn63:    2820  Emean = 161.715 keV	( 26.8881 keV --> 354.878 keV)
+           Zn64:       4  Emean = 143.609 keV	( 138.384 keV --> 150.099 keV)
+          alpha:    4548  Emean =  6.8529 MeV	( 4.93788 MeV --> 9.81793 MeV)
+             e-:      22  Emean = 423.715 keV	( 119.554 keV --> 1.78768 MeV)
+          gamma:   30352  Emean = 1.46851 MeV	( 863.161 eV  --> 6.94727 MeV)
+        neutron:    2820  Emean = 1.25721 MeV	( 44.6342 keV --> 4.35135 MeV)
+         proton:    2628  Emean = 4.72376 MeV	( 3.27411 MeV --> 8.87452 MeV)
+
+   Momentum balance: Pmean = 2.96336 eV 	( 8.57265e-08 eV  --> 2.56648 keV) 
+

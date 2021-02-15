@@ -1,0 +1,90 @@
+EVENTS->10000
+TARGET->O16
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + O16 --> 2 proton + N gamma or e- + N15=>221
+proton + O16 --> 2 proton + N15=>474
+proton + O16 --> He3 + N gamma or e- + N14=>82
+proton + O16 --> He3 + N14[1022.120]=>1
+proton + O16 --> He3 + N14[1033.358]=>1
+proton + O16 --> He3 + N14[1039.963]=>1
+proton + O16 --> He3 + N14[1095.703]=>1
+proton + O16 --> He3 + N14[1127.778]=>1
+proton + O16 --> He3 + N14[1132.357]=>1
+proton + O16 --> He3 + N14[1142.176]=>1
+proton + O16 --> He3 + N14[1147.043]=>1
+proton + O16 --> He3 + N14[1155.433]=>1
+proton + O16 --> He3 + N14[166.779]=>1
+proton + O16 --> He3 + N14[273.080]=>1
+proton + O16 --> He3 + N14[300.546]=>1
+proton + O16 --> He3 + N14[32.449]=>1
+proton + O16 --> He3 + N14[401.348]=>1
+proton + O16 --> He3 + N14[439.299]=>1
+proton + O16 --> He3 + N14[496.812]=>1
+proton + O16 --> He3 + N14[548.778]=>1
+proton + O16 --> He3 + N14[590.002]=>1
+proton + O16 --> He3 + N14[725.160]=>1
+proton + O16 --> He3 + N14[755.883]=>1
+proton + O16 --> He3 + N14[78.599]=>1
+proton + O16 --> He3 + N14[799.102]=>1
+proton + O16 --> He3 + N14[805.235]=>1
+proton + O16 --> He3 + N14[824.702]=>1
+proton + O16 --> He3 + N14[94.359]=>1
+proton + O16 --> deuteron + N gamma or e- + O15=>97
+proton + O16 --> neutron + F16[37.074]=>1
+proton + O16 --> neutron + N gamma or e- + F16=>36
+proton + O16 --> proton + 4 alpha=>1774
+proton + O16 --> proton + O16 + N gamma or e-=>126
+proton + O16 --> proton + alpha + C12=>2313
+proton + O16 --> proton + alpha + N gamma or e- + C12=>4614
+proton + O16 --> proton + neutron + N gamma or e- + O15=>94
+proton + O16 --> proton + neutron + O15=>143
+END REACTIONS
+
+
+START PARTICLES
+C12->6927
+F16->36
+F16[37.074]->1
+He3->107
+N14->82
+N14[1022.120]->1
+N14[1033.358]->1
+N14[1039.963]->1
+N14[1095.703]->1
+N14[1127.778]->1
+N14[1132.357]->1
+N14[1142.176]->1
+N14[1147.043]->1
+N14[1155.433]->1
+N14[166.779]->1
+N14[273.080]->1
+N14[300.546]->1
+N14[32.449]->1
+N14[401.348]->1
+N14[439.299]->1
+N14[496.812]->1
+N14[548.778]->1
+N14[590.002]->1
+N14[725.160]->1
+N14[755.883]->1
+N14[78.599]->1
+N14[799.102]->1
+N14[805.235]->1
+N14[824.702]->1
+N14[94.359]->1
+N15->695
+O15->334
+O16->126
+alpha->14023
+deuteron->97
+gamma->5377
+neutron->274
+proton->10454

@@ -1,0 +1,1655 @@
+EVENTS->10000
+TARGET->O16
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + O16 --> 2 alpha + He3 + Li6=>1
+proton + O16 --> 2 alpha + deuteron + Be7=>2
+proton + O16 --> 2 deuteron + N13=>7
+proton + O16 --> 2 proton + N gamma or e- + N15=>735
+proton + O16 --> 2 proton + N15=>65
+proton + O16 --> 2 proton + alpha + B11=>271
+proton + O16 --> 2 proton + alpha + N gamma or e- + B11=>40
+proton + O16 --> 2 proton + deuteron + C13=>90
+proton + O16 --> 2 proton + neutron + N gamma or e- + N14=>55
+proton + O16 --> 2 proton + neutron + N14=>415
+proton + O16 --> 2 proton + triton + C12=>2
+proton + O16 --> 3 proton + C14=>144
+proton + O16 --> 3 proton + N gamma or e- + C14=>4
+proton + O16 --> 3 proton + neutron + C13=>1
+proton + O16 --> He3 + N gamma or e- + N14=>43
+proton + O16 --> N gamma or e- + B10 + Be7=>24
+proton + O16 --> N gamma or e- + C11 + Li6=>115
+proton + O16 --> N gamma or e- + Li7 + C10=>2
+proton + O16 --> alpha + Be7 + Li6=>47
+proton + O16 --> alpha + He3 + B10=>47
+proton + O16 --> alpha + He3 + N gamma or e- + B10=>35
+proton + O16 --> alpha + N gamma or e- + Be7 + Li6=>2
+proton + O16 --> alpha + deuteron + C11=>258
+proton + O16 --> alpha + deuteron + N gamma or e- + C11=>159
+proton + O16 --> deuteron + He3 + C12=>73
+proton + O16 --> deuteron + He3 + N gamma or e- + C12=>11
+proton + O16 --> deuteron + N gamma or e- + O15=>999
+proton + O16 --> deuteron + O15[1000.149]=>1
+proton + O16 --> deuteron + O15[1002.699]=>1
+proton + O16 --> deuteron + O15[1010.943]=>1
+proton + O16 --> deuteron + O15[1013.903]=>1
+proton + O16 --> deuteron + O15[1038.629]=>1
+proton + O16 --> deuteron + O15[1042.580]=>1
+proton + O16 --> deuteron + O15[1044.907]=>1
+proton + O16 --> deuteron + O15[1046.980]=>1
+proton + O16 --> deuteron + O15[1048.099]=>1
+proton + O16 --> deuteron + O15[1058.251]=>1
+proton + O16 --> deuteron + O15[1059.841]=>1
+proton + O16 --> deuteron + O15[106.746]=>1
+proton + O16 --> deuteron + O15[1060.536]=>1
+proton + O16 --> deuteron + O15[1066.280]=>1
+proton + O16 --> deuteron + O15[1068.138]=>1
+proton + O16 --> deuteron + O15[1077.163]=>1
+proton + O16 --> deuteron + O15[1080.628]=>1
+proton + O16 --> deuteron + O15[1081.147]=>1
+proton + O16 --> deuteron + O15[1085.929]=>1
+proton + O16 --> deuteron + O15[109.267]=>1
+proton + O16 --> deuteron + O15[1093.494]=>1
+proton + O16 --> deuteron + O15[1095.060]=>1
+proton + O16 --> deuteron + O15[1096.003]=>1
+proton + O16 --> deuteron + O15[1101.207]=>1
+proton + O16 --> deuteron + O15[1108.964]=>1
+proton + O16 --> deuteron + O15[1112.987]=>1
+proton + O16 --> deuteron + O15[1114.485]=>1
+proton + O16 --> deuteron + O15[1120.694]=>1
+proton + O16 --> deuteron + O15[1127.270]=>1
+proton + O16 --> deuteron + O15[1127.426]=>1
+proton + O16 --> deuteron + O15[1128.268]=>1
+proton + O16 --> deuteron + O15[1129.357]=>1
+proton + O16 --> deuteron + O15[1130.025]=>1
+proton + O16 --> deuteron + O15[1131.877]=>1
+proton + O16 --> deuteron + O15[1134.981]=>1
+proton + O16 --> deuteron + O15[1138.664]=>1
+proton + O16 --> deuteron + O15[1141.819]=>1
+proton + O16 --> deuteron + O15[1150.375]=>1
+proton + O16 --> deuteron + O15[1151.074]=>1
+proton + O16 --> deuteron + O15[1154.595]=>1
+proton + O16 --> deuteron + O15[1165.449]=>1
+proton + O16 --> deuteron + O15[1167.254]=>1
+proton + O16 --> deuteron + O15[1167.285]=>1
+proton + O16 --> deuteron + O15[1178.276]=>1
+proton + O16 --> deuteron + O15[1180.244]=>1
+proton + O16 --> deuteron + O15[1185.427]=>1
+proton + O16 --> deuteron + O15[1187.358]=>1
+proton + O16 --> deuteron + O15[1187.786]=>1
+proton + O16 --> deuteron + O15[1189.813]=>1
+proton + O16 --> deuteron + O15[1194.016]=>1
+proton + O16 --> deuteron + O15[12.394]=>1
+proton + O16 --> deuteron + O15[1201.837]=>1
+proton + O16 --> deuteron + O15[1217.575]=>1
+proton + O16 --> deuteron + O15[122.577]=>1
+proton + O16 --> deuteron + O15[1225.999]=>1
+proton + O16 --> deuteron + O15[1239.383]=>1
+proton + O16 --> deuteron + O15[1240.176]=>1
+proton + O16 --> deuteron + O15[1240.442]=>1
+proton + O16 --> deuteron + O15[1241.662]=>1
+proton + O16 --> deuteron + O15[1243.382]=>1
+proton + O16 --> deuteron + O15[1247.361]=>1
+proton + O16 --> deuteron + O15[1266.624]=>1
+proton + O16 --> deuteron + O15[1268.184]=>1
+proton + O16 --> deuteron + O15[1268.409]=>1
+proton + O16 --> deuteron + O15[1268.440]=>1
+proton + O16 --> deuteron + O15[1269.461]=>1
+proton + O16 --> deuteron + O15[1272.364]=>1
+proton + O16 --> deuteron + O15[1272.486]=>1
+proton + O16 --> deuteron + O15[1275.349]=>1
+proton + O16 --> deuteron + O15[1276.208]=>1
+proton + O16 --> deuteron + O15[1278.778]=>1
+proton + O16 --> deuteron + O15[1283.743]=>1
+proton + O16 --> deuteron + O15[129.560]=>1
+proton + O16 --> deuteron + O15[129.842]=>1
+proton + O16 --> deuteron + O15[1294.899]=>1
+proton + O16 --> deuteron + O15[1296.782]=>1
+proton + O16 --> deuteron + O15[1302.262]=>1
+proton + O16 --> deuteron + O15[1304.349]=>1
+proton + O16 --> deuteron + O15[1312.802]=>1
+proton + O16 --> deuteron + O15[1313.895]=>1
+proton + O16 --> deuteron + O15[1314.222]=>1
+proton + O16 --> deuteron + O15[1315.381]=>1
+proton + O16 --> deuteron + O15[1319.275]=>1
+proton + O16 --> deuteron + O15[132.955]=>1
+proton + O16 --> deuteron + O15[1329.390]=>1
+proton + O16 --> deuteron + O15[1340.216]=>1
+proton + O16 --> deuteron + O15[1343.014]=>1
+proton + O16 --> deuteron + O15[1345.654]=>1
+proton + O16 --> deuteron + O15[1345.877]=>1
+proton + O16 --> deuteron + O15[1352.237]=>1
+proton + O16 --> deuteron + O15[1354.825]=>1
+proton + O16 --> deuteron + O15[1355.119]=>1
+proton + O16 --> deuteron + O15[1359.665]=>1
+proton + O16 --> deuteron + O15[1362.778]=>1
+proton + O16 --> deuteron + O15[1363.568]=>1
+proton + O16 --> deuteron + O15[1371.441]=>1
+proton + O16 --> deuteron + O15[1371.621]=>1
+proton + O16 --> deuteron + O15[1373.781]=>1
+proton + O16 --> deuteron + O15[1376.541]=>1
+proton + O16 --> deuteron + O15[1380.880]=>1
+proton + O16 --> deuteron + O15[1381.317]=>1
+proton + O16 --> deuteron + O15[1381.724]=>1
+proton + O16 --> deuteron + O15[1383.251]=>1
+proton + O16 --> deuteron + O15[14.221]=>1
+proton + O16 --> deuteron + O15[1404.742]=>1
+proton + O16 --> deuteron + O15[1412.880]=>1
+proton + O16 --> deuteron + O15[1418.134]=>1
+proton + O16 --> deuteron + O15[1418.902]=>1
+proton + O16 --> deuteron + O15[1421.259]=>1
+proton + O16 --> deuteron + O15[1422.566]=>1
+proton + O16 --> deuteron + O15[1430.441]=>1
+proton + O16 --> deuteron + O15[1431.409]=>1
+proton + O16 --> deuteron + O15[1432.359]=>1
+proton + O16 --> deuteron + O15[1433.195]=>1
+proton + O16 --> deuteron + O15[1433.965]=>1
+proton + O16 --> deuteron + O15[1435.825]=>1
+proton + O16 --> deuteron + O15[1442.394]=>1
+proton + O16 --> deuteron + O15[1444.052]=>1
+proton + O16 --> deuteron + O15[1444.187]=>1
+proton + O16 --> deuteron + O15[1447.165]=>1
+proton + O16 --> deuteron + O15[1449.772]=>1
+proton + O16 --> deuteron + O15[1458.524]=>1
+proton + O16 --> deuteron + O15[1462.326]=>1
+proton + O16 --> deuteron + O15[1466.227]=>1
+proton + O16 --> deuteron + O15[1471.916]=>1
+proton + O16 --> deuteron + O15[1472.589]=>1
+proton + O16 --> deuteron + O15[1472.931]=>1
+proton + O16 --> deuteron + O15[1473.336]=>1
+proton + O16 --> deuteron + O15[148.396]=>1
+proton + O16 --> deuteron + O15[1482.895]=>1
+proton + O16 --> deuteron + O15[1484.747]=>1
+proton + O16 --> deuteron + O15[1485.858]=>1
+proton + O16 --> deuteron + O15[1497.799]=>1
+proton + O16 --> deuteron + O15[1498.927]=>1
+proton + O16 --> deuteron + O15[150.527]=>1
+proton + O16 --> deuteron + O15[1502.204]=>1
+proton + O16 --> deuteron + O15[1511.595]=>1
+proton + O16 --> deuteron + O15[1514.091]=>1
+proton + O16 --> deuteron + O15[152.713]=>1
+proton + O16 --> deuteron + O15[1520.200]=>1
+proton + O16 --> deuteron + O15[1524.665]=>1
+proton + O16 --> deuteron + O15[1534.972]=>1
+proton + O16 --> deuteron + O15[1540.789]=>1
+proton + O16 --> deuteron + O15[1542.598]=>1
+proton + O16 --> deuteron + O15[1543.307]=>1
+proton + O16 --> deuteron + O15[1548.452]=>1
+proton + O16 --> deuteron + O15[1561.385]=>1
+proton + O16 --> deuteron + O15[1564.226]=>1
+proton + O16 --> deuteron + O15[157.559]=>1
+proton + O16 --> deuteron + O15[1583.020]=>1
+proton + O16 --> deuteron + O15[1587.719]=>1
+proton + O16 --> deuteron + O15[1593.122]=>1
+proton + O16 --> deuteron + O15[1598.369]=>1
+proton + O16 --> deuteron + O15[16.675]=>1
+proton + O16 --> deuteron + O15[160.410]=>1
+proton + O16 --> deuteron + O15[1600.068]=>1
+proton + O16 --> deuteron + O15[1600.098]=>1
+proton + O16 --> deuteron + O15[1600.434]=>1
+proton + O16 --> deuteron + O15[1603.325]=>1
+proton + O16 --> deuteron + O15[1605.573]=>1
+proton + O16 --> deuteron + O15[1612.353]=>1
+proton + O16 --> deuteron + O15[1613.564]=>1
+proton + O16 --> deuteron + O15[1617.719]=>1
+proton + O16 --> deuteron + O15[1627.504]=>1
+proton + O16 --> deuteron + O15[1631.592]=>1
+proton + O16 --> deuteron + O15[1644.278]=>1
+proton + O16 --> deuteron + O15[1645.594]=>1
+proton + O16 --> deuteron + O15[1645.659]=>1
+proton + O16 --> deuteron + O15[1648.932]=>1
+proton + O16 --> deuteron + O15[1654.264]=>1
+proton + O16 --> deuteron + O15[1654.667]=>1
+proton + O16 --> deuteron + O15[1659.597]=>1
+proton + O16 --> deuteron + O15[1659.625]=>1
+proton + O16 --> deuteron + O15[166.482]=>1
+proton + O16 --> deuteron + O15[1661.489]=>1
+proton + O16 --> deuteron + O15[1666.587]=>1
+proton + O16 --> deuteron + O15[1666.703]=>1
+proton + O16 --> deuteron + O15[1668.209]=>1
+proton + O16 --> deuteron + O15[167.950]=>1
+proton + O16 --> deuteron + O15[1678.301]=>1
+proton + O16 --> deuteron + O15[1679.667]=>1
+proton + O16 --> deuteron + O15[1681.065]=>1
+proton + O16 --> deuteron + O15[1683.784]=>1
+proton + O16 --> deuteron + O15[1684.311]=>1
+proton + O16 --> deuteron + O15[1686.869]=>1
+proton + O16 --> deuteron + O15[1688.947]=>2
+proton + O16 --> deuteron + O15[1691.178]=>1
+proton + O16 --> deuteron + O15[1695.007]=>1
+proton + O16 --> deuteron + O15[170.036]=>1
+proton + O16 --> deuteron + O15[1702.125]=>1
+proton + O16 --> deuteron + O15[1708.364]=>1
+proton + O16 --> deuteron + O15[1713.606]=>1
+proton + O16 --> deuteron + O15[1714.866]=>1
+proton + O16 --> deuteron + O15[1716.416]=>1
+proton + O16 --> deuteron + O15[1728.211]=>1
+proton + O16 --> deuteron + O15[1730.551]=>1
+proton + O16 --> deuteron + O15[1730.937]=>1
+proton + O16 --> deuteron + O15[1733.442]=>1
+proton + O16 --> deuteron + O15[1736.145]=>1
+proton + O16 --> deuteron + O15[1741.827]=>1
+proton + O16 --> deuteron + O15[1743.026]=>1
+proton + O16 --> deuteron + O15[1750.830]=>1
+proton + O16 --> deuteron + O15[1750.860]=>1
+proton + O16 --> deuteron + O15[1752.009]=>1
+proton + O16 --> deuteron + O15[1753.973]=>1
+proton + O16 --> deuteron + O15[1754.335]=>1
+proton + O16 --> deuteron + O15[1756.937]=>1
+proton + O16 --> deuteron + O15[1757.778]=>1
+proton + O16 --> deuteron + O15[1758.148]=>1
+proton + O16 --> deuteron + O15[1767.460]=>1
+proton + O16 --> deuteron + O15[1767.754]=>1
+proton + O16 --> deuteron + O15[1769.023]=>1
+proton + O16 --> deuteron + O15[1775.434]=>1
+proton + O16 --> deuteron + O15[1781.195]=>1
+proton + O16 --> deuteron + O15[1782.387]=>1
+proton + O16 --> deuteron + O15[1782.858]=>1
+proton + O16 --> deuteron + O15[1785.841]=>1
+proton + O16 --> deuteron + O15[1789.797]=>1
+proton + O16 --> deuteron + O15[180.406]=>1
+proton + O16 --> deuteron + O15[1809.345]=>1
+proton + O16 --> deuteron + O15[1817.061]=>1
+proton + O16 --> deuteron + O15[183.891]=>1
+proton + O16 --> deuteron + O15[1835.439]=>1
+proton + O16 --> deuteron + O15[1835.757]=>1
+proton + O16 --> deuteron + O15[1838.416]=>1
+proton + O16 --> deuteron + O15[1839.896]=>1
+proton + O16 --> deuteron + O15[1839.954]=>1
+proton + O16 --> deuteron + O15[1841.025]=>1
+proton + O16 --> deuteron + O15[1841.400]=>1
+proton + O16 --> deuteron + O15[1860.769]=>1
+proton + O16 --> deuteron + O15[1864.456]=>1
+proton + O16 --> deuteron + O15[1866.605]=>1
+proton + O16 --> deuteron + O15[1871.763]=>1
+proton + O16 --> deuteron + O15[1879.877]=>1
+proton + O16 --> deuteron + O15[1881.920]=>1
+proton + O16 --> deuteron + O15[1882.925]=>1
+proton + O16 --> deuteron + O15[1884.306]=>1
+proton + O16 --> deuteron + O15[1886.384]=>1
+proton + O16 --> deuteron + O15[1887.251]=>1
+proton + O16 --> deuteron + O15[1888.901]=>1
+proton + O16 --> deuteron + O15[1891.603]=>1
+proton + O16 --> deuteron + O15[1894.540]=>1
+proton + O16 --> deuteron + O15[1897.694]=>1
+proton + O16 --> deuteron + O15[1901.382]=>1
+proton + O16 --> deuteron + O15[191.275]=>1
+proton + O16 --> deuteron + O15[1912.032]=>1
+proton + O16 --> deuteron + O15[1916.237]=>1
+proton + O16 --> deuteron + O15[1921.726]=>1
+proton + O16 --> deuteron + O15[1922.634]=>1
+proton + O16 --> deuteron + O15[1927.894]=>1
+proton + O16 --> deuteron + O15[1928.448]=>1
+proton + O16 --> deuteron + O15[193.546]=>1
+proton + O16 --> deuteron + O15[1932.518]=>1
+proton + O16 --> deuteron + O15[1933.327]=>1
+proton + O16 --> deuteron + O15[1937.510]=>1
+proton + O16 --> deuteron + O15[1941.946]=>1
+proton + O16 --> deuteron + O15[1946.239]=>1
+proton + O16 --> deuteron + O15[1951.534]=>1
+proton + O16 --> deuteron + O15[1953.061]=>1
+proton + O16 --> deuteron + O15[1953.810]=>1
+proton + O16 --> deuteron + O15[196.652]=>1
+proton + O16 --> deuteron + O15[1968.093]=>1
+proton + O16 --> deuteron + O15[1969.451]=>1
+proton + O16 --> deuteron + O15[1977.665]=>1
+proton + O16 --> deuteron + O15[1979.826]=>1
+proton + O16 --> deuteron + O15[198.923]=>1
+proton + O16 --> deuteron + O15[1980.020]=>1
+proton + O16 --> deuteron + O15[1989.591]=>1
+proton + O16 --> deuteron + O15[1992.882]=>1
+proton + O16 --> deuteron + O15[1995.494]=>1
+proton + O16 --> deuteron + O15[1997.370]=>1
+proton + O16 --> deuteron + O15[2009.162]=>1
+proton + O16 --> deuteron + O15[2009.724]=>1
+proton + O16 --> deuteron + O15[201.988]=>1
+proton + O16 --> deuteron + O15[2011.032]=>1
+proton + O16 --> deuteron + O15[2014.373]=>1
+proton + O16 --> deuteron + O15[2014.593]=>1
+proton + O16 --> deuteron + O15[2017.098]=>1
+proton + O16 --> deuteron + O15[2017.742]=>1
+proton + O16 --> deuteron + O15[2017.987]=>1
+proton + O16 --> deuteron + O15[2018.654]=>1
+proton + O16 --> deuteron + O15[2020.969]=>1
+proton + O16 --> deuteron + O15[2026.062]=>1
+proton + O16 --> deuteron + O15[2027.010]=>1
+proton + O16 --> deuteron + O15[203.207]=>1
+proton + O16 --> deuteron + O15[203.613]=>1
+proton + O16 --> deuteron + O15[2032.590]=>1
+proton + O16 --> deuteron + O15[2034.116]=>1
+proton + O16 --> deuteron + O15[2035.061]=>1
+proton + O16 --> deuteron + O15[2042.016]=>1
+proton + O16 --> deuteron + O15[2046.943]=>1
+proton + O16 --> deuteron + O15[2047.811]=>1
+proton + O16 --> deuteron + O15[2051.317]=>1
+proton + O16 --> deuteron + O15[2053.249]=>1
+proton + O16 --> deuteron + O15[2055.769]=>1
+proton + O16 --> deuteron + O15[2058.717]=>1
+proton + O16 --> deuteron + O15[2060.648]=>1
+proton + O16 --> deuteron + O15[2061.397]=>1
+proton + O16 --> deuteron + O15[2067.344]=>1
+proton + O16 --> deuteron + O15[2073.433]=>1
+proton + O16 --> deuteron + O15[2081.046]=>1
+proton + O16 --> deuteron + O15[2092.272]=>1
+proton + O16 --> deuteron + O15[2092.392]=>1
+proton + O16 --> deuteron + O15[2093.071]=>1
+proton + O16 --> deuteron + O15[2095.573]=>1
+proton + O16 --> deuteron + O15[2098.141]=>1
+proton + O16 --> deuteron + O15[2098.894]=>1
+proton + O16 --> deuteron + O15[21.074]=>1
+proton + O16 --> deuteron + O15[2102.831]=>1
+proton + O16 --> deuteron + O15[2111.213]=>1
+proton + O16 --> deuteron + O15[2114.813]=>1
+proton + O16 --> deuteron + O15[2116.285]=>1
+proton + O16 --> deuteron + O15[2118.563]=>1
+proton + O16 --> deuteron + O15[2126.293]=>1
+proton + O16 --> deuteron + O15[2126.607]=>1
+proton + O16 --> deuteron + O15[2127.291]=>1
+proton + O16 --> deuteron + O15[213.234]=>1
+proton + O16 --> deuteron + O15[2131.233]=>1
+proton + O16 --> deuteron + O15[2132.841]=>1
+proton + O16 --> deuteron + O15[2133.727]=>1
+proton + O16 --> deuteron + O15[2137.462]=>1
+proton + O16 --> deuteron + O15[2138.655]=>1
+proton + O16 --> deuteron + O15[2139.909]=>1
+proton + O16 --> deuteron + O15[2140.932]=>1
+proton + O16 --> deuteron + O15[2154.185]=>1
+proton + O16 --> deuteron + O15[2154.649]=>1
+proton + O16 --> deuteron + O15[2180.503]=>1
+proton + O16 --> deuteron + O15[2185.404]=>1
+proton + O16 --> deuteron + O15[2191.510]=>1
+proton + O16 --> deuteron + O15[2194.132]=>1
+proton + O16 --> deuteron + O15[2196.640]=>1
+proton + O16 --> deuteron + O15[2199.238]=>1
+proton + O16 --> deuteron + O15[2206.698]=>1
+proton + O16 --> deuteron + O15[2207.472]=>1
+proton + O16 --> deuteron + O15[2211.767]=>1
+proton + O16 --> deuteron + O15[2215.516]=>1
+proton + O16 --> deuteron + O15[2232.660]=>1
+proton + O16 --> deuteron + O15[2235.836]=>1
+proton + O16 --> deuteron + O15[2242.836]=>1
+proton + O16 --> deuteron + O15[2252.061]=>1
+proton + O16 --> deuteron + O15[2255.114]=>1
+proton + O16 --> deuteron + O15[226.180]=>1
+proton + O16 --> deuteron + O15[2264.198]=>1
+proton + O16 --> deuteron + O15[2265.406]=>1
+proton + O16 --> deuteron + O15[2267.616]=>1
+proton + O16 --> deuteron + O15[2269.734]=>1
+proton + O16 --> deuteron + O15[2272.313]=>1
+proton + O16 --> deuteron + O15[2273.355]=>1
+proton + O16 --> deuteron + O15[2276.727]=>1
+proton + O16 --> deuteron + O15[228.659]=>1
+proton + O16 --> deuteron + O15[2281.124]=>1
+proton + O16 --> deuteron + O15[2282.793]=>1
+proton + O16 --> deuteron + O15[2284.483]=>1
+proton + O16 --> deuteron + O15[2287.504]=>1
+proton + O16 --> deuteron + O15[2298.572]=>1
+proton + O16 --> deuteron + O15[2300.326]=>1
+proton + O16 --> deuteron + O15[2304.429]=>1
+proton + O16 --> deuteron + O15[2305.009]=>1
+proton + O16 --> deuteron + O15[2312.213]=>1
+proton + O16 --> deuteron + O15[2312.749]=>1
+proton + O16 --> deuteron + O15[2321.089]=>1
+proton + O16 --> deuteron + O15[2323.975]=>1
+proton + O16 --> deuteron + O15[2327.754]=>1
+proton + O16 --> deuteron + O15[2329.905]=>1
+proton + O16 --> deuteron + O15[2332.653]=>1
+proton + O16 --> deuteron + O15[2333.531]=>1
+proton + O16 --> deuteron + O15[2343.511]=>1
+proton + O16 --> deuteron + O15[2346.313]=>1
+proton + O16 --> deuteron + O15[2348.841]=>1
+proton + O16 --> deuteron + O15[2354.913]=>1
+proton + O16 --> deuteron + O15[2359.172]=>1
+proton + O16 --> deuteron + O15[2361.416]=>1
+proton + O16 --> deuteron + O15[2367.447]=>1
+proton + O16 --> deuteron + O15[2368.806]=>1
+proton + O16 --> deuteron + O15[2371.340]=>1
+proton + O16 --> deuteron + O15[2372.365]=>1
+proton + O16 --> deuteron + O15[2372.602]=>1
+proton + O16 --> deuteron + O15[2376.076]=>1
+proton + O16 --> deuteron + O15[2377.206]=>1
+proton + O16 --> deuteron + O15[2390.604]=>1
+proton + O16 --> deuteron + O15[2391.800]=>1
+proton + O16 --> deuteron + O15[2392.563]=>1
+proton + O16 --> deuteron + O15[2394.957]=>1
+proton + O16 --> deuteron + O15[2395.551]=>1
+proton + O16 --> deuteron + O15[2399.559]=>1
+proton + O16 --> deuteron + O15[24.927]=>1
+proton + O16 --> deuteron + O15[2401.285]=>1
+proton + O16 --> deuteron + O15[2407.444]=>1
+proton + O16 --> deuteron + O15[2413.995]=>1
+proton + O16 --> deuteron + O15[2416.176]=>1
+proton + O16 --> deuteron + O15[2418.189]=>1
+proton + O16 --> deuteron + O15[242.904]=>1
+proton + O16 --> deuteron + O15[2430.677]=>1
+proton + O16 --> deuteron + O15[2432.501]=>1
+proton + O16 --> deuteron + O15[2437.510]=>1
+proton + O16 --> deuteron + O15[2437.809]=>1
+proton + O16 --> deuteron + O15[2439.901]=>1
+proton + O16 --> deuteron + O15[2441.700]=>1
+proton + O16 --> deuteron + O15[2444.577]=>1
+proton + O16 --> deuteron + O15[2449.356]=>1
+proton + O16 --> deuteron + O15[2453.587]=>1
+proton + O16 --> deuteron + O15[2464.892]=>1
+proton + O16 --> deuteron + O15[2467.067]=>1
+proton + O16 --> deuteron + O15[2467.104]=>1
+proton + O16 --> deuteron + O15[2473.036]=>1
+proton + O16 --> deuteron + O15[2475.468]=>1
+proton + O16 --> deuteron + O15[2476.285]=>1
+proton + O16 --> deuteron + O15[2477.428]=>1
+proton + O16 --> deuteron + O15[248.096]=>1
+proton + O16 --> deuteron + O15[2483.715]=>1
+proton + O16 --> deuteron + O15[2489.462]=>1
+proton + O16 --> deuteron + O15[2491.328]=>1
+proton + O16 --> deuteron + O15[2504.643]=>1
+proton + O16 --> deuteron + O15[2506.915]=>1
+proton + O16 --> deuteron + O15[2515.063]=>1
+proton + O16 --> deuteron + O15[2517.663]=>1
+proton + O16 --> deuteron + O15[2521.165]=>1
+proton + O16 --> deuteron + O15[2526.179]=>1
+proton + O16 --> deuteron + O15[2526.480]=>1
+proton + O16 --> deuteron + O15[253.833]=>1
+proton + O16 --> deuteron + O15[2538.129]=>1
+proton + O16 --> deuteron + O15[2540.337]=>1
+proton + O16 --> deuteron + O15[2542.858]=>1
+proton + O16 --> deuteron + O15[2544.761]=>1
+proton + O16 --> deuteron + O15[2549.937]=>1
+proton + O16 --> deuteron + O15[2551.857]=>1
+proton + O16 --> deuteron + O15[2552.531]=>1
+proton + O16 --> deuteron + O15[2558.711]=>1
+proton + O16 --> deuteron + O15[257.321]=>1
+proton + O16 --> deuteron + O15[257.908]=>1
+proton + O16 --> deuteron + O15[2570.370]=>1
+proton + O16 --> deuteron + O15[2572.872]=>1
+proton + O16 --> deuteron + O15[2586.325]=>1
+proton + O16 --> deuteron + O15[2586.641]=>1
+proton + O16 --> deuteron + O15[2588.214]=>1
+proton + O16 --> deuteron + O15[26.495]=>1
+proton + O16 --> deuteron + O15[263.165]=>1
+proton + O16 --> deuteron + O15[264.677]=>1
+proton + O16 --> deuteron + O15[278.604]=>1
+proton + O16 --> deuteron + O15[279.171]=>1
+proton + O16 --> deuteron + O15[289.525]=>1
+proton + O16 --> deuteron + O15[293.188]=>1
+proton + O16 --> deuteron + O15[296.302]=>1
+proton + O16 --> deuteron + O15[298.119]=>1
+proton + O16 --> deuteron + O15[298.775]=>1
+proton + O16 --> deuteron + O15[30.967]=>1
+proton + O16 --> deuteron + O15[303.457]=>1
+proton + O16 --> deuteron + O15[305.645]=>1
+proton + O16 --> deuteron + O15[306.228]=>1
+proton + O16 --> deuteron + O15[315.603]=>1
+proton + O16 --> deuteron + O15[317.403]=>1
+proton + O16 --> deuteron + O15[329.373]=>1
+proton + O16 --> deuteron + O15[333.293]=>1
+proton + O16 --> deuteron + O15[339.538]=>1
+proton + O16 --> deuteron + O15[352.129]=>1
+proton + O16 --> deuteron + O15[352.883]=>1
+proton + O16 --> deuteron + O15[353.254]=>1
+proton + O16 --> deuteron + O15[357.059]=>1
+proton + O16 --> deuteron + O15[36.353]=>1
+proton + O16 --> deuteron + O15[364.982]=>1
+proton + O16 --> deuteron + O15[365.106]=>1
+proton + O16 --> deuteron + O15[371.648]=>1
+proton + O16 --> deuteron + O15[374.023]=>1
+proton + O16 --> deuteron + O15[381.552]=>1
+proton + O16 --> deuteron + O15[383.623]=>1
+proton + O16 --> deuteron + O15[385.363]=>1
+proton + O16 --> deuteron + O15[386.874]=>1
+proton + O16 --> deuteron + O15[401.867]=>1
+proton + O16 --> deuteron + O15[402.360]=>1
+proton + O16 --> deuteron + O15[406.418]=>1
+proton + O16 --> deuteron + O15[411.326]=>1
+proton + O16 --> deuteron + O15[414.980]=>1
+proton + O16 --> deuteron + O15[415.806]=>1
+proton + O16 --> deuteron + O15[418.200]=>1
+proton + O16 --> deuteron + O15[418.895]=>1
+proton + O16 --> deuteron + O15[421.561]=>1
+proton + O16 --> deuteron + O15[423.998]=>1
+proton + O16 --> deuteron + O15[425.234]=>1
+proton + O16 --> deuteron + O15[425.241]=>1
+proton + O16 --> deuteron + O15[427.189]=>1
+proton + O16 --> deuteron + O15[431.378]=>1
+proton + O16 --> deuteron + O15[431.840]=>1
+proton + O16 --> deuteron + O15[432.369]=>1
+proton + O16 --> deuteron + O15[433.317]=>1
+proton + O16 --> deuteron + O15[436.861]=>1
+proton + O16 --> deuteron + O15[446.174]=>1
+proton + O16 --> deuteron + O15[450.119]=>1
+proton + O16 --> deuteron + O15[451.301]=>1
+proton + O16 --> deuteron + O15[451.442]=>1
+proton + O16 --> deuteron + O15[455.169]=>1
+proton + O16 --> deuteron + O15[458.505]=>1
+proton + O16 --> deuteron + O15[458.579]=>1
+proton + O16 --> deuteron + O15[459.829]=>1
+proton + O16 --> deuteron + O15[46.340]=>1
+proton + O16 --> deuteron + O15[461.151]=>1
+proton + O16 --> deuteron + O15[464.198]=>1
+proton + O16 --> deuteron + O15[467.470]=>1
+proton + O16 --> deuteron + O15[472.528]=>1
+proton + O16 --> deuteron + O15[474.890]=>1
+proton + O16 --> deuteron + O15[476.313]=>1
+proton + O16 --> deuteron + O15[48.405]=>1
+proton + O16 --> deuteron + O15[480.020]=>1
+proton + O16 --> deuteron + O15[481.463]=>1
+proton + O16 --> deuteron + O15[485.627]=>1
+proton + O16 --> deuteron + O15[485.883]=>1
+proton + O16 --> deuteron + O15[489.006]=>1
+proton + O16 --> deuteron + O15[493.605]=>1
+proton + O16 --> deuteron + O15[496.738]=>1
+proton + O16 --> deuteron + O15[499.571]=>1
+proton + O16 --> deuteron + O15[502.585]=>1
+proton + O16 --> deuteron + O15[503.827]=>1
+proton + O16 --> deuteron + O15[504.428]=>1
+proton + O16 --> deuteron + O15[506.781]=>1
+proton + O16 --> deuteron + O15[514.179]=>1
+proton + O16 --> deuteron + O15[525.716]=>1
+proton + O16 --> deuteron + O15[530.495]=>1
+proton + O16 --> deuteron + O15[531.198]=>1
+proton + O16 --> deuteron + O15[534.368]=>1
+proton + O16 --> deuteron + O15[538.513]=>1
+proton + O16 --> deuteron + O15[540.250]=>1
+proton + O16 --> deuteron + O15[543.192]=>1
+proton + O16 --> deuteron + O15[543.564]=>1
+proton + O16 --> deuteron + O15[545.124]=>1
+proton + O16 --> deuteron + O15[551.035]=>1
+proton + O16 --> deuteron + O15[551.050]=>1
+proton + O16 --> deuteron + O15[554.682]=>1
+proton + O16 --> deuteron + O15[562.364]=>1
+proton + O16 --> deuteron + O15[563.277]=>1
+proton + O16 --> deuteron + O15[568.009]=>1
+proton + O16 --> deuteron + O15[568.310]=>1
+proton + O16 --> deuteron + O15[571.119]=>1
+proton + O16 --> deuteron + O15[572.359]=>1
+proton + O16 --> deuteron + O15[575.404]=>1
+proton + O16 --> deuteron + O15[583.635]=>1
+proton + O16 --> deuteron + O15[583.773]=>1
+proton + O16 --> deuteron + O15[586.848]=>1
+proton + O16 --> deuteron + O15[589.648]=>1
+proton + O16 --> deuteron + O15[59.805]=>1
+proton + O16 --> deuteron + O15[590.531]=>1
+proton + O16 --> deuteron + O15[594.175]=>1
+proton + O16 --> deuteron + O15[594.882]=>1
+proton + O16 --> deuteron + O15[597.404]=>1
+proton + O16 --> deuteron + O15[599.010]=>1
+proton + O16 --> deuteron + O15[601.236]=>1
+proton + O16 --> deuteron + O15[601.887]=>1
+proton + O16 --> deuteron + O15[602.000]=>1
+proton + O16 --> deuteron + O15[621.743]=>1
+proton + O16 --> deuteron + O15[624.661]=>1
+proton + O16 --> deuteron + O15[628.394]=>1
+proton + O16 --> deuteron + O15[630.193]=>1
+proton + O16 --> deuteron + O15[633.697]=>1
+proton + O16 --> deuteron + O15[633.828]=>1
+proton + O16 --> deuteron + O15[641.909]=>1
+proton + O16 --> deuteron + O15[642.752]=>1
+proton + O16 --> deuteron + O15[650.077]=>1
+proton + O16 --> deuteron + O15[673.337]=>1
+proton + O16 --> deuteron + O15[674.044]=>1
+proton + O16 --> deuteron + O15[677.134]=>1
+proton + O16 --> deuteron + O15[683.256]=>1
+proton + O16 --> deuteron + O15[686.138]=>1
+proton + O16 --> deuteron + O15[691.427]=>1
+proton + O16 --> deuteron + O15[694.488]=>1
+proton + O16 --> deuteron + O15[694.760]=>1
+proton + O16 --> deuteron + O15[695.778]=>1
+proton + O16 --> deuteron + O15[701.539]=>1
+proton + O16 --> deuteron + O15[702.914]=>1
+proton + O16 --> deuteron + O15[705.455]=>1
+proton + O16 --> deuteron + O15[712.114]=>1
+proton + O16 --> deuteron + O15[713.321]=>1
+proton + O16 --> deuteron + O15[714.753]=>1
+proton + O16 --> deuteron + O15[715.426]=>1
+proton + O16 --> deuteron + O15[725.583]=>1
+proton + O16 --> deuteron + O15[728.055]=>1
+proton + O16 --> deuteron + O15[735.920]=>1
+proton + O16 --> deuteron + O15[745.817]=>1
+proton + O16 --> deuteron + O15[747.461]=>1
+proton + O16 --> deuteron + O15[747.991]=>1
+proton + O16 --> deuteron + O15[750.802]=>1
+proton + O16 --> deuteron + O15[752.053]=>1
+proton + O16 --> deuteron + O15[753.491]=>1
+proton + O16 --> deuteron + O15[756.627]=>1
+proton + O16 --> deuteron + O15[760.824]=>1
+proton + O16 --> deuteron + O15[761.147]=>1
+proton + O16 --> deuteron + O15[766.299]=>1
+proton + O16 --> deuteron + O15[773.686]=>1
+proton + O16 --> deuteron + O15[781.986]=>1
+proton + O16 --> deuteron + O15[785.186]=>1
+proton + O16 --> deuteron + O15[791.327]=>1
+proton + O16 --> deuteron + O15[797.273]=>1
+proton + O16 --> deuteron + O15[80.815]=>1
+proton + O16 --> deuteron + O15[800.141]=>1
+proton + O16 --> deuteron + O15[803.255]=>1
+proton + O16 --> deuteron + O15[804.934]=>1
+proton + O16 --> deuteron + O15[808.753]=>1
+proton + O16 --> deuteron + O15[811.713]=>1
+proton + O16 --> deuteron + O15[813.389]=>1
+proton + O16 --> deuteron + O15[814.439]=>1
+proton + O16 --> deuteron + O15[814.659]=>1
+proton + O16 --> deuteron + O15[82.947]=>1
+proton + O16 --> deuteron + O15[823.935]=>1
+proton + O16 --> deuteron + O15[825.898]=>1
+proton + O16 --> deuteron + O15[83.681]=>1
+proton + O16 --> deuteron + O15[83.897]=>1
+proton + O16 --> deuteron + O15[830.548]=>1
+proton + O16 --> deuteron + O15[832.932]=>1
+proton + O16 --> deuteron + O15[837.249]=>1
+proton + O16 --> deuteron + O15[841.533]=>1
+proton + O16 --> deuteron + O15[842.348]=>1
+proton + O16 --> deuteron + O15[845.833]=>1
+proton + O16 --> deuteron + O15[846.294]=>1
+proton + O16 --> deuteron + O15[862.373]=>1
+proton + O16 --> deuteron + O15[867.088]=>1
+proton + O16 --> deuteron + O15[867.786]=>1
+proton + O16 --> deuteron + O15[867.998]=>1
+proton + O16 --> deuteron + O15[868.347]=>1
+proton + O16 --> deuteron + O15[872.696]=>1
+proton + O16 --> deuteron + O15[873.203]=>1
+proton + O16 --> deuteron + O15[874.331]=>1
+proton + O16 --> deuteron + O15[876.248]=>1
+proton + O16 --> deuteron + O15[877.949]=>1
+proton + O16 --> deuteron + O15[878.185]=>1
+proton + O16 --> deuteron + O15[879.256]=>1
+proton + O16 --> deuteron + O15[879.927]=>1
+proton + O16 --> deuteron + O15[890.319]=>1
+proton + O16 --> deuteron + O15[890.363]=>1
+proton + O16 --> deuteron + O15[890.541]=>1
+proton + O16 --> deuteron + O15[892.389]=>1
+proton + O16 --> deuteron + O15[897.160]=>1
+proton + O16 --> deuteron + O15[904.713]=>1
+proton + O16 --> deuteron + O15[912.438]=>1
+proton + O16 --> deuteron + O15[913.876]=>1
+proton + O16 --> deuteron + O15[924.089]=>1
+proton + O16 --> deuteron + O15[925.551]=>1
+proton + O16 --> deuteron + O15[925.698]=>1
+proton + O16 --> deuteron + O15[934.182]=>1
+proton + O16 --> deuteron + O15[945.115]=>1
+proton + O16 --> deuteron + O15[948.949]=>1
+proton + O16 --> deuteron + O15[95.246]=>1
+proton + O16 --> deuteron + O15[950.425]=>1
+proton + O16 --> deuteron + O15[954.881]=>1
+proton + O16 --> deuteron + O15[955.709]=>1
+proton + O16 --> deuteron + O15[971.465]=>1
+proton + O16 --> deuteron + O15[972.763]=>1
+proton + O16 --> deuteron + O15[973.261]=>1
+proton + O16 --> deuteron + O15[979.799]=>1
+proton + O16 --> deuteron + O15[98.368]=>1
+proton + O16 --> deuteron + O15[980.101]=>1
+proton + O16 --> deuteron + O15[980.330]=>1
+proton + O16 --> deuteron + O15[996.793]=>1
+proton + O16 --> neutron + F16[30.566]=>1
+proton + O16 --> neutron + He3 + N13=>17
+proton + O16 --> neutron + N gamma or e- + F16=>35
+proton + O16 --> neutron + alpha + N gamma or e- + N12=>9
+proton + O16 --> neutron + alpha + N12[397.103]=>1
+proton + O16 --> proton + 4 alpha=>2249
+proton + O16 --> proton + 4 alpha + N gamma or e-=>1
+proton + O16 --> proton + B10 + Li6=>7
+proton + O16 --> proton + He3 + C13=>100
+proton + O16 --> proton + He3 + N gamma or e- + C13=>52
+proton + O16 --> proton + O16 + N gamma or e-=>331
+proton + O16 --> proton + O16[1035.050]=>1
+proton + O16 --> proton + O16[1106.919]=>1
+proton + O16 --> proton + O16[1129.077]=>1
+proton + O16 --> proton + O16[1160.034]=>1
+proton + O16 --> proton + O16[1161.912]=>1
+proton + O16 --> proton + O16[1198.221]=>1
+proton + O16 --> proton + O16[135.289]=>1
+proton + O16 --> proton + O16[1365.485]=>1
+proton + O16 --> proton + O16[1462.777]=>1
+proton + O16 --> proton + O16[1475.500]=>1
+proton + O16 --> proton + O16[1510.171]=>1
+proton + O16 --> proton + O16[1532.167]=>1
+proton + O16 --> proton + O16[1542.467]=>1
+proton + O16 --> proton + O16[1581.793]=>1
+proton + O16 --> proton + O16[1598.904]=>1
+proton + O16 --> proton + O16[1691.546]=>1
+proton + O16 --> proton + O16[1707.249]=>1
+proton + O16 --> proton + O16[1709.300]=>1
+proton + O16 --> proton + O16[1728.484]=>1
+proton + O16 --> proton + O16[1775.173]=>1
+proton + O16 --> proton + O16[1775.226]=>1
+proton + O16 --> proton + O16[1846.906]=>1
+proton + O16 --> proton + O16[1865.225]=>1
+proton + O16 --> proton + O16[1895.282]=>1
+proton + O16 --> proton + O16[1937.450]=>1
+proton + O16 --> proton + O16[1972.799]=>1
+proton + O16 --> proton + O16[1990.541]=>1
+proton + O16 --> proton + O16[2042.984]=>1
+proton + O16 --> proton + O16[2050.579]=>1
+proton + O16 --> proton + O16[2052.107]=>1
+proton + O16 --> proton + O16[2100.080]=>1
+proton + O16 --> proton + O16[2157.600]=>1
+proton + O16 --> proton + O16[218.049]=>1
+proton + O16 --> proton + O16[226.179]=>1
+proton + O16 --> proton + O16[2280.752]=>1
+proton + O16 --> proton + O16[2350.458]=>1
+proton + O16 --> proton + O16[2425.131]=>1
+proton + O16 --> proton + O16[2452.681]=>1
+proton + O16 --> proton + O16[2459.804]=>1
+proton + O16 --> proton + O16[2475.980]=>1
+proton + O16 --> proton + O16[2495.985]=>1
+proton + O16 --> proton + O16[2530.692]=>1
+proton + O16 --> proton + O16[2540.155]=>1
+proton + O16 --> proton + O16[2542.330]=>1
+proton + O16 --> proton + O16[2547.243]=>1
+proton + O16 --> proton + O16[2550.382]=>1
+proton + O16 --> proton + O16[2551.276]=>1
+proton + O16 --> proton + O16[2576.109]=>1
+proton + O16 --> proton + O16[2577.412]=>1
+proton + O16 --> proton + O16[2582.976]=>1
+proton + O16 --> proton + O16[2609.063]=>1
+proton + O16 --> proton + O16[2620.443]=>1
+proton + O16 --> proton + O16[2635.407]=>1
+proton + O16 --> proton + O16[2681.391]=>1
+proton + O16 --> proton + O16[2723.126]=>1
+proton + O16 --> proton + O16[2728.526]=>1
+proton + O16 --> proton + O16[2750.505]=>1
+proton + O16 --> proton + O16[2751.688]=>1
+proton + O16 --> proton + O16[2768.446]=>1
+proton + O16 --> proton + O16[2865.885]=>1
+proton + O16 --> proton + O16[2942.136]=>1
+proton + O16 --> proton + O16[2950.903]=>1
+proton + O16 --> proton + O16[2991.664]=>1
+proton + O16 --> proton + O16[3004.919]=>1
+proton + O16 --> proton + O16[33.480]=>1
+proton + O16 --> proton + O16[398.292]=>1
+proton + O16 --> proton + O16[494.314]=>1
+proton + O16 --> proton + O16[735.506]=>1
+proton + O16 --> proton + O16[765.071]=>1
+proton + O16 --> proton + O16[819.700]=>1
+proton + O16 --> proton + O16[841.741]=>1
+proton + O16 --> proton + O16[931.924]=>1
+proton + O16 --> proton + O16[932.146]=>1
+proton + O16 --> proton + O16[96.838]=>1
+proton + O16 --> proton + O16[998.213]=>1
+proton + O16 --> proton + alpha + C12=>442
+proton + O16 --> proton + alpha + N gamma or e- + C12=>549
+proton + O16 --> proton + deuteron + N gamma or e- + N14=>438
+proton + O16 --> proton + deuteron + N14=>593
+proton + O16 --> proton + deuteron + N14[1053.074]=>1
+proton + O16 --> proton + deuteron + N14[1077.486]=>1
+proton + O16 --> proton + deuteron + N14[192.435]=>1
+proton + O16 --> proton + deuteron + N14[237.199]=>1
+proton + O16 --> proton + deuteron + N14[302.259]=>1
+proton + O16 --> proton + deuteron + N14[337.707]=>1
+proton + O16 --> proton + deuteron + N14[547.112]=>1
+proton + O16 --> proton + deuteron + N14[552.034]=>1
+proton + O16 --> proton + deuteron + N14[628.807]=>1
+proton + O16 --> proton + deuteron + N14[642.180]=>1
+proton + O16 --> proton + deuteron + N14[729.466]=>1
+proton + O16 --> proton + deuteron + N14[729.768]=>1
+proton + O16 --> proton + deuteron + N14[865.350]=>1
+proton + O16 --> proton + deuteron + N14[915.052]=>1
+proton + O16 --> proton + neutron + He3 + C12=>23
+proton + O16 --> proton + neutron + N gamma or e- + O15=>544
+proton + O16 --> proton + neutron + O15=>16
+proton + O16 --> proton + neutron + O15[1036.236]=>1
+proton + O16 --> proton + neutron + O15[1039.678]=>1
+proton + O16 --> proton + neutron + O15[1066.522]=>1
+proton + O16 --> proton + neutron + O15[1208.443]=>1
+proton + O16 --> proton + neutron + O15[1291.730]=>1
+proton + O16 --> proton + neutron + O15[1343.377]=>1
+proton + O16 --> proton + neutron + O15[1359.311]=>1
+proton + O16 --> proton + neutron + O15[1370.103]=>1
+proton + O16 --> proton + neutron + O15[1380.472]=>1
+proton + O16 --> proton + neutron + O15[1425.701]=>1
+proton + O16 --> proton + neutron + O15[1541.964]=>1
+proton + O16 --> proton + neutron + O15[1574.299]=>1
+proton + O16 --> proton + neutron + O15[1694.486]=>1
+proton + O16 --> proton + neutron + O15[1747.159]=>1
+proton + O16 --> proton + neutron + O15[1888.842]=>1
+proton + O16 --> proton + neutron + O15[1896.560]=>1
+proton + O16 --> proton + neutron + O15[1904.751]=>1
+proton + O16 --> proton + neutron + O15[193.821]=>1
+proton + O16 --> proton + neutron + O15[2008.846]=>1
+proton + O16 --> proton + neutron + O15[2235.090]=>1
+proton + O16 --> proton + neutron + O15[2249.372]=>1
+proton + O16 --> proton + neutron + O15[2338.669]=>1
+proton + O16 --> proton + neutron + O15[2348.690]=>1
+proton + O16 --> proton + neutron + O15[2396.530]=>1
+proton + O16 --> proton + neutron + O15[2397.840]=>1
+proton + O16 --> proton + neutron + O15[2468.137]=>1
+proton + O16 --> proton + neutron + O15[2510.855]=>1
+proton + O16 --> proton + neutron + O15[2511.236]=>1
+proton + O16 --> proton + neutron + O15[277.276]=>1
+proton + O16 --> proton + neutron + O15[306.321]=>1
+proton + O16 --> proton + neutron + O15[35.229]=>1
+proton + O16 --> proton + neutron + O15[40.139]=>1
+proton + O16 --> proton + neutron + O15[429.792]=>1
+proton + O16 --> proton + neutron + O15[454.215]=>1
+proton + O16 --> proton + neutron + O15[519.024]=>1
+proton + O16 --> proton + neutron + O15[53.018]=>1
+proton + O16 --> proton + neutron + O15[549.747]=>1
+proton + O16 --> proton + neutron + O15[565.007]=>1
+proton + O16 --> proton + neutron + O15[580.866]=>1
+proton + O16 --> proton + neutron + O15[608.764]=>1
+proton + O16 --> proton + neutron + O15[662.763]=>1
+proton + O16 --> proton + neutron + O15[677.607]=>1
+proton + O16 --> proton + neutron + O15[85.846]=>1
+proton + O16 --> proton + neutron + O15[856.126]=>1
+proton + O16 --> proton + neutron + alpha + C11=>146
+proton + O16 --> proton + neutron + alpha + N gamma or e- + C11=>13
+proton + O16 --> proton + neutron + deuteron + N13=>1
+proton + O16 --> triton + N gamma or e- + O14=>2
+END REACTIONS
+
+
+START PARTICLES
+B10->113
+B11->311
+Be7->75
+C10->2
+C11->691
+C12->1100
+C13->243
+C14->148
+F16->35
+F16[30.566]->1
+He3->402
+Li6->172
+Li7->2
+N12->9
+N12[397.103]->1
+N13->25
+N14->1544
+N14[1053.074]->1
+N14[1077.486]->1
+N14[192.435]->1
+N14[237.199]->1
+N14[302.259]->1
+N14[337.707]->1
+N14[547.112]->1
+N14[552.034]->1
+N14[628.807]->1
+N14[642.180]->1
+N14[729.466]->1
+N14[729.768]->1
+N14[865.350]->1
+N14[915.052]->1
+N15->800
+O14->2
+O15->1559
+O15[1000.149]->1
+O15[1002.699]->1
+O15[1010.943]->1
+O15[1013.903]->1
+O15[1036.236]->1
+O15[1038.629]->1
+O15[1039.678]->1
+O15[1042.580]->1
+O15[1044.907]->1
+O15[1046.980]->1
+O15[1048.099]->1
+O15[1058.251]->1
+O15[1059.841]->1
+O15[106.746]->1
+O15[1060.536]->1
+O15[1066.280]->1
+O15[1066.522]->1
+O15[1068.138]->1
+O15[1077.163]->1
+O15[1080.628]->1
+O15[1081.147]->1
+O15[1085.929]->1
+O15[109.267]->1
+O15[1093.494]->1
+O15[1095.060]->1
+O15[1096.003]->1
+O15[1101.207]->1
+O15[1108.964]->1
+O15[1112.987]->1
+O15[1114.485]->1
+O15[1120.694]->1
+O15[1127.270]->1
+O15[1127.426]->1
+O15[1128.268]->1
+O15[1129.357]->1
+O15[1130.025]->1
+O15[1131.877]->1
+O15[1134.981]->1
+O15[1138.664]->1
+O15[1141.819]->1
+O15[1150.375]->1
+O15[1151.074]->1
+O15[1154.595]->1
+O15[1165.449]->1
+O15[1167.254]->1
+O15[1167.285]->1
+O15[1178.276]->1
+O15[1180.244]->1
+O15[1185.427]->1
+O15[1187.358]->1
+O15[1187.786]->1
+O15[1189.813]->1
+O15[1194.016]->1
+O15[12.394]->1
+O15[1201.837]->1
+O15[1208.443]->1
+O15[1217.575]->1
+O15[122.577]->1
+O15[1225.999]->1
+O15[1239.383]->1
+O15[1240.176]->1
+O15[1240.442]->1
+O15[1241.662]->1
+O15[1243.382]->1
+O15[1247.361]->1
+O15[1266.624]->1
+O15[1268.184]->1
+O15[1268.409]->1
+O15[1268.440]->1
+O15[1269.461]->1
+O15[1272.364]->1
+O15[1272.486]->1
+O15[1275.349]->1
+O15[1276.208]->1
+O15[1278.778]->1
+O15[1283.743]->1
+O15[129.560]->1
+O15[129.842]->1
+O15[1291.730]->1
+O15[1294.899]->1
+O15[1296.782]->1
+O15[1302.262]->1
+O15[1304.349]->1
+O15[1312.802]->1
+O15[1313.895]->1
+O15[1314.222]->1
+O15[1315.381]->1
+O15[1319.275]->1
+O15[132.955]->1
+O15[1329.390]->1
+O15[1340.216]->1
+O15[1343.014]->1
+O15[1343.377]->1
+O15[1345.654]->1
+O15[1345.877]->1
+O15[1352.237]->1
+O15[1354.825]->1
+O15[1355.119]->1
+O15[1359.311]->1
+O15[1359.665]->1
+O15[1362.778]->1
+O15[1363.568]->1
+O15[1370.103]->1
+O15[1371.441]->1
+O15[1371.621]->1
+O15[1373.781]->1
+O15[1376.541]->1
+O15[1380.472]->1
+O15[1380.880]->1
+O15[1381.317]->1
+O15[1381.724]->1
+O15[1383.251]->1
+O15[14.221]->1
+O15[1404.742]->1
+O15[1412.880]->1
+O15[1418.134]->1
+O15[1418.902]->1
+O15[1421.259]->1
+O15[1422.566]->1
+O15[1425.701]->1
+O15[1430.441]->1
+O15[1431.409]->1
+O15[1432.359]->1
+O15[1433.195]->1
+O15[1433.965]->1
+O15[1435.825]->1
+O15[1442.394]->1
+O15[1444.052]->1
+O15[1444.187]->1
+O15[1447.165]->1
+O15[1449.772]->1
+O15[1458.524]->1
+O15[1462.326]->1
+O15[1466.227]->1
+O15[1471.916]->1
+O15[1472.589]->1
+O15[1472.931]->1
+O15[1473.336]->1
+O15[148.396]->1
+O15[1482.895]->1
+O15[1484.747]->1
+O15[1485.858]->1
+O15[1497.799]->1
+O15[1498.927]->1
+O15[150.527]->1
+O15[1502.204]->1
+O15[1511.595]->1
+O15[1514.091]->1
+O15[152.713]->1
+O15[1520.200]->1
+O15[1524.665]->1
+O15[1534.972]->1
+O15[1540.789]->1
+O15[1541.964]->1
+O15[1542.598]->1
+O15[1543.307]->1
+O15[1548.452]->1
+O15[1561.385]->1
+O15[1564.226]->1
+O15[157.559]->1
+O15[1574.299]->1
+O15[1583.020]->1
+O15[1587.719]->1
+O15[1593.122]->1
+O15[1598.369]->1
+O15[16.675]->1
+O15[160.410]->1
+O15[1600.068]->1
+O15[1600.098]->1
+O15[1600.434]->1
+O15[1603.325]->1
+O15[1605.573]->1
+O15[1612.353]->1
+O15[1613.564]->1
+O15[1617.719]->1
+O15[1627.504]->1
+O15[1631.592]->1
+O15[1644.278]->1
+O15[1645.594]->1
+O15[1645.659]->1
+O15[1648.932]->1
+O15[1654.264]->1
+O15[1654.667]->1
+O15[1659.597]->1
+O15[1659.625]->1
+O15[166.482]->1
+O15[1661.489]->1
+O15[1666.587]->1
+O15[1666.703]->1
+O15[1668.209]->1
+O15[167.950]->1
+O15[1678.301]->1
+O15[1679.667]->1
+O15[1681.065]->1
+O15[1683.784]->1
+O15[1684.311]->1
+O15[1686.869]->1
+O15[1688.947]->2
+O15[1691.178]->1
+O15[1694.486]->1
+O15[1695.007]->1
+O15[170.036]->1
+O15[1702.125]->1
+O15[1708.364]->1
+O15[1713.606]->1
+O15[1714.866]->1
+O15[1716.416]->1
+O15[1728.211]->1
+O15[1730.551]->1
+O15[1730.937]->1
+O15[1733.442]->1
+O15[1736.145]->1
+O15[1741.827]->1
+O15[1743.026]->1
+O15[1747.159]->1
+O15[1750.830]->1
+O15[1750.860]->1
+O15[1752.009]->1
+O15[1753.973]->1
+O15[1754.335]->1
+O15[1756.937]->1
+O15[1757.778]->1
+O15[1758.148]->1
+O15[1767.460]->1
+O15[1767.754]->1
+O15[1769.023]->1
+O15[1775.434]->1
+O15[1781.195]->1
+O15[1782.387]->1
+O15[1782.858]->1
+O15[1785.841]->1
+O15[1789.797]->1
+O15[180.406]->1
+O15[1809.345]->1
+O15[1817.061]->1
+O15[183.891]->1
+O15[1835.439]->1
+O15[1835.757]->1
+O15[1838.416]->1
+O15[1839.896]->1
+O15[1839.954]->1
+O15[1841.025]->1
+O15[1841.400]->1
+O15[1860.769]->1
+O15[1864.456]->1
+O15[1866.605]->1
+O15[1871.763]->1
+O15[1879.877]->1
+O15[1881.920]->1
+O15[1882.925]->1
+O15[1884.306]->1
+O15[1886.384]->1
+O15[1887.251]->1
+O15[1888.842]->1
+O15[1888.901]->1
+O15[1891.603]->1
+O15[1894.540]->1
+O15[1896.560]->1
+O15[1897.694]->1
+O15[1901.382]->1
+O15[1904.751]->1
+O15[191.275]->1
+O15[1912.032]->1
+O15[1916.237]->1
+O15[1921.726]->1
+O15[1922.634]->1
+O15[1927.894]->1
+O15[1928.448]->1
+O15[193.546]->1
+O15[193.821]->1
+O15[1932.518]->1
+O15[1933.327]->1
+O15[1937.510]->1
+O15[1941.946]->1
+O15[1946.239]->1
+O15[1951.534]->1
+O15[1953.061]->1
+O15[1953.810]->1
+O15[196.652]->1
+O15[1968.093]->1
+O15[1969.451]->1
+O15[1977.665]->1
+O15[1979.826]->1
+O15[198.923]->1
+O15[1980.020]->1
+O15[1989.591]->1
+O15[1992.882]->1
+O15[1995.494]->1
+O15[1997.370]->1
+O15[2008.846]->1
+O15[2009.162]->1
+O15[2009.724]->1
+O15[201.988]->1
+O15[2011.032]->1
+O15[2014.373]->1
+O15[2014.593]->1
+O15[2017.098]->1
+O15[2017.742]->1
+O15[2017.987]->1
+O15[2018.654]->1
+O15[2020.969]->1
+O15[2026.062]->1
+O15[2027.010]->1
+O15[203.207]->1
+O15[203.613]->1
+O15[2032.590]->1
+O15[2034.116]->1
+O15[2035.061]->1
+O15[2042.016]->1
+O15[2046.943]->1
+O15[2047.811]->1
+O15[2051.317]->1
+O15[2053.249]->1
+O15[2055.769]->1
+O15[2058.717]->1
+O15[2060.648]->1
+O15[2061.397]->1
+O15[2067.344]->1
+O15[2073.433]->1
+O15[2081.046]->1
+O15[2092.272]->1
+O15[2092.392]->1
+O15[2093.071]->1
+O15[2095.573]->1
+O15[2098.141]->1
+O15[2098.894]->1
+O15[21.074]->1
+O15[2102.831]->1
+O15[2111.213]->1
+O15[2114.813]->1
+O15[2116.285]->1
+O15[2118.563]->1
+O15[2126.293]->1
+O15[2126.607]->1
+O15[2127.291]->1
+O15[213.234]->1
+O15[2131.233]->1
+O15[2132.841]->1
+O15[2133.727]->1
+O15[2137.462]->1
+O15[2138.655]->1
+O15[2139.909]->1
+O15[2140.932]->1
+O15[2154.185]->1
+O15[2154.649]->1
+O15[2180.503]->1
+O15[2185.404]->1
+O15[2191.510]->1
+O15[2194.132]->1
+O15[2196.640]->1
+O15[2199.238]->1
+O15[2206.698]->1
+O15[2207.472]->1
+O15[2211.767]->1
+O15[2215.516]->1
+O15[2232.660]->1
+O15[2235.090]->1
+O15[2235.836]->1
+O15[2242.836]->1
+O15[2249.372]->1
+O15[2252.061]->1
+O15[2255.114]->1
+O15[226.180]->1
+O15[2264.198]->1
+O15[2265.406]->1
+O15[2267.616]->1
+O15[2269.734]->1
+O15[2272.313]->1
+O15[2273.355]->1
+O15[2276.727]->1
+O15[228.659]->1
+O15[2281.124]->1
+O15[2282.793]->1
+O15[2284.483]->1
+O15[2287.504]->1
+O15[2298.572]->1
+O15[2300.326]->1
+O15[2304.429]->1
+O15[2305.009]->1
+O15[2312.213]->1
+O15[2312.749]->1
+O15[2321.089]->1
+O15[2323.975]->1
+O15[2327.754]->1
+O15[2329.905]->1
+O15[2332.653]->1
+O15[2333.531]->1
+O15[2338.669]->1
+O15[2343.511]->1
+O15[2346.313]->1
+O15[2348.690]->1
+O15[2348.841]->1
+O15[2354.913]->1
+O15[2359.172]->1
+O15[2361.416]->1
+O15[2367.447]->1
+O15[2368.806]->1
+O15[2371.340]->1
+O15[2372.365]->1
+O15[2372.602]->1
+O15[2376.076]->1
+O15[2377.206]->1
+O15[2390.604]->1
+O15[2391.800]->1
+O15[2392.563]->1
+O15[2394.957]->1
+O15[2395.551]->1
+O15[2396.530]->1
+O15[2397.840]->1
+O15[2399.559]->1
+O15[24.927]->1
+O15[2401.285]->1
+O15[2407.444]->1
+O15[2413.995]->1
+O15[2416.176]->1
+O15[2418.189]->1
+O15[242.904]->1
+O15[2430.677]->1
+O15[2432.501]->1
+O15[2437.510]->1
+O15[2437.809]->1
+O15[2439.901]->1
+O15[2441.700]->1
+O15[2444.577]->1
+O15[2449.356]->1
+O15[2453.587]->1
+O15[2464.892]->1
+O15[2467.067]->1
+O15[2467.104]->1
+O15[2468.137]->1
+O15[2473.036]->1
+O15[2475.468]->1
+O15[2476.285]->1
+O15[2477.428]->1
+O15[248.096]->1
+O15[2483.715]->1
+O15[2489.462]->1
+O15[2491.328]->1
+O15[2504.643]->1
+O15[2506.915]->1
+O15[2510.855]->1
+O15[2511.236]->1
+O15[2515.063]->1
+O15[2517.663]->1
+O15[2521.165]->1
+O15[2526.179]->1
+O15[2526.480]->1
+O15[253.833]->1
+O15[2538.129]->1
+O15[2540.337]->1
+O15[2542.858]->1
+O15[2544.761]->1
+O15[2549.937]->1
+O15[2551.857]->1
+O15[2552.531]->1
+O15[2558.711]->1
+O15[257.321]->1
+O15[257.908]->1
+O15[2570.370]->1
+O15[2572.872]->1
+O15[2586.325]->1
+O15[2586.641]->1
+O15[2588.214]->1
+O15[26.495]->1
+O15[263.165]->1
+O15[264.677]->1
+O15[277.276]->1
+O15[278.604]->1
+O15[279.171]->1
+O15[289.525]->1
+O15[293.188]->1
+O15[296.302]->1
+O15[298.119]->1
+O15[298.775]->1
+O15[30.967]->1
+O15[303.457]->1
+O15[305.645]->1
+O15[306.228]->1
+O15[306.321]->1
+O15[315.603]->1
+O15[317.403]->1
+O15[329.373]->1
+O15[333.293]->1
+O15[339.538]->1
+O15[35.229]->1
+O15[352.129]->1
+O15[352.883]->1
+O15[353.254]->1
+O15[357.059]->1
+O15[36.353]->1
+O15[364.982]->1
+O15[365.106]->1
+O15[371.648]->1
+O15[374.023]->1
+O15[381.552]->1
+O15[383.623]->1
+O15[385.363]->1
+O15[386.874]->1
+O15[40.139]->1
+O15[401.867]->1
+O15[402.360]->1
+O15[406.418]->1
+O15[411.326]->1
+O15[414.980]->1
+O15[415.806]->1
+O15[418.200]->1
+O15[418.895]->1
+O15[421.561]->1
+O15[423.998]->1
+O15[425.234]->1
+O15[425.241]->1
+O15[427.189]->1
+O15[429.792]->1
+O15[431.378]->1
+O15[431.840]->1
+O15[432.369]->1
+O15[433.317]->1
+O15[436.861]->1
+O15[446.174]->1
+O15[450.119]->1
+O15[451.301]->1
+O15[451.442]->1
+O15[454.215]->1
+O15[455.169]->1
+O15[458.505]->1
+O15[458.579]->1
+O15[459.829]->1
+O15[46.340]->1
+O15[461.151]->1
+O15[464.198]->1
+O15[467.470]->1
+O15[472.528]->1
+O15[474.890]->1
+O15[476.313]->1
+O15[48.405]->1
+O15[480.020]->1
+O15[481.463]->1
+O15[485.627]->1
+O15[485.883]->1
+O15[489.006]->1
+O15[493.605]->1
+O15[496.738]->1
+O15[499.571]->1
+O15[502.585]->1
+O15[503.827]->1
+O15[504.428]->1
+O15[506.781]->1
+O15[514.179]->1
+O15[519.024]->1
+O15[525.716]->1
+O15[53.018]->1
+O15[530.495]->1
+O15[531.198]->1
+O15[534.368]->1
+O15[538.513]->1
+O15[540.250]->1
+O15[543.192]->1
+O15[543.564]->1
+O15[545.124]->1
+O15[549.747]->1
+O15[551.035]->1
+O15[551.050]->1
+O15[554.682]->1
+O15[562.364]->1
+O15[563.277]->1
+O15[565.007]->1
+O15[568.009]->1
+O15[568.310]->1
+O15[571.119]->1
+O15[572.359]->1
+O15[575.404]->1
+O15[580.866]->1
+O15[583.635]->1
+O15[583.773]->1
+O15[586.848]->1
+O15[589.648]->1
+O15[59.805]->1
+O15[590.531]->1
+O15[594.175]->1
+O15[594.882]->1
+O15[597.404]->1
+O15[599.010]->1
+O15[601.236]->1
+O15[601.887]->1
+O15[602.000]->1
+O15[608.764]->1
+O15[621.743]->1
+O15[624.661]->1
+O15[628.394]->1
+O15[630.193]->1
+O15[633.697]->1
+O15[633.828]->1
+O15[641.909]->1
+O15[642.752]->1
+O15[650.077]->1
+O15[662.763]->1
+O15[673.337]->1
+O15[674.044]->1
+O15[677.134]->1
+O15[677.607]->1
+O15[683.256]->1
+O15[686.138]->1
+O15[691.427]->1
+O15[694.488]->1
+O15[694.760]->1
+O15[695.778]->1
+O15[701.539]->1
+O15[702.914]->1
+O15[705.455]->1
+O15[712.114]->1
+O15[713.321]->1
+O15[714.753]->1
+O15[715.426]->1
+O15[725.583]->1
+O15[728.055]->1
+O15[735.920]->1
+O15[745.817]->1
+O15[747.461]->1
+O15[747.991]->1
+O15[750.802]->1
+O15[752.053]->1
+O15[753.491]->1
+O15[756.627]->1
+O15[760.824]->1
+O15[761.147]->1
+O15[766.299]->1
+O15[773.686]->1
+O15[781.986]->1
+O15[785.186]->1
+O15[791.327]->1
+O15[797.273]->1
+O15[80.815]->1
+O15[800.141]->1
+O15[803.255]->1
+O15[804.934]->1
+O15[808.753]->1
+O15[811.713]->1
+O15[813.389]->1
+O15[814.439]->1
+O15[814.659]->1
+O15[82.947]->1
+O15[823.935]->1
+O15[825.898]->1
+O15[83.681]->1
+O15[83.897]->1
+O15[830.548]->1
+O15[832.932]->1
+O15[837.249]->1
+O15[841.533]->1
+O15[842.348]->1
+O15[845.833]->1
+O15[846.294]->1
+O15[85.846]->1
+O15[856.126]->1
+O15[862.373]->1
+O15[867.088]->1
+O15[867.786]->1
+O15[867.998]->1
+O15[868.347]->1
+O15[872.696]->1
+O15[873.203]->1
+O15[874.331]->1
+O15[876.248]->1
+O15[877.949]->1
+O15[878.185]->1
+O15[879.256]->1
+O15[879.927]->1
+O15[890.319]->1
+O15[890.363]->1
+O15[890.541]->1
+O15[892.389]->1
+O15[897.160]->1
+O15[904.713]->1
+O15[912.438]->1
+O15[913.876]->1
+O15[924.089]->1
+O15[925.551]->1
+O15[925.698]->1
+O15[934.182]->1
+O15[945.115]->1
+O15[948.949]->1
+O15[95.246]->1
+O15[950.425]->1
+O15[954.881]->1
+O15[955.709]->1
+O15[971.465]->1
+O15[972.763]->1
+O15[973.261]->1
+O15[979.799]->1
+O15[98.368]->1
+O15[980.101]->1
+O15[980.330]->1
+O15[996.793]->1
+O16->331
+O16[1035.050]->1
+O16[1106.919]->1
+O16[1129.077]->1
+O16[1160.034]->1
+O16[1161.912]->1
+O16[1198.221]->1
+O16[135.289]->1
+O16[1365.485]->1
+O16[1462.777]->1
+O16[1475.500]->1
+O16[1510.171]->1
+O16[1532.167]->1
+O16[1542.467]->1
+O16[1581.793]->1
+O16[1598.904]->1
+O16[1691.546]->1
+O16[1707.249]->1
+O16[1709.300]->1
+O16[1728.484]->1
+O16[1775.173]->1
+O16[1775.226]->1
+O16[1846.906]->1
+O16[1865.225]->1
+O16[1895.282]->1
+O16[1937.450]->1
+O16[1972.799]->1
+O16[1990.541]->1
+O16[2042.984]->1
+O16[2050.579]->1
+O16[2052.107]->1
+O16[2100.080]->1
+O16[2157.600]->1
+O16[218.049]->1
+O16[226.179]->1
+O16[2280.752]->1
+O16[2350.458]->1
+O16[2425.131]->1
+O16[2452.681]->1
+O16[2459.804]->1
+O16[2475.980]->1
+O16[2495.985]->1
+O16[2530.692]->1
+O16[2540.155]->1
+O16[2542.330]->1
+O16[2547.243]->1
+O16[2550.382]->1
+O16[2551.276]->1
+O16[2576.109]->1
+O16[2577.412]->1
+O16[2582.976]->1
+O16[2609.063]->1
+O16[2620.443]->1
+O16[2635.407]->1
+O16[2681.391]->1
+O16[2723.126]->1
+O16[2728.526]->1
+O16[2750.505]->1
+O16[2751.688]->1
+O16[2768.446]->1
+O16[2865.885]->1
+O16[2942.136]->1
+O16[2950.903]->1
+O16[2991.664]->1
+O16[3004.919]->1
+O16[33.480]->1
+O16[398.292]->1
+O16[494.314]->1
+O16[735.506]->1
+O16[765.071]->1
+O16[819.700]->1
+O16[841.741]->1
+O16[931.924]->1
+O16[932.146]->1
+O16[96.838]->1
+O16[998.213]->1
+alpha->11025
+deuteron->3302
+gamma->5124
+neutron->1321
+proton->9431
+triton->4

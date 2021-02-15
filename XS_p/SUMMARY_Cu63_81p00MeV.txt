@@ -1,0 +1,341 @@
+EVENTS->10000
+TARGET->Cu63
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Cu63 --> 2 proton + 2 neutron + deuteron + Co58[2.312]=>1
+proton + Cu63 --> 2 proton + Ni62[102.273]=>1
+proton + Cu63 --> 2 proton + Ni62[11.159]=>1
+proton + Cu63 --> 2 proton + Ni62[126.173]=>1
+proton + Cu63 --> 2 proton + Ni62[15.653]=>1
+proton + Cu63 --> 2 proton + Ni62[178.688]=>1
+proton + Cu63 --> 2 proton + Ni62[216.745]=>1
+proton + Cu63 --> 2 proton + Ni62[407.177]=>1
+proton + Cu63 --> 2 proton + Ni62[506.998]=>1
+proton + Cu63 --> 2 proton + Ni62[54.077]=>1
+proton + Cu63 --> 2 proton + Ni62[75.605]=>1
+proton + Cu63 --> 2 proton + Ni62[83.657]=>1
+proton + Cu63 --> 2 proton + Ni62[83.720]=>1
+proton + Cu63 --> 2 proton + Ni62[85.268]=>1
+proton + Cu63 --> 3 proton + 3 neutron + Co58[8.555]=>1
+proton + Cu63 --> N gamma or e- + 2 alpha + 2 deuteron + Cr52=>1
+proton + Cu63 --> N gamma or e- + 2 alpha + deuteron + triton + Cr51=>1
+proton + Cu63 --> N gamma or e- + 2 deuteron + Ni60=>1
+proton + Cu63 --> N gamma or e- + 2 neutron + 2 alpha + Fe54=>47
+proton + Cu63 --> N gamma or e- + 2 neutron + 2 alpha + deuteron + Mn52=>3
+proton + Cu63 --> N gamma or e- + 2 neutron + 2 alpha + deuteron + Mn52[377.749]=>6
+proton + Cu63 --> N gamma or e- + 2 neutron + 2 alpha + triton + Mn51=>1
+proton + Cu63 --> N gamma or e- + 2 neutron + 2 deuteron + Ni58=>12
+proton + Cu63 --> N gamma or e- + 2 neutron + 3 alpha + Cr50=>9
+proton + Cu63 --> N gamma or e- + 2 neutron + C13 + Cr49=>1
+proton + Cu63 --> N gamma or e- + 2 neutron + He3 + Ni59=>24
+proton + Cu63 --> N gamma or e- + 2 neutron + Li6 + Co56=>2
+proton + Cu63 --> N gamma or e- + 2 neutron + Zn62=>98
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + 2 deuteron + Fe54=>5
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + Cr51 + Be7=>1
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + He3 + Fe55=>15
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + Mn52 + Li6=>3
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + Ni58=>197
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + deuteron + Co56=>62
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + triton + Co55=>6
+proton + Cu63 --> N gamma or e- + 2 neutron + deuteron + Cu60=>35
+proton + Cu63 --> N gamma or e- + 2 neutron + deuteron + Fe54 + Li6=>1
+proton + Cu63 --> N gamma or e- + 2 neutron + deuteron + He3 + Co57=>3
+proton + Cu63 --> N gamma or e- + 2 neutron + deuteron + Mn53 + Be7=>2
+proton + Cu63 --> N gamma or e- + 2 neutron + deuteron + triton + Ni57=>2
+proton + Cu63 --> N gamma or e- + 2 neutron + triton + Cu59=>1
+proton + Cu63 --> N gamma or e- + 2 proton + 2 alpha + Cr54=>3
+proton + Cu63 --> N gamma or e- + 2 proton + 2 alpha + deuteron + V52=>1
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + 2 alpha + Cr52=>18
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + He3 + Fe57=>1
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + Mn53 + Li7=>1
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + Mn54 + Li6=>1
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + Ni60=>1120
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + Ti48 + C12=>1
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + alpha + Fe56=>256
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + alpha + deuteron + Mn54=>2
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + alpha + triton + Mn53=>2
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + deuteron + Co58=>53
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + deuteron + Co58[24.950]=>37
+proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + triton + Co57=>32
+proton + Cu63 --> N gamma or e- + 2 proton + 3 neutron + Ni59=>598
+proton + Cu63 --> N gamma or e- + 2 proton + 3 neutron + alpha + Fe55=>99
+proton + Cu63 --> N gamma or e- + 2 proton + 3 neutron + deuteron + Co57=>18
+proton + Cu63 --> N gamma or e- + 2 proton + 4 neutron + Ni58=>83
+proton + Cu63 --> N gamma or e- + 2 proton + 4 neutron + alpha + Fe54=>2
+proton + Cu63 --> N gamma or e- + 2 proton + He3 + Fe59=>1
+proton + Cu63 --> N gamma or e- + 2 proton + Ni62=>224
+proton + Cu63 --> N gamma or e- + 2 proton + alpha + Fe58=>13
+proton + Cu63 --> N gamma or e- + 2 proton + deuteron + Co60=>4
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + 2 alpha + Cr53=>19
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + 2 deuteron + Fe57=>3
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + B11 + V50=>1
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + Be9 + Cr52=>1
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + Fe55 + He6=>2
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + He3 + Fe58=>4
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + Mn53 + Li8=>1
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + Ni61=>582
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + alpha + Fe57=>100
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + alpha + deuteron + Mn55=>11
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + alpha + triton + Mn54=>9
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + deuteron + Co59=>59
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + deuteron + triton + Fe56=>2
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + triton + Co58=>14
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + triton + Co58[24.950]=>9
+proton + Cu63 --> N gamma or e- + 2 proton + triton + Co59=>4
+proton + Cu63 --> N gamma or e- + 3 alpha + deuteron + V50=>1
+proton + Cu63 --> N gamma or e- + 3 neutron + 2 alpha + Fe53=>12
+proton + Cu63 --> N gamma or e- + 3 neutron + 2 deuteron + Ni57=>3
+proton + Cu63 --> N gamma or e- + 3 neutron + C12 + Cr49=>1
+proton + Cu63 --> N gamma or e- + 3 neutron + Fe54 + Be7=>1
+proton + Cu63 --> N gamma or e- + 3 neutron + He3 + Ni58=>17
+proton + Cu63 --> N gamma or e- + 3 neutron + Zn61=>10
+proton + Cu63 --> N gamma or e- + 3 neutron + alpha + He3 + Fe54=>6
+proton + Cu63 --> N gamma or e- + 3 neutron + alpha + Ni57=>103
+proton + Cu63 --> N gamma or e- + 3 neutron + alpha + deuteron + Co55=>18
+proton + Cu63 --> N gamma or e- + 3 neutron + deuteron + Cu59=>8
+proton + Cu63 --> N gamma or e- + 3 neutron + deuteron + He3 + Co56=>1
+proton + Cu63 --> N gamma or e- + 3 proton + 2 neutron + Co59=>116
+proton + Cu63 --> N gamma or e- + 3 proton + 2 neutron + alpha + Mn55=>12
+proton + Cu63 --> N gamma or e- + 3 proton + 3 neutron + Co58=>31
+proton + Cu63 --> N gamma or e- + 3 proton + 3 neutron + Co58[24.950]=>18
+proton + Cu63 --> N gamma or e- + 3 proton + 3 neutron + alpha + Mn54=>1
+proton + Cu63 --> N gamma or e- + 3 proton + 4 neutron + Co57=>1
+proton + Cu63 --> N gamma or e- + 3 proton + Co61=>9
+proton + Cu63 --> N gamma or e- + 3 proton + neutron + Co60=>49
+proton + Cu63 --> N gamma or e- + 3 proton + neutron + alpha + Mn56=>14
+proton + Cu63 --> N gamma or e- + 3 proton + neutron + deuteron + Fe58=>4
+proton + Cu63 --> N gamma or e- + 3 proton + neutron + triton + Fe57=>2
+proton + Cu63 --> N gamma or e- + 3 proton + triton + Fe58=>2
+proton + Cu63 --> N gamma or e- + 4 neutron + He3 + Ni57=>2
+proton + Cu63 --> N gamma or e- + 4 neutron + alpha + Ni56=>18
+proton + Cu63 --> N gamma or e- + 4 neutron + deuteron + Cu58=>1
+proton + Cu63 --> N gamma or e- + 4 proton + 2 neutron + Fe58=>4
+proton + Cu63 --> N gamma or e- + 4 proton + neutron + Fe59=>2
+proton + Cu63 --> N gamma or e- + alpha + 2 deuteron + Fe56=>1
+proton + Cu63 --> N gamma or e- + alpha + He3 + Fe57=>2
+proton + Cu63 --> N gamma or e- + alpha + deuteron + Co58[24.950]=>1
+proton + Cu63 --> N gamma or e- + alpha + triton + Co57=>1
+proton + Cu63 --> N gamma or e- + deuteron + Cu62=>3
+proton + Cu63 --> N gamma or e- + deuteron + Fe56 + Li6=>1
+proton + Cu63 --> N gamma or e- + neutron + 2 alpha + Fe55=>16
+proton + Cu63 --> N gamma or e- + neutron + 2 alpha + He3 + Cr52=>1
+proton + Cu63 --> N gamma or e- + neutron + 2 alpha + deuteron + Mn53=>31
+proton + Cu63 --> N gamma or e- + neutron + 2 alpha + triton + Mn52=>4
+proton + Cu63 --> N gamma or e- + neutron + 2 deuteron + Ni59=>13
+proton + Cu63 --> N gamma or e- + neutron + 3 alpha + Cr51=>2
+proton + Cu63 --> N gamma or e- + neutron + 4 alpha + Ti47=>2
+proton + Cu63 --> N gamma or e- + neutron + He3 + Ni60=>14
+proton + Cu63 --> N gamma or e- + neutron + Zn63=>124
+proton + Cu63 --> N gamma or e- + neutron + alpha + 2 deuteron + Fe55=>6
+proton + Cu63 --> N gamma or e- + neutron + alpha + He3 + Fe56=>8
+proton + Cu63 --> N gamma or e- + neutron + alpha + Ni59=>118
+proton + Cu63 --> N gamma or e- + neutron + alpha + deuteron + Co57=>22
+proton + Cu63 --> N gamma or e- + neutron + alpha + deuteron + He3 + Mn54=>3
+proton + Cu63 --> N gamma or e- + neutron + alpha + deuteron + Li7 + Cr50=>1
+proton + Cu63 --> N gamma or e- + neutron + alpha + deuteron + triton + Fe54=>5
+proton + Cu63 --> N gamma or e- + neutron + alpha + triton + Co56=>5
+proton + Cu63 --> N gamma or e- + neutron + deuteron + Cu61=>17
+proton + Cu63 --> N gamma or e- + neutron + deuteron + Fe55 + Li6=>2
+proton + Cu63 --> N gamma or e- + neutron + deuteron + triton + Ni58=>2
+proton + Cu63 --> N gamma or e- + neutron + triton + Cu60=>3
+proton + Cu63 --> N gamma or e- + neutron + triton + He3 + Co57=>1
+proton + Cu63 --> N gamma or e- + proton + 2 alpha + Mn55=>7
+proton + Cu63 --> N gamma or e- + proton + 2 alpha + Ti49 + Li6=>1
+proton + Cu63 --> N gamma or e- + proton + 2 alpha + deuteron + Cr53=>3
+proton + Cu63 --> N gamma or e- + proton + 2 alpha + triton + Cr52=>2
+proton + Cu63 --> N gamma or e- + proton + 2 deuteron + Co59=>1
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + 2 alpha + Mn53=>155
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + 2 alpha + deuteron + Cr51=>1
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + 2 deuteron + Co57=>7
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + 3 alpha + V49=>1
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + B10 + Cr51=>1
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + Be9 + Mn52[377.749]=>1
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + Cu61=>747
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + Fe54 + Li7=>5
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + Fe55 + Li6=>3
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + He3 + Co58=>10
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + He3 + Co58[24.950]=>12
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + Mn54 + Be7=>2
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + V49 + C12=>1
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + alpha + Co57=>568
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + alpha + He3 + Mn54=>8
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + alpha + deuteron + Fe55=>125
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + alpha + triton + Fe54=>16
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + deuteron + Ni59=>233
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + deuteron + triton + Co56=>5
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + triton + Ni58=>27
+proton + Cu63 --> N gamma or e- + proton + 3 alpha + V51=>6
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + 2 alpha + Mn52=>2
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + 2 alpha + Mn52[377.749]=>6
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + Cu60=>216
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + Fe54 + Li6=>2
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + He3 + Co57=>7
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + Mn53 + Be7=>1
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + alpha + Co56=>400
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + alpha + deuteron + Fe54=>3
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + deuteron + Ni58=>107
+proton + Cu63 --> N gamma or e- + proton + 3 neutron + triton + Ni57=>7
+proton + Cu63 --> N gamma or e- + proton + 4 neutron + Cu59=>18
+proton + Cu63 --> N gamma or e- + proton + 4 neutron + He3 + Co56=>1
+proton + Cu63 --> N gamma or e- + proton + 4 neutron + alpha + Co55=>16
+proton + Cu63 --> N gamma or e- + proton + 4 neutron + deuteron + Ni57=>2
+proton + Cu63 --> N gamma or e- + proton + Cu63=>289
+proton + Cu63 --> N gamma or e- + proton + He3 + Co60=>2
+proton + Cu63 --> N gamma or e- + proton + alpha + 2 deuteron + Mn55=>2
+proton + Cu63 --> N gamma or e- + proton + alpha + Co59=>43
+proton + Cu63 --> N gamma or e- + proton + alpha + deuteron + Fe57=>5
+proton + Cu63 --> N gamma or e- + proton + alpha + triton + Fe56=>3
+proton + Cu63 --> N gamma or e- + proton + deuteron + Ni61=>17
+proton + Cu63 --> N gamma or e- + proton + deuteron + triton + Co58[24.950]=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + 2 alpha + He6 + V48=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + 2 alpha + Mn54=>79
+proton + Cu63 --> N gamma or e- + proton + neutron + 2 alpha + deuteron + Cr52=>20
+proton + Cu63 --> N gamma or e- + proton + neutron + 2 alpha + triton + Cr51=>2
+proton + Cu63 --> N gamma or e- + proton + neutron + 2 deuteron + Co58=>4
+proton + Cu63 --> N gamma or e- + proton + neutron + 2 deuteron + Co58[24.950]=>15
+proton + Cu63 --> N gamma or e- + proton + neutron + 3 alpha + V50=>7
+proton + Cu63 --> N gamma or e- + proton + neutron + B10 + Cr52=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + Cu62=>1317
+proton + Cu63 --> N gamma or e- + proton + neutron + He3 + Co59=>10
+proton + Cu63 --> N gamma or e- + proton + neutron + Mn53 + Be9=>2
+proton + Cu63 --> N gamma or e- + proton + neutron + V50 + C12=>2
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + B12 + Ti46=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Co58=>152
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Co58[24.950]=>143
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + He3 + Mn55=>2
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Li6 + Cr52=>2
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Ti47 + B11=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + V49 + Be9=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + deuteron + Fe56=>82
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + triton + Fe55=>31
+proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + Cr53 + Be7=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + He3 + Fe57=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + Mn53 + Li7=>1
+proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + Mn54 + Li6=>2
+proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + Ni60=>148
+proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + triton + Co57=>9
+proton + Cu63 --> N gamma or e- + proton + neutron + triton + Ni59=>26
+proton + Cu63 --> N gamma or e- + proton + triton + Mn52[377.749] + Li8=>1
+proton + Cu63 --> N gamma or e- + proton + triton + Ni60=>5
+proton + Cu63 --> proton + 3 neutron + 2 alpha + Mn52[255.388]=>1
+proton + Cu63 --> proton + 3 neutron + 2 alpha + Mn52[373.533]=>1
+proton + Cu63 --> proton + 3 neutron + 2 alpha + Mn52[407.802]=>1
+proton + Cu63 --> proton + 3 neutron + alpha + Co56[60.772]=>1
+proton + Cu63 --> proton + Cu63[119.910]=>1
+proton + Cu63 --> proton + Cu63[282.531]=>1
+proton + Cu63 --> proton + neutron + Cu62[0.646]=>1
+proton + Cu63 --> proton + neutron + Cu62[11.307]=>1
+proton + Cu63 --> proton + neutron + Cu62[14.631]=>1
+proton + Cu63 --> proton + neutron + Cu62[19.883]=>1
+proton + Cu63 --> proton + neutron + Cu62[8.010]=>1
+proton + Cu63 --> proton + neutron + Cu62[9.915]=>1
+END REACTIONS
+
+
+START PARTICLES
+B10->2
+B11->2
+B12->1
+Be7->8
+Be9->5
+C12->5
+C13->1
+Co55->40
+Co56->476
+Co56[60.772]->1
+Co57->669
+Co58->264
+Co58[2.312]->1
+Co58[24.950]->236
+Co58[8.555]->1
+Co59->233
+Co60->55
+Co61->9
+Cr49->2
+Cr50->10
+Cr51->8
+Cr52->46
+Cr53->23
+Cr54->3
+Cu58->1
+Cu59->27
+Cu60->254
+Cu61->764
+Cu62->1320
+Cu62[0.646]->1
+Cu62[11.307]->1
+Cu62[14.631]->1
+Cu62[19.883]->1
+Cu62[8.010]->1
+Cu62[9.915]->1
+Cu63->289
+Cu63[119.910]->1
+Cu63[282.531]->1
+Fe53->12
+Fe54->93
+Fe55->299
+Fe56->353
+Fe57->114
+Fe58->27
+Fe59->3
+He3->156
+He6->3
+Li6->20
+Li7->8
+Li8->2
+Mn51->1
+Mn52->12
+Mn52[255.388]->1
+Mn52[373.533]->1
+Mn52[377.749]->14
+Mn52[407.802]->1
+Mn53->196
+Mn54->107
+Mn55->34
+Mn56->14
+Ni56->18
+Ni57->119
+Ni58->445
+Ni59->1012
+Ni60->1288
+Ni61->599
+Ni62->224
+Ni62[102.273]->1
+Ni62[11.159]->1
+Ni62[126.173]->1
+Ni62[15.653]->1
+Ni62[178.688]->1
+Ni62[216.745]->1
+Ni62[407.177]->1
+Ni62[506.998]->1
+Ni62[54.077]->1
+Ni62[75.605]->1
+Ni62[83.657]->1
+Ni62[83.720]->1
+Ni62[85.268]->1
+Ti46->1
+Ti47->3
+Ti48->1
+Ti49->1
+V48->1
+V49->3
+V50->11
+V51->6
+V52->1
+Zn61->10
+Zn62->98
+Zn63->124
+alpha->3711
+deuteron->1338
+e-->817
+gamma->43572
+neutron->17278
+proton->12793
+triton->243

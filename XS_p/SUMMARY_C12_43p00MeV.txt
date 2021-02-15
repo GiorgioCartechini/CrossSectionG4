@@ -1,0 +1,752 @@
+EVENTS->10000
+TARGET->C12
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + C12 --> 2 alpha + deuteron + He3=>404
+proton + C12 --> 2 proton + 2 alpha + triton=>85
+proton + C12 --> 2 proton + B11=>37
+proton + C12 --> 2 proton + alpha + Li7=>324
+proton + C12 --> 2 proton + deuteron + Be9=>17
+proton + C12 --> 2 proton + neutron + 2 alpha + deuteron=>10
+proton + C12 --> 2 proton + neutron + B10=>71
+proton + C12 --> 2 proton + neutron + alpha + Li6=>28
+proton + C12 --> 3 proton + Be10=>10
+proton + C12 --> 3 proton + neutron + Be9=>1
+proton + C12 --> N gamma or e- + 2 proton + B11=>251
+proton + C12 --> N gamma or e- + 2 proton + alpha + Li7=>133
+proton + C12 --> N gamma or e- + 2 proton + neutron + B10=>34
+proton + C12 --> N gamma or e- + 3 proton + Be10=>3
+proton + C12 --> N gamma or e- + Be7 + Li6=>84
+proton + C12 --> N gamma or e- + He3 + B10=>12
+proton + C12 --> N gamma or e- + alpha + He3 + Li6=>4
+proton + C12 --> N gamma or e- + alpha + deuteron + Be7=>186
+proton + C12 --> N gamma or e- + deuteron + C11=>1458
+proton + C12 --> N gamma or e- + neutron + Be6 + Li6=>1
+proton + C12 --> N gamma or e- + neutron + N12=>643
+proton + C12 --> N gamma or e- + neutron + deuteron + C10=>3
+proton + C12 --> N gamma or e- + proton + 3 alpha=>2
+proton + C12 --> N gamma or e- + proton + C12=>204
+proton + C12 --> N gamma or e- + proton + alpha + deuteron + Li6=>4
+proton + C12 --> N gamma or e- + proton + deuteron + B10=>244
+proton + C12 --> N gamma or e- + proton + neutron + C11=>190
+proton + C12 --> N gamma or e- + proton + neutron + alpha + Be7=>53
+proton + C12 --> alpha + He3 + Li6=>296
+proton + C12 --> alpha + He3 + Li6[1008.661]=>1
+proton + C12 --> alpha + He3 + Li6[1045.490]=>1
+proton + C12 --> alpha + He3 + Li6[952.084]=>1
+proton + C12 --> alpha + He3 + Li6[965.894]=>1
+proton + C12 --> alpha + deuteron + Be7=>438
+proton + C12 --> deuteron + C11[0.800]=>1
+proton + C12 --> deuteron + C11[109.123]=>1
+proton + C12 --> deuteron + C11[11.528]=>1
+proton + C12 --> deuteron + C11[11.958]=>1
+proton + C12 --> deuteron + C11[110.889]=>1
+proton + C12 --> deuteron + C11[111.251]=>1
+proton + C12 --> deuteron + C11[111.698]=>1
+proton + C12 --> deuteron + C11[113.882]=>1
+proton + C12 --> deuteron + C11[115.015]=>1
+proton + C12 --> deuteron + C11[115.685]=>1
+proton + C12 --> deuteron + C11[115.901]=>1
+proton + C12 --> deuteron + C11[116.435]=>1
+proton + C12 --> deuteron + C11[120.443]=>1
+proton + C12 --> deuteron + C11[122.856]=>1
+proton + C12 --> deuteron + C11[133.430]=>1
+proton + C12 --> deuteron + C11[138.325]=>1
+proton + C12 --> deuteron + C11[141.338]=>1
+proton + C12 --> deuteron + C11[143.339]=>1
+proton + C12 --> deuteron + C11[149.241]=>1
+proton + C12 --> deuteron + C11[15.222]=>1
+proton + C12 --> deuteron + C11[154.259]=>1
+proton + C12 --> deuteron + C11[158.564]=>1
+proton + C12 --> deuteron + C11[178.053]=>1
+proton + C12 --> deuteron + C11[181.885]=>1
+proton + C12 --> deuteron + C11[183.359]=>1
+proton + C12 --> deuteron + C11[187.301]=>1
+proton + C12 --> deuteron + C11[188.740]=>1
+proton + C12 --> deuteron + C11[188.866]=>1
+proton + C12 --> deuteron + C11[190.222]=>1
+proton + C12 --> deuteron + C11[191.969]=>1
+proton + C12 --> deuteron + C11[197.791]=>1
+proton + C12 --> deuteron + C11[200.643]=>1
+proton + C12 --> deuteron + C11[202.114]=>1
+proton + C12 --> deuteron + C11[202.250]=>1
+proton + C12 --> deuteron + C11[202.342]=>1
+proton + C12 --> deuteron + C11[203.365]=>1
+proton + C12 --> deuteron + C11[204.158]=>1
+proton + C12 --> deuteron + C11[211.566]=>1
+proton + C12 --> deuteron + C11[214.097]=>1
+proton + C12 --> deuteron + C11[215.483]=>1
+proton + C12 --> deuteron + C11[221.271]=>1
+proton + C12 --> deuteron + C11[225.594]=>1
+proton + C12 --> deuteron + C11[226.006]=>1
+proton + C12 --> deuteron + C11[231.570]=>1
+proton + C12 --> deuteron + C11[238.351]=>1
+proton + C12 --> deuteron + C11[24.157]=>1
+proton + C12 --> deuteron + C11[24.449]=>1
+proton + C12 --> deuteron + C11[24.557]=>1
+proton + C12 --> deuteron + C11[240.341]=>1
+proton + C12 --> deuteron + C11[243.320]=>1
+proton + C12 --> deuteron + C11[252.316]=>1
+proton + C12 --> deuteron + C11[258.595]=>1
+proton + C12 --> deuteron + C11[26.001]=>1
+proton + C12 --> deuteron + C11[263.629]=>1
+proton + C12 --> deuteron + C11[264.764]=>1
+proton + C12 --> deuteron + C11[265.192]=>1
+proton + C12 --> deuteron + C11[272.584]=>1
+proton + C12 --> deuteron + C11[273.855]=>1
+proton + C12 --> deuteron + C11[274.258]=>1
+proton + C12 --> deuteron + C11[275.295]=>1
+proton + C12 --> deuteron + C11[277.557]=>1
+proton + C12 --> deuteron + C11[278.622]=>1
+proton + C12 --> deuteron + C11[28.296]=>1
+proton + C12 --> deuteron + C11[280.139]=>1
+proton + C12 --> deuteron + C11[281.862]=>1
+proton + C12 --> deuteron + C11[282.206]=>1
+proton + C12 --> deuteron + C11[287.851]=>1
+proton + C12 --> deuteron + C11[289.972]=>1
+proton + C12 --> deuteron + C11[29.360]=>1
+proton + C12 --> deuteron + C11[301.546]=>1
+proton + C12 --> deuteron + C11[302.227]=>1
+proton + C12 --> deuteron + C11[303.477]=>1
+proton + C12 --> deuteron + C11[304.843]=>1
+proton + C12 --> deuteron + C11[308.990]=>1
+proton + C12 --> deuteron + C11[313.654]=>1
+proton + C12 --> deuteron + C11[314.251]=>1
+proton + C12 --> deuteron + C11[317.396]=>1
+proton + C12 --> deuteron + C11[327.349]=>1
+proton + C12 --> deuteron + C11[336.564]=>1
+proton + C12 --> deuteron + C11[339.454]=>1
+proton + C12 --> deuteron + C11[342.767]=>1
+proton + C12 --> deuteron + C11[349.672]=>1
+proton + C12 --> deuteron + C11[355.096]=>1
+proton + C12 --> deuteron + C11[355.729]=>1
+proton + C12 --> deuteron + C11[357.282]=>1
+proton + C12 --> deuteron + C11[359.289]=>1
+proton + C12 --> deuteron + C11[360.237]=>1
+proton + C12 --> deuteron + C11[361.301]=>1
+proton + C12 --> deuteron + C11[365.263]=>1
+proton + C12 --> deuteron + C11[370.093]=>1
+proton + C12 --> deuteron + C11[380.776]=>1
+proton + C12 --> deuteron + C11[397.593]=>1
+proton + C12 --> deuteron + C11[400.561]=>1
+proton + C12 --> deuteron + C11[415.677]=>1
+proton + C12 --> deuteron + C11[426.264]=>1
+proton + C12 --> deuteron + C11[427.129]=>1
+proton + C12 --> deuteron + C11[433.407]=>1
+proton + C12 --> deuteron + C11[434.266]=>1
+proton + C12 --> deuteron + C11[437.983]=>1
+proton + C12 --> deuteron + C11[44.515]=>1
+proton + C12 --> deuteron + C11[446.520]=>1
+proton + C12 --> deuteron + C11[447.746]=>1
+proton + C12 --> deuteron + C11[448.042]=>1
+proton + C12 --> deuteron + C11[452.962]=>1
+proton + C12 --> deuteron + C11[456.271]=>1
+proton + C12 --> deuteron + C11[460.674]=>1
+proton + C12 --> deuteron + C11[461.669]=>1
+proton + C12 --> deuteron + C11[462.839]=>1
+proton + C12 --> deuteron + C11[463.807]=>1
+proton + C12 --> deuteron + C11[465.432]=>1
+proton + C12 --> deuteron + C11[47.570]=>1
+proton + C12 --> deuteron + C11[470.147]=>1
+proton + C12 --> deuteron + C11[471.071]=>1
+proton + C12 --> deuteron + C11[471.578]=>1
+proton + C12 --> deuteron + C11[472.195]=>1
+proton + C12 --> deuteron + C11[477.624]=>1
+proton + C12 --> deuteron + C11[481.435]=>1
+proton + C12 --> deuteron + C11[484.999]=>1
+proton + C12 --> deuteron + C11[487.044]=>1
+proton + C12 --> deuteron + C11[49.393]=>1
+proton + C12 --> deuteron + C11[495.150]=>1
+proton + C12 --> deuteron + C11[498.525]=>1
+proton + C12 --> deuteron + C11[50.984]=>1
+proton + C12 --> deuteron + C11[500.233]=>1
+proton + C12 --> deuteron + C11[505.869]=>1
+proton + C12 --> deuteron + C11[51.829]=>1
+proton + C12 --> deuteron + C11[512.527]=>1
+proton + C12 --> deuteron + C11[513.366]=>1
+proton + C12 --> deuteron + C11[517.402]=>1
+proton + C12 --> deuteron + C11[522.117]=>1
+proton + C12 --> deuteron + C11[530.052]=>1
+proton + C12 --> deuteron + C11[531.046]=>1
+proton + C12 --> deuteron + C11[531.889]=>1
+proton + C12 --> deuteron + C11[534.264]=>1
+proton + C12 --> deuteron + C11[535.450]=>1
+proton + C12 --> deuteron + C11[54.206]=>1
+proton + C12 --> deuteron + C11[54.358]=>1
+proton + C12 --> deuteron + C11[555.126]=>1
+proton + C12 --> deuteron + C11[565.631]=>1
+proton + C12 --> deuteron + C11[57.091]=>1
+proton + C12 --> deuteron + C11[577.431]=>1
+proton + C12 --> deuteron + C11[577.854]=>1
+proton + C12 --> deuteron + C11[579.754]=>1
+proton + C12 --> deuteron + C11[589.590]=>1
+proton + C12 --> deuteron + C11[594.539]=>1
+proton + C12 --> deuteron + C11[595.862]=>1
+proton + C12 --> deuteron + C11[597.886]=>1
+proton + C12 --> deuteron + C11[605.316]=>1
+proton + C12 --> deuteron + C11[607.753]=>1
+proton + C12 --> deuteron + C11[612.799]=>1
+proton + C12 --> deuteron + C11[613.746]=>1
+proton + C12 --> deuteron + C11[617.272]=>1
+proton + C12 --> deuteron + C11[617.616]=>1
+proton + C12 --> deuteron + C11[619.087]=>1
+proton + C12 --> deuteron + C11[620.847]=>1
+proton + C12 --> deuteron + C11[621.352]=>1
+proton + C12 --> deuteron + C11[621.908]=>1
+proton + C12 --> deuteron + C11[626.680]=>1
+proton + C12 --> deuteron + C11[636.542]=>1
+proton + C12 --> deuteron + C11[641.305]=>1
+proton + C12 --> deuteron + C11[643.512]=>1
+proton + C12 --> deuteron + C11[648.871]=>1
+proton + C12 --> deuteron + C11[653.172]=>1
+proton + C12 --> deuteron + C11[656.284]=>1
+proton + C12 --> deuteron + C11[656.566]=>1
+proton + C12 --> deuteron + C11[656.896]=>1
+proton + C12 --> deuteron + C11[657.575]=>1
+proton + C12 --> deuteron + C11[663.118]=>1
+proton + C12 --> deuteron + C11[673.192]=>1
+proton + C12 --> deuteron + C11[676.918]=>1
+proton + C12 --> deuteron + C11[682.350]=>1
+proton + C12 --> deuteron + C11[683.453]=>1
+proton + C12 --> deuteron + C11[684.164]=>1
+proton + C12 --> deuteron + C11[684.360]=>1
+proton + C12 --> deuteron + C11[693.002]=>1
+proton + C12 --> deuteron + C11[696.332]=>1
+proton + C12 --> deuteron + C11[699.117]=>1
+proton + C12 --> deuteron + C11[71.590]=>1
+proton + C12 --> deuteron + C11[710.641]=>1
+proton + C12 --> deuteron + C11[712.099]=>1
+proton + C12 --> deuteron + C11[712.415]=>1
+proton + C12 --> deuteron + C11[717.746]=>1
+proton + C12 --> deuteron + C11[72.769]=>1
+proton + C12 --> deuteron + C11[726.265]=>1
+proton + C12 --> deuteron + C11[729.774]=>1
+proton + C12 --> deuteron + C11[732.917]=>1
+proton + C12 --> deuteron + C11[741.925]=>1
+proton + C12 --> deuteron + C11[746.878]=>1
+proton + C12 --> deuteron + C11[749.306]=>1
+proton + C12 --> deuteron + C11[75.183]=>1
+proton + C12 --> deuteron + C11[757.015]=>1
+proton + C12 --> deuteron + C11[757.251]=>1
+proton + C12 --> deuteron + C11[761.846]=>1
+proton + C12 --> deuteron + C11[765.027]=>1
+proton + C12 --> deuteron + C11[777.024]=>1
+proton + C12 --> deuteron + C11[779.767]=>1
+proton + C12 --> deuteron + C11[78.067]=>1
+proton + C12 --> deuteron + C11[78.252]=>1
+proton + C12 --> deuteron + C11[783.103]=>1
+proton + C12 --> deuteron + C11[786.079]=>1
+proton + C12 --> deuteron + C11[788.933]=>1
+proton + C12 --> deuteron + C11[789.415]=>1
+proton + C12 --> deuteron + C11[79.794]=>1
+proton + C12 --> deuteron + C11[791.808]=>1
+proton + C12 --> deuteron + C11[795.072]=>1
+proton + C12 --> deuteron + C11[8.512]=>1
+proton + C12 --> deuteron + C11[80.963]=>1
+proton + C12 --> deuteron + C11[805.453]=>1
+proton + C12 --> deuteron + C11[807.364]=>1
+proton + C12 --> deuteron + C11[810.336]=>1
+proton + C12 --> deuteron + C11[814.622]=>1
+proton + C12 --> deuteron + C11[815.203]=>1
+proton + C12 --> deuteron + C11[816.118]=>1
+proton + C12 --> deuteron + C11[817.502]=>1
+proton + C12 --> deuteron + C11[823.415]=>1
+proton + C12 --> deuteron + C11[826.394]=>1
+proton + C12 --> deuteron + C11[827.154]=>1
+proton + C12 --> deuteron + C11[831.454]=>1
+proton + C12 --> deuteron + C11[833.127]=>1
+proton + C12 --> deuteron + C11[834.675]=>1
+proton + C12 --> deuteron + C11[836.122]=>1
+proton + C12 --> deuteron + C11[838.218]=>1
+proton + C12 --> deuteron + C11[84.944]=>1
+proton + C12 --> deuteron + C11[844.938]=>1
+proton + C12 --> deuteron + C11[848.200]=>1
+proton + C12 --> deuteron + C11[848.731]=>1
+proton + C12 --> deuteron + C11[851.620]=>1
+proton + C12 --> deuteron + C11[852.008]=>1
+proton + C12 --> deuteron + C11[859.361]=>1
+proton + C12 --> deuteron + C11[86.912]=>1
+proton + C12 --> deuteron + C11[861.765]=>1
+proton + C12 --> deuteron + C11[862.349]=>1
+proton + C12 --> deuteron + C11[865.994]=>1
+proton + C12 --> deuteron + C11[866.310]=>1
+proton + C12 --> deuteron + C11[873.638]=>1
+proton + C12 --> deuteron + C11[879.082]=>1
+proton + C12 --> deuteron + C11[887.289]=>1
+proton + C12 --> deuteron + C11[890.746]=>1
+proton + C12 --> deuteron + C11[890.994]=>1
+proton + C12 --> deuteron + C11[897.873]=>1
+proton + C12 --> deuteron + C11[898.435]=>1
+proton + C12 --> deuteron + C11[898.818]=>1
+proton + C12 --> deuteron + C11[898.902]=>1
+proton + C12 --> deuteron + C11[9.872]=>1
+proton + C12 --> deuteron + C11[902.332]=>1
+proton + C12 --> deuteron + C11[903.105]=>1
+proton + C12 --> deuteron + C11[906.363]=>1
+proton + C12 --> deuteron + C11[906.929]=>1
+proton + C12 --> deuteron + C11[914.726]=>1
+proton + C12 --> deuteron + C11[914.927]=>1
+proton + C12 --> deuteron + C11[915.121]=>1
+proton + C12 --> deuteron + C11[919.064]=>1
+proton + C12 --> deuteron + C11[919.207]=>1
+proton + C12 --> deuteron + C11[921.884]=>1
+proton + C12 --> deuteron + C11[923.635]=>1
+proton + C12 --> deuteron + C11[928.476]=>1
+proton + C12 --> deuteron + C11[938.321]=>1
+proton + C12 --> deuteron + C11[94.760]=>1
+proton + C12 --> deuteron + C11[941.337]=>1
+proton + C12 --> deuteron + C11[942.790]=>1
+proton + C12 --> deuteron + C11[944.250]=>1
+proton + C12 --> deuteron + C11[964.274]=>1
+proton + C12 --> deuteron + C11[969.347]=>1
+proton + C12 --> deuteron + C11[980.785]=>1
+proton + C12 --> deuteron + C11[984.569]=>1
+proton + C12 --> deuteron + C11[989.815]=>1
+proton + C12 --> deuteron + C11[991.239]=>1
+proton + C12 --> deuteron + C11[994.721]=>1
+proton + C12 --> neutron + Be6[304.897] + Li6=>1
+proton + C12 --> neutron + Be6[77.321] + Li6=>1
+proton + C12 --> neutron + N12[151.477]=>1
+proton + C12 --> neutron + N12[377.567]=>1
+proton + C12 --> neutron + deuteron + C10=>2
+proton + C12 --> proton + 2 Li6=>54
+proton + C12 --> proton + 2 alpha + 2 deuteron=>116
+proton + C12 --> proton + 3 alpha=>3488
+proton + C12 --> proton + C12[1012.516]=>1
+proton + C12 --> proton + C12[1242.349]=>1
+proton + C12 --> proton + C12[1247.486]=>1
+proton + C12 --> proton + C12[1350.005]=>1
+proton + C12 --> proton + C12[1452.638]=>1
+proton + C12 --> proton + C12[1460.954]=>1
+proton + C12 --> proton + C12[1481.692]=>1
+proton + C12 --> proton + C12[1482.226]=>1
+proton + C12 --> proton + C12[1529.267]=>1
+proton + C12 --> proton + C12[1586.214]=>1
+proton + C12 --> proton + C12[1588.826]=>1
+proton + C12 --> proton + C12[16.117]=>1
+proton + C12 --> proton + C12[1623.561]=>1
+proton + C12 --> proton + C12[1747.555]=>1
+proton + C12 --> proton + C12[1749.352]=>1
+proton + C12 --> proton + C12[1749.399]=>1
+proton + C12 --> proton + C12[1775.450]=>1
+proton + C12 --> proton + C12[1872.774]=>1
+proton + C12 --> proton + C12[2038.545]=>1
+proton + C12 --> proton + C12[2057.757]=>1
+proton + C12 --> proton + C12[2127.493]=>1
+proton + C12 --> proton + C12[2150.681]=>1
+proton + C12 --> proton + C12[2193.317]=>1
+proton + C12 --> proton + C12[242.287]=>1
+proton + C12 --> proton + C12[265.710]=>1
+proton + C12 --> proton + C12[321.058]=>1
+proton + C12 --> proton + C12[372.667]=>1
+proton + C12 --> proton + C12[399.244]=>1
+proton + C12 --> proton + C12[420.996]=>1
+proton + C12 --> proton + C12[48.793]=>1
+proton + C12 --> proton + C12[495.009]=>1
+proton + C12 --> proton + C12[560.631]=>1
+proton + C12 --> proton + C12[562.066]=>1
+proton + C12 --> proton + C12[584.484]=>1
+proton + C12 --> proton + C12[660.200]=>1
+proton + C12 --> proton + C12[684.858]=>1
+proton + C12 --> proton + C12[753.946]=>1
+proton + C12 --> proton + C12[768.618]=>1
+proton + C12 --> proton + C12[806.690]=>1
+proton + C12 --> proton + C12[897.572]=>1
+proton + C12 --> proton + C12[904.708]=>1
+proton + C12 --> proton + C12[990.164]=>1
+proton + C12 --> proton + He3 + Be9=>11
+proton + C12 --> proton + alpha + deuteron + Li6=>333
+proton + C12 --> proton + alpha + deuteron + Li6[1043.540]=>1
+proton + C12 --> proton + alpha + deuteron + Li6[144.656]=>1
+proton + C12 --> proton + alpha + deuteron + Li6[684.315]=>1
+proton + C12 --> proton + deuteron + B10=>174
+proton + C12 --> proton + deuteron + B10[222.384]=>1
+proton + C12 --> proton + deuteron + B10[280.900]=>1
+proton + C12 --> proton + deuteron + B10[340.066]=>1
+proton + C12 --> proton + deuteron + B10[87.608]=>1
+proton + C12 --> proton + neutron + 2 alpha + He3=>118
+proton + C12 --> proton + neutron + C11=>2
+proton + C12 --> proton + neutron + C11[164.759]=>1
+proton + C12 --> proton + neutron + C11[178.867]=>1
+proton + C12 --> proton + neutron + C11[198.911]=>1
+proton + C12 --> proton + neutron + C11[300.516]=>1
+proton + C12 --> proton + neutron + C11[368.541]=>1
+proton + C12 --> proton + neutron + C11[416.360]=>1
+proton + C12 --> proton + neutron + C11[556.916]=>1
+proton + C12 --> proton + neutron + C11[659.996]=>1
+proton + C12 --> proton + neutron + C11[715.427]=>1
+proton + C12 --> proton + neutron + C11[758.184]=>1
+proton + C12 --> proton + neutron + C11[828.460]=>1
+proton + C12 --> proton + neutron + C11[889.827]=>1
+proton + C12 --> proton + neutron + C11[933.600]=>1
+proton + C12 --> proton + neutron + C11[988.674]=>1
+proton + C12 --> proton + neutron + alpha + Be7=>133
+END REACTIONS
+
+
+START PARTICLES
+B10->535
+B10[222.384]->1
+B10[280.900]->1
+B10[340.066]->1
+B10[87.608]->1
+B11->288
+Be10->13
+Be6->1
+Be6[304.897]->1
+Be6[77.321]->1
+Be7->894
+Be9->29
+C10->5
+C11->1650
+C11[0.800]->1
+C11[109.123]->1
+C11[11.528]->1
+C11[11.958]->1
+C11[110.889]->1
+C11[111.251]->1
+C11[111.698]->1
+C11[113.882]->1
+C11[115.015]->1
+C11[115.685]->1
+C11[115.901]->1
+C11[116.435]->1
+C11[120.443]->1
+C11[122.856]->1
+C11[133.430]->1
+C11[138.325]->1
+C11[141.338]->1
+C11[143.339]->1
+C11[149.241]->1
+C11[15.222]->1
+C11[154.259]->1
+C11[158.564]->1
+C11[164.759]->1
+C11[178.053]->1
+C11[178.867]->1
+C11[181.885]->1
+C11[183.359]->1
+C11[187.301]->1
+C11[188.740]->1
+C11[188.866]->1
+C11[190.222]->1
+C11[191.969]->1
+C11[197.791]->1
+C11[198.911]->1
+C11[200.643]->1
+C11[202.114]->1
+C11[202.250]->1
+C11[202.342]->1
+C11[203.365]->1
+C11[204.158]->1
+C11[211.566]->1
+C11[214.097]->1
+C11[215.483]->1
+C11[221.271]->1
+C11[225.594]->1
+C11[226.006]->1
+C11[231.570]->1
+C11[238.351]->1
+C11[24.157]->1
+C11[24.449]->1
+C11[24.557]->1
+C11[240.341]->1
+C11[243.320]->1
+C11[252.316]->1
+C11[258.595]->1
+C11[26.001]->1
+C11[263.629]->1
+C11[264.764]->1
+C11[265.192]->1
+C11[272.584]->1
+C11[273.855]->1
+C11[274.258]->1
+C11[275.295]->1
+C11[277.557]->1
+C11[278.622]->1
+C11[28.296]->1
+C11[280.139]->1
+C11[281.862]->1
+C11[282.206]->1
+C11[287.851]->1
+C11[289.972]->1
+C11[29.360]->1
+C11[300.516]->1
+C11[301.546]->1
+C11[302.227]->1
+C11[303.477]->1
+C11[304.843]->1
+C11[308.990]->1
+C11[313.654]->1
+C11[314.251]->1
+C11[317.396]->1
+C11[327.349]->1
+C11[336.564]->1
+C11[339.454]->1
+C11[342.767]->1
+C11[349.672]->1
+C11[355.096]->1
+C11[355.729]->1
+C11[357.282]->1
+C11[359.289]->1
+C11[360.237]->1
+C11[361.301]->1
+C11[365.263]->1
+C11[368.541]->1
+C11[370.093]->1
+C11[380.776]->1
+C11[397.593]->1
+C11[400.561]->1
+C11[415.677]->1
+C11[416.360]->1
+C11[426.264]->1
+C11[427.129]->1
+C11[433.407]->1
+C11[434.266]->1
+C11[437.983]->1
+C11[44.515]->1
+C11[446.520]->1
+C11[447.746]->1
+C11[448.042]->1
+C11[452.962]->1
+C11[456.271]->1
+C11[460.674]->1
+C11[461.669]->1
+C11[462.839]->1
+C11[463.807]->1
+C11[465.432]->1
+C11[47.570]->1
+C11[470.147]->1
+C11[471.071]->1
+C11[471.578]->1
+C11[472.195]->1
+C11[477.624]->1
+C11[481.435]->1
+C11[484.999]->1
+C11[487.044]->1
+C11[49.393]->1
+C11[495.150]->1
+C11[498.525]->1
+C11[50.984]->1
+C11[500.233]->1
+C11[505.869]->1
+C11[51.829]->1
+C11[512.527]->1
+C11[513.366]->1
+C11[517.402]->1
+C11[522.117]->1
+C11[530.052]->1
+C11[531.046]->1
+C11[531.889]->1
+C11[534.264]->1
+C11[535.450]->1
+C11[54.206]->1
+C11[54.358]->1
+C11[555.126]->1
+C11[556.916]->1
+C11[565.631]->1
+C11[57.091]->1
+C11[577.431]->1
+C11[577.854]->1
+C11[579.754]->1
+C11[589.590]->1
+C11[594.539]->1
+C11[595.862]->1
+C11[597.886]->1
+C11[605.316]->1
+C11[607.753]->1
+C11[612.799]->1
+C11[613.746]->1
+C11[617.272]->1
+C11[617.616]->1
+C11[619.087]->1
+C11[620.847]->1
+C11[621.352]->1
+C11[621.908]->1
+C11[626.680]->1
+C11[636.542]->1
+C11[641.305]->1
+C11[643.512]->1
+C11[648.871]->1
+C11[653.172]->1
+C11[656.284]->1
+C11[656.566]->1
+C11[656.896]->1
+C11[657.575]->1
+C11[659.996]->1
+C11[663.118]->1
+C11[673.192]->1
+C11[676.918]->1
+C11[682.350]->1
+C11[683.453]->1
+C11[684.164]->1
+C11[684.360]->1
+C11[693.002]->1
+C11[696.332]->1
+C11[699.117]->1
+C11[71.590]->1
+C11[710.641]->1
+C11[712.099]->1
+C11[712.415]->1
+C11[715.427]->1
+C11[717.746]->1
+C11[72.769]->1
+C11[726.265]->1
+C11[729.774]->1
+C11[732.917]->1
+C11[741.925]->1
+C11[746.878]->1
+C11[749.306]->1
+C11[75.183]->1
+C11[757.015]->1
+C11[757.251]->1
+C11[758.184]->1
+C11[761.846]->1
+C11[765.027]->1
+C11[777.024]->1
+C11[779.767]->1
+C11[78.067]->1
+C11[78.252]->1
+C11[783.103]->1
+C11[786.079]->1
+C11[788.933]->1
+C11[789.415]->1
+C11[79.794]->1
+C11[791.808]->1
+C11[795.072]->1
+C11[8.512]->1
+C11[80.963]->1
+C11[805.453]->1
+C11[807.364]->1
+C11[810.336]->1
+C11[814.622]->1
+C11[815.203]->1
+C11[816.118]->1
+C11[817.502]->1
+C11[823.415]->1
+C11[826.394]->1
+C11[827.154]->1
+C11[828.460]->1
+C11[831.454]->1
+C11[833.127]->1
+C11[834.675]->1
+C11[836.122]->1
+C11[838.218]->1
+C11[84.944]->1
+C11[844.938]->1
+C11[848.200]->1
+C11[848.731]->1
+C11[851.620]->1
+C11[852.008]->1
+C11[859.361]->1
+C11[86.912]->1
+C11[861.765]->1
+C11[862.349]->1
+C11[865.994]->1
+C11[866.310]->1
+C11[873.638]->1
+C11[879.082]->1
+C11[887.289]->1
+C11[889.827]->1
+C11[890.746]->1
+C11[890.994]->1
+C11[897.873]->1
+C11[898.435]->1
+C11[898.818]->1
+C11[898.902]->1
+C11[9.872]->1
+C11[902.332]->1
+C11[903.105]->1
+C11[906.363]->1
+C11[906.929]->1
+C11[914.726]->1
+C11[914.927]->1
+C11[915.121]->1
+C11[919.064]->1
+C11[919.207]->1
+C11[921.884]->1
+C11[923.635]->1
+C11[928.476]->1
+C11[933.600]->1
+C11[938.321]->1
+C11[94.760]->1
+C11[941.337]->1
+C11[942.790]->1
+C11[944.250]->1
+C11[964.274]->1
+C11[969.347]->1
+C11[980.785]->1
+C11[984.569]->1
+C11[988.674]->1
+C11[989.815]->1
+C11[991.239]->1
+C11[994.721]->1
+C12->204
+C12[1012.516]->1
+C12[1242.349]->1
+C12[1247.486]->1
+C12[1350.005]->1
+C12[1452.638]->1
+C12[1460.954]->1
+C12[1481.692]->1
+C12[1482.226]->1
+C12[1529.267]->1
+C12[1586.214]->1
+C12[1588.826]->1
+C12[16.117]->1
+C12[1623.561]->1
+C12[1747.555]->1
+C12[1749.352]->1
+C12[1749.399]->1
+C12[1775.450]->1
+C12[1872.774]->1
+C12[2038.545]->1
+C12[2057.757]->1
+C12[2127.493]->1
+C12[2150.681]->1
+C12[2193.317]->1
+C12[242.287]->1
+C12[265.710]->1
+C12[321.058]->1
+C12[372.667]->1
+C12[399.244]->1
+C12[420.996]->1
+C12[48.793]->1
+C12[495.009]->1
+C12[560.631]->1
+C12[562.066]->1
+C12[584.484]->1
+C12[660.200]->1
+C12[684.858]->1
+C12[753.946]->1
+C12[768.618]->1
+C12[806.690]->1
+C12[897.572]->1
+C12[904.708]->1
+C12[990.164]->1
+He3->849
+Li6->860
+Li6[1008.661]->1
+Li6[1043.540]->1
+Li6[1045.490]->1
+Li6[144.656]->1
+Li6[684.315]->1
+Li6[952.084]->1
+Li6[965.894]->1
+Li7->457
+N12->643
+N12[151.477]->1
+N12[377.567]->1
+alpha->13875
+deuteron->3780
+gamma->4589
+neutron->1307
+proton->7211
+triton->85

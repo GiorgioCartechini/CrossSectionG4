@@ -1,0 +1,43 @@
+EVENTS->10000
+TARGET->C12
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + C12 --> 2 proton + B11=>433
+proton + C12 --> He3 + B10[75.141]=>1
+proton + C12 --> N gamma or e- + 2 proton + B11=>74
+proton + C12 --> N gamma or e- + He3 + B10=>8
+proton + C12 --> N gamma or e- + deuteron + C11=>16
+proton + C12 --> N gamma or e- + neutron + N12=>105
+proton + C12 --> N gamma or e- + proton + 3 alpha=>5
+proton + C12 --> N gamma or e- + proton + C12=>16
+proton + C12 --> neutron + N12[260.176]=>1
+proton + C12 --> neutron + N12[267.230]=>1
+proton + C12 --> neutron + N12[367.735]=>1
+proton + C12 --> proton + 3 alpha=>9275
+proton + C12 --> proton + neutron + C11=>64
+END REACTIONS
+
+
+START PARTICLES
+B10->8
+B10[75.141]->1
+B11->507
+C11->80
+C12->16
+He3->9
+N12->105
+N12[260.176]->1
+N12[267.230]->1
+N12[367.735]->1
+alpha->27840
+deuteron->16
+gamma->244
+neutron->172
+proton->10374

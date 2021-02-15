@@ -1,0 +1,70 @@
+EVENTS->10000
+TARGET->Cu63
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Cu63 --> N gamma or e- + 2 alpha + Fe56=>209
+proton + Cu63 --> N gamma or e- + 2 neutron + Zn62=>580
+proton + Cu63 --> N gamma or e- + 2 neutron + alpha + Ni58=>124
+proton + Cu63 --> N gamma or e- + 2 proton + Ni62=>380
+proton + Cu63 --> N gamma or e- + 2 proton + neutron + Ni61=>79
+proton + Cu63 --> N gamma or e- + He3 + Ni61=>18
+proton + Cu63 --> N gamma or e- + alpha + Ni60=>24
+proton + Cu63 --> N gamma or e- + alpha + deuteron + Co58=>17
+proton + Cu63 --> N gamma or e- + alpha + deuteron + Co58[24.950]=>7
+proton + Cu63 --> N gamma or e- + deuteron + Cu62=>517
+proton + Cu63 --> N gamma or e- + neutron + 2 alpha + Fe55=>1
+proton + Cu63 --> N gamma or e- + neutron + He3 + Ni60=>1
+proton + Cu63 --> N gamma or e- + neutron + Zn63=>518
+proton + Cu63 --> N gamma or e- + neutron + alpha + Ni59=>2880
+proton + Cu63 --> N gamma or e- + neutron + deuteron + Cu61=>171
+proton + Cu63 --> N gamma or e- + proton + 2 neutron + Cu61=>226
+proton + Cu63 --> N gamma or e- + proton + Cu63=>550
+proton + Cu63 --> N gamma or e- + proton + alpha + Co59=>467
+proton + Cu63 --> N gamma or e- + proton + deuteron + Ni61=>60
+proton + Cu63 --> N gamma or e- + proton + neutron + Cu62=>3091
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Co58=>35
+proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Co58[24.950]=>18
+proton + Cu63 --> N gamma or e- + proton + triton + Ni60=>8
+proton + Cu63 --> N gamma or e- + triton + Cu61=>15
+proton + Cu63 --> deuteron + Cu62[1.587]=>1
+proton + Cu63 --> neutron + Zn63[1.922]=>1
+proton + Cu63 --> proton + Cu63[55.628]=>1
+proton + Cu63 --> proton + neutron + Cu62[16.331]=>1
+END REACTIONS
+
+
+START PARTICLES
+Co58->52
+Co58[24.950]->25
+Co59->467
+Cu61->412
+Cu62->3608
+Cu62[1.587]->1
+Cu62[16.331]->1
+Cu63->550
+Cu63[55.628]->1
+Fe55->1
+Fe56->209
+He3->19
+Ni58->124
+Ni59->2880
+Ni60->33
+Ni61->157
+Ni62->380
+Zn62->580
+Zn63->518
+Zn63[1.922]->1
+alpha->3992
+deuteron->773
+e-->1357
+gamma->54136
+neutron->8656
+proton->5375
+triton->23

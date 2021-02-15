@@ -1,0 +1,40 @@
+
+ The run is 10000 proton of 9 MeV through 20 m   of Y89 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	51.7444 cm  +- 52.1682 cm 	massic: 231.401 g/cm2 
+ CrossSection:	0.0193258 cm^-1 		massic: 432.15 um2/mg
+ crossSection per atom:	637.99 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 429.161 um2/mg	633.577 mbarn 
+               total= 429.161 um2/mg	633.577 mbarn 
+
+ List of nuclear reactions: 
+
+                         proton + Y89 --> N gamma or e- + Zr90:     809   Q =  8.3476 MeV
+               proton + Y89 --> N gamma or e- + neutron + Zr89:    8190   Q = -3.6209 MeV
+                 proton + Y89 --> N gamma or e- + proton + Y89:     998   Q = 0.00711826 eV 
+                      proton + Y89 --> neutron + Zr89[201.595]:       1   Q = -3.82249 MeV
+                        proton + Y89 --> proton + Y89[273.658]:       1   Q = -273.658 keV
+                         proton + Y89 --> proton + Y89[53.414]:       1   Q = -53.4143 keV
+
+                          number of gamma or e- (ic): N = 1 --> 9
+
+ List of generated particles:
+            Y89:     998  Emean = 165.308 keV	( 2.32261 keV --> 354.204 keV)
+   Y89[273.658]:       1  Emean = 204.514 keV	( 204.514 keV --> 204.514 keV)
+    Y89[53.414]:       1  Emean =  96.768 keV	( 96.768 keV --> 96.768 keV)
+           Zr89:    8190  Emean = 113.342 keV	( 19.4052 keV --> 261.187 keV)
+  Zr89[201.595]:       1  Emean = 144.896 keV	( 144.896 keV --> 144.896 keV)
+           Zr90:     809  Emean = 101.979 keV	( 77.0718 keV --> 129.62 keV)
+             e-:    3648  Emean =  29.927 keV	( 8.19443 keV --> 1.94003 MeV)
+          gamma:   33724  Emean = 1.49741 MeV	( 459.026 eV  --> 13.1296 MeV)
+        neutron:    8191  Emean =   1.168 MeV	( 15.1919 keV --> 5.03261 MeV)
+         proton:    1000  Emean = 5.74265 MeV	( 4.70667 MeV --> 8.84982 MeV)
+
+   Momentum balance: Pmean =  297.45 eV 	( 4.89102e-07 eV  --> 3.08047 keV) 
+

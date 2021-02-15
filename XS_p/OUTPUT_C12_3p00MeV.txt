@@ -1,0 +1,28 @@
+
+ The run is 10000 proton of 3 MeV through 20 m   of C12 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	Transportation= 908	protonInelastic= 9092
+
+ Nb of incident particles surviving after 20 m   of C12 : 908
+
+
+ MeanFreePath:	6.30389 m   +- 4.99946 m  	massic: 2.8191 kg/cm2
+ CrossSection:	0.00158632 cm^-1 		massic: 35.4723 um2/mg
+ crossSection per atom:	7.06838 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+      Transportation= 0 um2/mg	0 pbarn 
+     protonInelastic= 26.7405 um2/mg	5.32843 mbarn 
+               total= 26.7405 um2/mg	5.32843 mbarn 
+
+ List of nuclear reactions: 
+
+                                 proton + C12 --> proton + C12:    9092   Q = -1.65379e-06 eV 
+
+ List of generated particles:
+            C12:    9092  Emean = 430.278 keV	( 23.216 eV  --> 858.289 keV)
+         proton:    9092  Emean = 2.56972 MeV	( 2.14171 MeV --> 2.99998 MeV)
+
+   Momentum balance: Pmean = 7.6088e-05 eV 	( 1.38604e-07 eV  --> 0.0138622 eV ) 
+

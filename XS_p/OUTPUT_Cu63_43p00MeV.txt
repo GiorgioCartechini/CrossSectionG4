@@ -1,0 +1,136 @@
+
+ The run is 10000 proton of 43 MeV through 20 m   of Cu63 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	23.2911 cm  +- 23.2682 cm 	massic: 104.158 g/cm2 
+ CrossSection:	0.0429348 cm^-1 		massic: 960.081 um2/mg
+ crossSection per atom:	1.00326 barn  
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 967.492 um2/mg	1.011 barn  
+               total= 967.492 um2/mg	1.011 barn  
+
+ List of nuclear reactions: 
+
+              proton + Cu63 --> N gamma or e- + 2 alpha + Fe56:      42   Q = -2.52325 MeV
+   proton + Cu63 --> N gamma or e- + 2 alpha + deuteron + Mn54:       1   Q = -20.706 MeV
+           proton + Cu63 --> N gamma or e- + 2 deuteron + Ni60:       8   Q = -20.086 MeV
+  proton + Cu63 --> N gamma or e- + 2 neutron + 2 alpha + Fe54:       3   Q = -23.0185 MeV
+      proton + Cu63 --> N gamma or e- + 2 neutron + He3 + Ni59:       4   Q = -28.2041 MeV
+            proton + Cu63 --> N gamma or e- + 2 neutron + Zn62:     217   Q = -13.2693 MeV
+    proton + Cu63 --> N gamma or e- + 2 neutron + alpha + Ni58:    1085   Q = -16.6261 MeV
+  proton + Cu63 --> N gamma or e- + 2 neutron + deuteron + Cu60:      36   Q = -29.2244 MeV
+  proton + Cu63 --> N gamma or e- + 2 proton + 2 neutron + Ni60:     224   Q = -24.5348 MeV
+             proton + Cu63 --> N gamma or e- + 2 proton + Ni62:     169   Q = -6.11877 MeV
+     proton + Cu63 --> N gamma or e- + 2 proton + alpha + Fe58:      19   Q = -13.1283 MeV
+  proton + Cu63 --> N gamma or e- + 2 proton + deuteron + Co60:       1   Q = -24.3474 MeV
+   proton + Cu63 --> N gamma or e- + 2 proton + neutron + Ni61:     898   Q = -16.7146 MeV
+              proton + Cu63 --> N gamma or e- + 3 alpha + Cr52:       6   Q = -10.1304 MeV
+            proton + Cu63 --> N gamma or e- + 3 neutron + Zn61:      23   Q = -26.1594 MeV
+    proton + Cu63 --> N gamma or e- + 3 neutron + alpha + Ni57:       6   Q = -28.8423 MeV
+             proton + Cu63 --> N gamma or e- + 3 proton + Co61:       1   Q = -17.2525 MeV
+   proton + Cu63 --> N gamma or e- + 3 proton + neutron + Co60:       1   Q = -26.5718 MeV
+                  proton + Cu63 --> N gamma or e- + He3 + Ni61:      14   Q = -8.99626 MeV
+                  proton + Cu63 --> N gamma or e- + Li7 + Co57:       1   Q = -13.8455 MeV
+                   proton + Cu63 --> N gamma or e- + N14 + V50:       1   Q = -11.912 MeV
+          proton + Cu63 --> N gamma or e- + alpha + Mn54 + Li6:       1   Q = -19.2322 MeV
+                proton + Cu63 --> N gamma or e- + alpha + Ni60:       1   Q = 3.76098 MeV
+     proton + Cu63 --> N gamma or e- + alpha + deuteron + Co58:      54   Q = -13.9975 MeV
+  proton + Cu63 --> N gamma or e- + alpha + deuteron + Co58[24.950]:      71   Q = -14.0224 MeV
+       proton + Cu63 --> N gamma or e- + alpha + triton + Co57:       7   Q = -16.313 MeV
+             proton + Cu63 --> N gamma or e- + deuteron + Cu62:     456   Q = -8.63929 MeV
+    proton + Cu63 --> N gamma or e- + neutron + 2 alpha + Fe55:     263   Q = -13.7204 MeV
+  proton + Cu63 --> N gamma or e- + neutron + 2 deuteron + Ni59:       1   Q = -31.4738 MeV
+        proton + Cu63 --> N gamma or e- + neutron + Co57 + Li6:       5   Q = -21.0967 MeV
+        proton + Cu63 --> N gamma or e- + neutron + He3 + Ni60:      50   Q = -16.8164 MeV
+        proton + Cu63 --> N gamma or e- + neutron + Li7 + Co56:       5   Q = -25.222 MeV
+              proton + Cu63 --> N gamma or e- + neutron + Zn63:     317   Q = -4.15237 MeV
+      proton + Cu63 --> N gamma or e- + neutron + alpha + Ni59:     490   Q = -7.62676 MeV
+  proton + Cu63 --> N gamma or e- + neutron + alpha + deuteron + Co57:      61   Q = -22.5704 MeV
+   proton + Cu63 --> N gamma or e- + neutron + deuteron + Cu61:     365   Q = -17.5138 MeV
+     proton + Cu63 --> N gamma or e- + neutron + triton + Cu60:      15   Q = -22.967 MeV
+     proton + Cu63 --> N gamma or e- + proton + 2 alpha + Mn55:      40   Q = -12.7038 MeV
+   proton + Cu63 --> N gamma or e- + proton + 2 neutron + Cu61:    1268   Q = -19.7381 MeV
+  proton + Cu63 --> N gamma or e- + proton + 2 neutron + alpha + Co57:     101   Q = -24.7948 MeV
+   proton + Cu63 --> N gamma or e- + proton + 3 neutron + Cu60:      20   Q = -31.4487 MeV
+               proton + Cu63 --> N gamma or e- + proton + Cu63:     308   Q = -3.23644e-07 eV 
+         proton + Cu63 --> N gamma or e- + proton + Fe56 + Li7:       2   Q = -19.8698 MeV
+         proton + Cu63 --> N gamma or e- + proton + Fe57 + Li6:       1   Q = -19.4747 MeV
+         proton + Cu63 --> N gamma or e- + proton + He3 + Co60:       1   Q = -18.8534 MeV
+       proton + Cu63 --> N gamma or e- + proton + alpha + Co59:     127   Q = -5.76794 MeV
+  proton + Cu63 --> N gamma or e- + proton + alpha + deuteron + Fe57:       5   Q = -20.9485 MeV
+    proton + Cu63 --> N gamma or e- + proton + deuteron + Ni61:     172   Q = -14.4903 MeV
+  proton + Cu63 --> N gamma or e- + proton + neutron + 2 alpha + Mn54:       1   Q = -22.9303 MeV
+     proton + Cu63 --> N gamma or e- + proton + neutron + Cu62:    1582   Q = -10.8637 MeV
+  proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Co58:     526   Q = -16.2218 MeV
+  proton + Cu63 --> N gamma or e- + proton + neutron + alpha + Co58[24.950]:     594   Q = -16.2468 MeV
+  proton + Cu63 --> N gamma or e- + proton + neutron + deuteron + Ni60:     243   Q = -22.3104 MeV
+  proton + Cu63 --> N gamma or e- + proton + neutron + triton + Ni59:      19   Q = -27.4408 MeV
+      proton + Cu63 --> N gamma or e- + proton + triton + Ni60:      42   Q = -16.053 MeV
+               proton + Cu63 --> N gamma or e- + triton + Cu61:      18   Q = -11.2564 MeV
+                      proton + Cu63 --> deuteron + Cu62[1.100]:       1   Q = -8.64039 MeV
+                     proton + Cu63 --> deuteron + Cu62[11.708]:       1   Q =  -8.651 MeV
+                      proton + Cu63 --> neutron + Zn63[16.291]:       1   Q = -4.16866 MeV
+                      proton + Cu63 --> neutron + Zn63[49.320]:       1   Q = -4.20169 MeV
+                      proton + Cu63 --> proton + Cu63[239.618]:       1   Q = -239.618 keV
+                      proton + Cu63 --> proton + Cu63[321.906]:       1   Q = -321.906 keV
+                       proton + Cu63 --> proton + Cu63[48.991]:       1   Q = -48.9915 keV
+     proton + Cu63 --> proton + neutron + alpha + Co58[32.371]:       1   Q = -16.2542 MeV
+
+                          number of gamma or e- (ic): N = 1 --> 14
+
+ List of generated particles:
+           Co56:       5  Emean = 963.235 keV	( 154.772 keV --> 1.97712 MeV)
+           Co57:     175  Emean = 1.30795 MeV	( 67.1081 keV --> 3.56969 MeV)
+           Co58:     580  Emean = 1.36426 MeV	( 27.5771 keV --> 4.31875 MeV)
+   Co58[24.950]:     665  Emean = 1.42089 MeV	( 17.8311 keV --> 4.33859 MeV)
+   Co58[32.371]:       1  Emean = 1.81808 MeV	( 1.81808 MeV --> 1.81808 MeV)
+           Co59:     127  Emean = 1.35062 MeV	( 67.7045 keV --> 3.9876 MeV)
+           Co60:       3  Emean = 536.918 keV	( 209.894 keV --> 821.644 keV)
+           Co61:       1  Emean = 441.604 keV	( 441.604 keV --> 441.604 keV)
+           Cr52:       6  Emean = 1.24254 MeV	( 121.555 keV --> 3.09085 MeV)
+           Cu60:      71  Emean = 884.148 keV	( 105.81 keV --> 2.88744 MeV)
+           Cu61:    1651  Emean = 855.284 keV	( 891.038 eV  --> 3.43441 MeV)
+           Cu62:    2038  Emean = 704.161 keV	( 963.526 eV  --> 3.23764 MeV)
+    Cu62[1.100]:       1  Emean = 1.25872 MeV	( 1.25872 MeV --> 1.25872 MeV)
+   Cu62[11.708]:       1  Emean = 155.985 keV	( 155.985 keV --> 155.985 keV)
+           Cu63:     308  Emean = 574.524 keV	( 2.4015 keV --> 2.4413 MeV)
+  Cu63[239.618]:       1  Emean = 289.652 keV	( 289.652 keV --> 289.652 keV)
+  Cu63[321.906]:       1  Emean = 24.2936 keV	( 24.2936 keV --> 24.2936 keV)
+   Cu63[48.991]:       1  Emean = 1.61029 MeV	( 1.61029 MeV --> 1.61029 MeV)
+           Fe54:       3  Emean = 1.53343 MeV	( 759.283 keV --> 3.04169 MeV)
+           Fe55:     263  Emean = 1.94633 MeV	( 29.1847 keV --> 5.81453 MeV)
+           Fe56:      44  Emean = 2.53707 MeV	( 333.057 keV --> 6.97216 MeV)
+           Fe57:       6  Emean = 1.48423 MeV	( 381.37 keV --> 3.39466 MeV)
+           Fe58:      19  Emean = 1.51223 MeV	( 207.763 keV --> 3.09364 MeV)
+            He3:      69  Emean =  17.041 MeV	( 6.97191 MeV --> 30.8837 MeV)
+            Li6:       7  Emean = 9.89298 MeV	( 7.16439 MeV --> 11.3811 MeV)
+            Li7:       8  Emean = 11.2572 MeV	( 7.57381 MeV --> 16.5014 MeV)
+           Mn54:       3  Emean = 1.53336 MeV	( 382.168 keV --> 2.80831 MeV)
+           Mn55:      40  Emean = 1.88501 MeV	( 245.528 keV --> 4.89842 MeV)
+            N14:       1  Emean = 17.1356 MeV	( 17.1356 MeV --> 17.1356 MeV)
+           Ni57:       6  Emean =  1.2222 MeV	( 362.253 keV --> 2.61769 MeV)
+           Ni58:    1085  Emean = 1.39835 MeV	( 3.05437 keV --> 4.25622 MeV)
+           Ni59:     514  Emean = 1.25274 MeV	( 27.539 keV --> 3.99618 MeV)
+           Ni60:     568  Emean =  932.42 keV	( 26.6802 keV --> 3.52085 MeV)
+           Ni61:    1084  Emean = 902.431 keV	( 4.15327 keV --> 3.95006 MeV)
+           Ni62:     169  Emean = 809.236 keV	( 19.2559 keV --> 2.72913 MeV)
+            V50:       1  Emean = 5.64995 MeV	( 5.64995 MeV --> 5.64995 MeV)
+           Zn61:      23  Emean = 832.278 keV	( 210.332 keV --> 1.93579 MeV)
+           Zn62:     217  Emean = 657.144 keV	( 23.3838 keV --> 2.51065 MeV)
+           Zn63:     317  Emean = 594.804 keV	( 6.54118 keV --> 2.45465 MeV)
+   Zn63[16.291]:       1  Emean = 275.903 keV	( 275.903 keV --> 275.903 keV)
+   Zn63[49.320]:       1  Emean = 287.694 keV	( 287.694 keV --> 287.694 keV)
+          alpha:    3867  Emean = 9.60767 MeV	( 3.61125 MeV --> 38.2558 MeV)
+       deuteron:    1485  Emean =   17.27 MeV	( 2.42418 MeV --> 34.193 MeV)
+             e-:    1252  Emean = 48.3946 keV	( 13.9229 keV --> 1.09173 MeV)
+          gamma:   48176  Emean = 1.25794 MeV	( 198.476 eV  --> 12.577 MeV)
+        neutron:   11462  Emean = 5.75133 MeV	( 14.1227 keV --> 38.5554 MeV)
+         proton:    7684  Emean = 11.0049 MeV	( 2.31883 MeV --> 42.6538 MeV)
+         triton:     101  Emean = 12.1595 MeV	( 2.98164 MeV --> 29.1043 MeV)
+
+   Momentum balance: Pmean = 348.634 eV 	( 3.19665e-07 eV  --> 12.7024 keV) 
+

@@ -1,0 +1,2768 @@
+EVENTS->10000
+TARGET->O16
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + O16 --> 2 alpha + 3 deuteron + He3=>3
+proton + O16 --> 2 alpha + He3 + Li6=>12
+proton + O16 --> 2 alpha + deuteron + Be7=>9
+proton + O16 --> 2 alpha + triton + 2 He3=>3
+proton + O16 --> 2 neutron + He3 + N gamma or e- + N12=>2
+proton + O16 --> 2 neutron + N gamma or e- + F15=>5
+proton + O16 --> 2 neutron + N gamma or e- + Li6 + C9=>1
+proton + O16 --> 2 neutron + alpha + N gamma or e- + N11=>8
+proton + O16 --> 2 proton + 2 alpha + Li7=>59
+proton + O16 --> 2 proton + 2 alpha + N gamma or e- + Li7=>8
+proton + O16 --> 2 proton + 2 deuteron + N gamma or e- + B11=>2
+proton + O16 --> 2 proton + 2 neutron + He3 + B10=>2
+proton + O16 --> 2 proton + 2 neutron + N13=>32
+proton + O16 --> 2 proton + 3 alpha + triton=>40
+proton + O16 --> 2 proton + Li6 + Be9=>2
+proton + O16 --> 2 proton + N gamma or e- + N15=>513
+proton + O16 --> 2 proton + N15=>34
+proton + O16 --> 2 proton + N15[0.880]=>1
+proton + O16 --> 2 proton + N15[1.564]=>1
+proton + O16 --> 2 proton + N15[100.271]=>1
+proton + O16 --> 2 proton + N15[101.189]=>1
+proton + O16 --> 2 proton + N15[1011.123]=>1
+proton + O16 --> 2 proton + N15[1016.956]=>1
+proton + O16 --> 2 proton + N15[102.139]=>1
+proton + O16 --> 2 proton + N15[1030.346]=>1
+proton + O16 --> 2 proton + N15[1032.160]=>1
+proton + O16 --> 2 proton + N15[1036.457]=>1
+proton + O16 --> 2 proton + N15[1036.998]=>1
+proton + O16 --> 2 proton + N15[1064.425]=>1
+proton + O16 --> 2 proton + N15[107.558]=>1
+proton + O16 --> 2 proton + N15[1075.946]=>1
+proton + O16 --> 2 proton + N15[1086.097]=>1
+proton + O16 --> 2 proton + N15[109.549]=>1
+proton + O16 --> 2 proton + N15[109.706]=>1
+proton + O16 --> 2 proton + N15[1098.324]=>1
+proton + O16 --> 2 proton + N15[1102.062]=>1
+proton + O16 --> 2 proton + N15[112.360]=>1
+proton + O16 --> 2 proton + N15[1120.940]=>1
+proton + O16 --> 2 proton + N15[1137.329]=>1
+proton + O16 --> 2 proton + N15[116.634]=>1
+proton + O16 --> 2 proton + N15[1170.918]=>1
+proton + O16 --> 2 proton + N15[1174.323]=>1
+proton + O16 --> 2 proton + N15[1181.066]=>1
+proton + O16 --> 2 proton + N15[1192.711]=>1
+proton + O16 --> 2 proton + N15[1196.332]=>1
+proton + O16 --> 2 proton + N15[1197.114]=>1
+proton + O16 --> 2 proton + N15[1198.444]=>1
+proton + O16 --> 2 proton + N15[12.002]=>1
+proton + O16 --> 2 proton + N15[12.352]=>1
+proton + O16 --> 2 proton + N15[121.055]=>1
+proton + O16 --> 2 proton + N15[1218.267]=>1
+proton + O16 --> 2 proton + N15[1219.035]=>1
+proton + O16 --> 2 proton + N15[1224.313]=>1
+proton + O16 --> 2 proton + N15[1227.233]=>1
+proton + O16 --> 2 proton + N15[1233.112]=>1
+proton + O16 --> 2 proton + N15[125.142]=>1
+proton + O16 --> 2 proton + N15[127.791]=>1
+proton + O16 --> 2 proton + N15[1292.021]=>1
+proton + O16 --> 2 proton + N15[131.800]=>1
+proton + O16 --> 2 proton + N15[1311.614]=>1
+proton + O16 --> 2 proton + N15[1313.850]=>1
+proton + O16 --> 2 proton + N15[132.366]=>1
+proton + O16 --> 2 proton + N15[134.995]=>1
+proton + O16 --> 2 proton + N15[1349.475]=>1
+proton + O16 --> 2 proton + N15[1359.404]=>1
+proton + O16 --> 2 proton + N15[1363.746]=>1
+proton + O16 --> 2 proton + N15[1379.808]=>1
+proton + O16 --> 2 proton + N15[138.566]=>1
+proton + O16 --> 2 proton + N15[1385.619]=>1
+proton + O16 --> 2 proton + N15[140.336]=>1
+proton + O16 --> 2 proton + N15[144.979]=>1
+proton + O16 --> 2 proton + N15[1443.259]=>1
+proton + O16 --> 2 proton + N15[1451.543]=>1
+proton + O16 --> 2 proton + N15[1472.950]=>1
+proton + O16 --> 2 proton + N15[1474.723]=>1
+proton + O16 --> 2 proton + N15[150.790]=>1
+proton + O16 --> 2 proton + N15[150.873]=>1
+proton + O16 --> 2 proton + N15[1504.747]=>1
+proton + O16 --> 2 proton + N15[1505.334]=>1
+proton + O16 --> 2 proton + N15[1507.900]=>1
+proton + O16 --> 2 proton + N15[1509.418]=>1
+proton + O16 --> 2 proton + N15[1555.422]=>1
+proton + O16 --> 2 proton + N15[158.502]=>1
+proton + O16 --> 2 proton + N15[158.910]=>1
+proton + O16 --> 2 proton + N15[1581.439]=>1
+proton + O16 --> 2 proton + N15[1592.534]=>1
+proton + O16 --> 2 proton + N15[16.718]=>1
+proton + O16 --> 2 proton + N15[1608.075]=>1
+proton + O16 --> 2 proton + N15[1614.513]=>1
+proton + O16 --> 2 proton + N15[1626.577]=>1
+proton + O16 --> 2 proton + N15[163.141]=>1
+proton + O16 --> 2 proton + N15[1642.848]=>1
+proton + O16 --> 2 proton + N15[1651.417]=>1
+proton + O16 --> 2 proton + N15[1659.520]=>1
+proton + O16 --> 2 proton + N15[1660.299]=>1
+proton + O16 --> 2 proton + N15[1668.979]=>1
+proton + O16 --> 2 proton + N15[1689.267]=>1
+proton + O16 --> 2 proton + N15[1689.642]=>1
+proton + O16 --> 2 proton + N15[169.579]=>1
+proton + O16 --> 2 proton + N15[1696.523]=>1
+proton + O16 --> 2 proton + N15[1699.779]=>1
+proton + O16 --> 2 proton + N15[1710.303]=>1
+proton + O16 --> 2 proton + N15[1715.463]=>1
+proton + O16 --> 2 proton + N15[1723.768]=>1
+proton + O16 --> 2 proton + N15[1729.633]=>1
+proton + O16 --> 2 proton + N15[1732.647]=>1
+proton + O16 --> 2 proton + N15[1757.737]=>1
+proton + O16 --> 2 proton + N15[1770.932]=>1
+proton + O16 --> 2 proton + N15[179.175]=>1
+proton + O16 --> 2 proton + N15[1804.243]=>1
+proton + O16 --> 2 proton + N15[181.619]=>1
+proton + O16 --> 2 proton + N15[1827.361]=>1
+proton + O16 --> 2 proton + N15[1865.906]=>1
+proton + O16 --> 2 proton + N15[1866.262]=>1
+proton + O16 --> 2 proton + N15[1867.655]=>1
+proton + O16 --> 2 proton + N15[189.291]=>1
+proton + O16 --> 2 proton + N15[1907.605]=>1
+proton + O16 --> 2 proton + N15[1920.460]=>1
+proton + O16 --> 2 proton + N15[1930.627]=>1
+proton + O16 --> 2 proton + N15[1938.257]=>1
+proton + O16 --> 2 proton + N15[1938.960]=>1
+proton + O16 --> 2 proton + N15[1942.925]=>1
+proton + O16 --> 2 proton + N15[1959.124]=>1
+proton + O16 --> 2 proton + N15[196.412]=>1
+proton + O16 --> 2 proton + N15[1962.074]=>1
+proton + O16 --> 2 proton + N15[1980.104]=>1
+proton + O16 --> 2 proton + N15[1988.798]=>1
+proton + O16 --> 2 proton + N15[20.500]=>1
+proton + O16 --> 2 proton + N15[20.623]=>1
+proton + O16 --> 2 proton + N15[2004.895]=>1
+proton + O16 --> 2 proton + N15[2024.735]=>1
+proton + O16 --> 2 proton + N15[2058.172]=>1
+proton + O16 --> 2 proton + N15[2065.237]=>1
+proton + O16 --> 2 proton + N15[2072.715]=>1
+proton + O16 --> 2 proton + N15[2072.880]=>1
+proton + O16 --> 2 proton + N15[2085.593]=>1
+proton + O16 --> 2 proton + N15[21.590]=>1
+proton + O16 --> 2 proton + N15[2104.534]=>1
+proton + O16 --> 2 proton + N15[2128.037]=>1
+proton + O16 --> 2 proton + N15[2128.399]=>1
+proton + O16 --> 2 proton + N15[215.116]=>1
+proton + O16 --> 2 proton + N15[215.995]=>1
+proton + O16 --> 2 proton + N15[2158.739]=>1
+proton + O16 --> 2 proton + N15[2161.038]=>1
+proton + O16 --> 2 proton + N15[2165.943]=>1
+proton + O16 --> 2 proton + N15[219.657]=>1
+proton + O16 --> 2 proton + N15[2202.182]=>1
+proton + O16 --> 2 proton + N15[221.733]=>1
+proton + O16 --> 2 proton + N15[2223.300]=>1
+proton + O16 --> 2 proton + N15[2240.802]=>1
+proton + O16 --> 2 proton + N15[2249.081]=>1
+proton + O16 --> 2 proton + N15[2278.941]=>1
+proton + O16 --> 2 proton + N15[228.214]=>1
+proton + O16 --> 2 proton + N15[2289.617]=>1
+proton + O16 --> 2 proton + N15[23.093]=>1
+proton + O16 --> 2 proton + N15[23.117]=>1
+proton + O16 --> 2 proton + N15[23.751]=>1
+proton + O16 --> 2 proton + N15[2321.114]=>1
+proton + O16 --> 2 proton + N15[2324.389]=>1
+proton + O16 --> 2 proton + N15[2335.761]=>1
+proton + O16 --> 2 proton + N15[2341.293]=>1
+proton + O16 --> 2 proton + N15[2350.176]=>1
+proton + O16 --> 2 proton + N15[2353.298]=>1
+proton + O16 --> 2 proton + N15[237.102]=>1
+proton + O16 --> 2 proton + N15[2378.742]=>1
+proton + O16 --> 2 proton + N15[2384.683]=>1
+proton + O16 --> 2 proton + N15[24.090]=>1
+proton + O16 --> 2 proton + N15[2408.737]=>1
+proton + O16 --> 2 proton + N15[241.890]=>1
+proton + O16 --> 2 proton + N15[2427.664]=>1
+proton + O16 --> 2 proton + N15[2433.928]=>1
+proton + O16 --> 2 proton + N15[2438.939]=>1
+proton + O16 --> 2 proton + N15[2439.647]=>1
+proton + O16 --> 2 proton + N15[2440.045]=>1
+proton + O16 --> 2 proton + N15[246.389]=>1
+proton + O16 --> 2 proton + N15[2487.241]=>1
+proton + O16 --> 2 proton + N15[2491.500]=>1
+proton + O16 --> 2 proton + N15[2500.182]=>1
+proton + O16 --> 2 proton + N15[251.286]=>1
+proton + O16 --> 2 proton + N15[253.540]=>1
+proton + O16 --> 2 proton + N15[2530.783]=>1
+proton + O16 --> 2 proton + N15[2542.464]=>1
+proton + O16 --> 2 proton + N15[2576.451]=>1
+proton + O16 --> 2 proton + N15[2593.255]=>1
+proton + O16 --> 2 proton + N15[2600.768]=>1
+proton + O16 --> 2 proton + N15[262.363]=>1
+proton + O16 --> 2 proton + N15[262.556]=>1
+proton + O16 --> 2 proton + N15[267.695]=>1
+proton + O16 --> 2 proton + N15[272.924]=>1
+proton + O16 --> 2 proton + N15[274.026]=>1
+proton + O16 --> 2 proton + N15[278.498]=>1
+proton + O16 --> 2 proton + N15[289.153]=>1
+proton + O16 --> 2 proton + N15[289.815]=>1
+proton + O16 --> 2 proton + N15[29.652]=>1
+proton + O16 --> 2 proton + N15[293.572]=>1
+proton + O16 --> 2 proton + N15[296.134]=>1
+proton + O16 --> 2 proton + N15[296.834]=>1
+proton + O16 --> 2 proton + N15[3.989]=>1
+proton + O16 --> 2 proton + N15[30.582]=>1
+proton + O16 --> 2 proton + N15[303.194]=>1
+proton + O16 --> 2 proton + N15[304.533]=>1
+proton + O16 --> 2 proton + N15[314.008]=>1
+proton + O16 --> 2 proton + N15[315.415]=>1
+proton + O16 --> 2 proton + N15[321.426]=>1
+proton + O16 --> 2 proton + N15[334.492]=>1
+proton + O16 --> 2 proton + N15[336.186]=>1
+proton + O16 --> 2 proton + N15[339.481]=>1
+proton + O16 --> 2 proton + N15[339.593]=>1
+proton + O16 --> 2 proton + N15[35.859]=>1
+proton + O16 --> 2 proton + N15[352.977]=>1
+proton + O16 --> 2 proton + N15[358.089]=>1
+proton + O16 --> 2 proton + N15[359.727]=>1
+proton + O16 --> 2 proton + N15[374.340]=>1
+proton + O16 --> 2 proton + N15[378.066]=>1
+proton + O16 --> 2 proton + N15[383.628]=>1
+proton + O16 --> 2 proton + N15[385.173]=>1
+proton + O16 --> 2 proton + N15[392.333]=>1
+proton + O16 --> 2 proton + N15[392.944]=>1
+proton + O16 --> 2 proton + N15[398.581]=>1
+proton + O16 --> 2 proton + N15[398.730]=>1
+proton + O16 --> 2 proton + N15[4.284]=>1
+proton + O16 --> 2 proton + N15[404.932]=>1
+proton + O16 --> 2 proton + N15[406.536]=>1
+proton + O16 --> 2 proton + N15[413.425]=>1
+proton + O16 --> 2 proton + N15[427.626]=>1
+proton + O16 --> 2 proton + N15[432.358]=>1
+proton + O16 --> 2 proton + N15[448.869]=>1
+proton + O16 --> 2 proton + N15[454.295]=>1
+proton + O16 --> 2 proton + N15[459.750]=>1
+proton + O16 --> 2 proton + N15[46.925]=>1
+proton + O16 --> 2 proton + N15[484.231]=>1
+proton + O16 --> 2 proton + N15[485.738]=>1
+proton + O16 --> 2 proton + N15[49.894]=>1
+proton + O16 --> 2 proton + N15[498.593]=>1
+proton + O16 --> 2 proton + N15[499.636]=>1
+proton + O16 --> 2 proton + N15[5.495]=>1
+proton + O16 --> 2 proton + N15[507.082]=>1
+proton + O16 --> 2 proton + N15[509.412]=>1
+proton + O16 --> 2 proton + N15[51.610]=>1
+proton + O16 --> 2 proton + N15[51.924]=>1
+proton + O16 --> 2 proton + N15[518.730]=>1
+proton + O16 --> 2 proton + N15[523.845]=>1
+proton + O16 --> 2 proton + N15[53.243]=>1
+proton + O16 --> 2 proton + N15[549.484]=>1
+proton + O16 --> 2 proton + N15[558.097]=>1
+proton + O16 --> 2 proton + N15[560.458]=>1
+proton + O16 --> 2 proton + N15[566.798]=>1
+proton + O16 --> 2 proton + N15[570.720]=>1
+proton + O16 --> 2 proton + N15[576.050]=>1
+proton + O16 --> 2 proton + N15[576.122]=>1
+proton + O16 --> 2 proton + N15[590.529]=>1
+proton + O16 --> 2 proton + N15[599.162]=>1
+proton + O16 --> 2 proton + N15[609.510]=>1
+proton + O16 --> 2 proton + N15[614.839]=>1
+proton + O16 --> 2 proton + N15[618.183]=>1
+proton + O16 --> 2 proton + N15[618.200]=>1
+proton + O16 --> 2 proton + N15[63.014]=>1
+proton + O16 --> 2 proton + N15[636.711]=>1
+proton + O16 --> 2 proton + N15[636.775]=>1
+proton + O16 --> 2 proton + N15[644.005]=>1
+proton + O16 --> 2 proton + N15[644.859]=>1
+proton + O16 --> 2 proton + N15[659.058]=>1
+proton + O16 --> 2 proton + N15[666.459]=>1
+proton + O16 --> 2 proton + N15[668.237]=>1
+proton + O16 --> 2 proton + N15[67.684]=>1
+proton + O16 --> 2 proton + N15[685.750]=>1
+proton + O16 --> 2 proton + N15[69.586]=>1
+proton + O16 --> 2 proton + N15[692.971]=>1
+proton + O16 --> 2 proton + N15[694.562]=>1
+proton + O16 --> 2 proton + N15[694.903]=>1
+proton + O16 --> 2 proton + N15[695.941]=>1
+proton + O16 --> 2 proton + N15[697.288]=>1
+proton + O16 --> 2 proton + N15[698.832]=>1
+proton + O16 --> 2 proton + N15[7.637]=>1
+proton + O16 --> 2 proton + N15[70.554]=>1
+proton + O16 --> 2 proton + N15[700.181]=>1
+proton + O16 --> 2 proton + N15[727.062]=>1
+proton + O16 --> 2 proton + N15[741.052]=>1
+proton + O16 --> 2 proton + N15[747.895]=>1
+proton + O16 --> 2 proton + N15[748.612]=>1
+proton + O16 --> 2 proton + N15[75.148]=>1
+proton + O16 --> 2 proton + N15[75.475]=>1
+proton + O16 --> 2 proton + N15[766.316]=>1
+proton + O16 --> 2 proton + N15[77.778]=>1
+proton + O16 --> 2 proton + N15[772.857]=>1
+proton + O16 --> 2 proton + N15[774.522]=>1
+proton + O16 --> 2 proton + N15[775.581]=>1
+proton + O16 --> 2 proton + N15[778.544]=>1
+proton + O16 --> 2 proton + N15[780.176]=>1
+proton + O16 --> 2 proton + N15[791.501]=>1
+proton + O16 --> 2 proton + N15[797.390]=>1
+proton + O16 --> 2 proton + N15[80.603]=>1
+proton + O16 --> 2 proton + N15[81.620]=>1
+proton + O16 --> 2 proton + N15[83.335]=>1
+proton + O16 --> 2 proton + N15[837.581]=>1
+proton + O16 --> 2 proton + N15[84.012]=>1
+proton + O16 --> 2 proton + N15[84.329]=>1
+proton + O16 --> 2 proton + N15[845.958]=>1
+proton + O16 --> 2 proton + N15[862.615]=>1
+proton + O16 --> 2 proton + N15[866.509]=>1
+proton + O16 --> 2 proton + N15[874.276]=>1
+proton + O16 --> 2 proton + N15[882.972]=>1
+proton + O16 --> 2 proton + N15[892.522]=>1
+proton + O16 --> 2 proton + N15[902.446]=>1
+proton + O16 --> 2 proton + N15[902.901]=>1
+proton + O16 --> 2 proton + N15[914.924]=>1
+proton + O16 --> 2 proton + N15[918.354]=>1
+proton + O16 --> 2 proton + N15[922.196]=>1
+proton + O16 --> 2 proton + N15[922.648]=>1
+proton + O16 --> 2 proton + N15[926.527]=>1
+proton + O16 --> 2 proton + N15[930.741]=>1
+proton + O16 --> 2 proton + N15[932.960]=>1
+proton + O16 --> 2 proton + N15[937.417]=>1
+proton + O16 --> 2 proton + N15[950.073]=>1
+proton + O16 --> 2 proton + N15[957.169]=>1
+proton + O16 --> 2 proton + N15[959.717]=>1
+proton + O16 --> 2 proton + N15[960.802]=>1
+proton + O16 --> 2 proton + N15[963.845]=>1
+proton + O16 --> 2 proton + N15[970.202]=>1
+proton + O16 --> 2 proton + N15[993.099]=>1
+proton + O16 --> 2 proton + alpha + B11=>169
+proton + O16 --> 2 proton + alpha + N gamma or e- + B11=>114
+proton + O16 --> 2 proton + alpha + deuteron + Be9=>9
+proton + O16 --> 2 proton + alpha + deuteron + triton + Li6=>3
+proton + O16 --> 2 proton + deuteron + C13=>50
+proton + O16 --> 2 proton + deuteron + He3 + Be10=>1
+proton + O16 --> 2 proton + deuteron + Li6 + Li7=>1
+proton + O16 --> 2 proton + deuteron + N gamma or e- + C13=>20
+proton + O16 --> 2 proton + neutron + 2 alpha + Li6=>298
+proton + O16 --> 2 proton + neutron + 2 alpha + triton + He3=>1
+proton + O16 --> 2 proton + neutron + 3 alpha + deuteron=>250
+proton + O16 --> 2 proton + neutron + He3 + B11=>6
+proton + O16 --> 2 proton + neutron + He3 + N gamma or e- + B11=>4
+proton + O16 --> 2 proton + neutron + N gamma or e- + Be7 + Li7=>2
+proton + O16 --> 2 proton + neutron + N gamma or e- + N14=>609
+proton + O16 --> 2 proton + neutron + N14=>587
+proton + O16 --> 2 proton + neutron + N14[10.549]=>1
+proton + O16 --> 2 proton + neutron + N14[1021.186]=>1
+proton + O16 --> 2 proton + neutron + N14[1032.299]=>1
+proton + O16 --> 2 proton + neutron + N14[1055.756]=>1
+proton + O16 --> 2 proton + neutron + N14[193.009]=>1
+proton + O16 --> 2 proton + neutron + N14[2.638]=>1
+proton + O16 --> 2 proton + neutron + N14[200.512]=>1
+proton + O16 --> 2 proton + neutron + N14[205.788]=>1
+proton + O16 --> 2 proton + neutron + N14[22.546]=>1
+proton + O16 --> 2 proton + neutron + N14[251.228]=>1
+proton + O16 --> 2 proton + neutron + N14[274.819]=>1
+proton + O16 --> 2 proton + neutron + N14[296.259]=>1
+proton + O16 --> 2 proton + neutron + N14[314.310]=>1
+proton + O16 --> 2 proton + neutron + N14[324.634]=>1
+proton + O16 --> 2 proton + neutron + N14[49.451]=>1
+proton + O16 --> 2 proton + neutron + N14[508.081]=>1
+proton + O16 --> 2 proton + neutron + N14[525.356]=>1
+proton + O16 --> 2 proton + neutron + N14[540.951]=>1
+proton + O16 --> 2 proton + neutron + N14[547.070]=>1
+proton + O16 --> 2 proton + neutron + N14[556.030]=>1
+proton + O16 --> 2 proton + neutron + N14[653.408]=>1
+proton + O16 --> 2 proton + neutron + N14[672.544]=>1
+proton + O16 --> 2 proton + neutron + N14[677.548]=>1
+proton + O16 --> 2 proton + neutron + N14[720.892]=>1
+proton + O16 --> 2 proton + neutron + N14[730.099]=>1
+proton + O16 --> 2 proton + neutron + N14[731.718]=>1
+proton + O16 --> 2 proton + neutron + N14[757.476]=>1
+proton + O16 --> 2 proton + neutron + N14[772.877]=>1
+proton + O16 --> 2 proton + neutron + N14[779.695]=>1
+proton + O16 --> 2 proton + neutron + N14[787.146]=>1
+proton + O16 --> 2 proton + neutron + N14[82.150]=>1
+proton + O16 --> 2 proton + neutron + N14[837.669]=>1
+proton + O16 --> 2 proton + neutron + N14[900.783]=>1
+proton + O16 --> 2 proton + neutron + N14[981.607]=>1
+proton + O16 --> 2 proton + neutron + N14[983.824]=>1
+proton + O16 --> 2 proton + neutron + N14[997.150]=>1
+proton + O16 --> 2 proton + neutron + alpha + B10=>152
+proton + O16 --> 2 proton + neutron + alpha + B10[340.027]=>1
+proton + O16 --> 2 proton + neutron + alpha + He3 + Li7=>2
+proton + O16 --> 2 proton + neutron + alpha + N gamma or e- + B10=>106
+proton + O16 --> 2 proton + neutron + alpha + triton + Be7=>1
+proton + O16 --> 2 proton + neutron + deuteron + C12=>164
+proton + O16 --> 2 proton + neutron + deuteron + N gamma or e- + C12=>73
+proton + O16 --> 2 proton + neutron + triton + C11=>1
+proton + O16 --> 2 proton + triton + C12=>14
+proton + O16 --> 2 proton + triton + N gamma or e- + C12=>3
+proton + O16 --> 3 alpha + deuteron + He3=>25
+proton + O16 --> 3 proton + 2 alpha + He6=>1
+proton + O16 --> 3 proton + 2 neutron + 3 alpha=>150
+proton + O16 --> 3 proton + 2 neutron + C12=>116
+proton + O16 --> 3 proton + 2 neutron + N gamma or e- + C12=>74
+proton + O16 --> 3 proton + C14=>65
+proton + O16 --> 3 proton + C14[128.872]=>1
+proton + O16 --> 3 proton + C14[1744.077]=>1
+proton + O16 --> 3 proton + C14[1745.586]=>1
+proton + O16 --> 3 proton + C14[192.746]=>1
+proton + O16 --> 3 proton + C14[193.173]=>1
+proton + O16 --> 3 proton + C14[2895.924]=>1
+proton + O16 --> 3 proton + N gamma or e- + C14=>27
+proton + O16 --> 3 proton + alpha + Be10=>2
+proton + O16 --> 3 proton + alpha + N gamma or e- + Be10=>5
+proton + O16 --> 3 proton + deuteron + N gamma or e- + B12=>1
+proton + O16 --> 3 proton + neutron + C13=>442
+proton + O16 --> 3 proton + neutron + N gamma or e- + C13=>157
+proton + O16 --> 3 proton + neutron + alpha + Be9=>31
+proton + O16 --> 3 proton + neutron + deuteron + B11=>4
+proton + O16 --> 3 proton + triton + N gamma or e- + B11=>1
+proton + O16 --> 4 proton + 2 neutron + B11=>2
+proton + O16 --> 4 proton + 2 neutron + N gamma or e- + B11=>1
+proton + O16 --> He3 + N gamma or e- + Be7 + Li7=>2
+proton + O16 --> He3 + N14[537.841]=>1
+proton + O16 --> N gamma or e- + C11 + Li6=>1
+proton + O16 --> alpha + 2 deuteron + He3 + Li6=>1
+proton + O16 --> alpha + Be7 + Li6=>2
+proton + O16 --> alpha + N gamma or e- + Be7 + Li6=>1
+proton + O16 --> alpha + triton + He3 + Be7=>1
+proton + O16 --> deuteron + He3 + C12=>1
+proton + O16 --> deuteron + triton + N gamma or e- + N12=>4
+proton + O16 --> neutron + 2 alpha + B8=>26
+proton + O16 --> neutron + 2 alpha + deuteron + 2 He3=>3
+proton + O16 --> neutron + F16=>7
+proton + O16 --> neutron + F16[83.684]=>1
+proton + O16 --> neutron + He3 + N gamma or e- + Be7 + Li6=>1
+proton + O16 --> neutron + Li6 + C10[1242.670]=>1
+proton + O16 --> neutron + Li6 + C10[1266.641]=>1
+proton + O16 --> neutron + Li6 + C10[384.100]=>1
+proton + O16 --> neutron + Li6 + C10[463.801]=>1
+proton + O16 --> neutron + Li6 + C10[544.084]=>1
+proton + O16 --> neutron + Li6 + C10[83.021]=>1
+proton + O16 --> neutron + Li6 + C10[833.474]=>1
+proton + O16 --> neutron + Li6 + C10[98.990]=>1
+proton + O16 --> neutron + Li7 + C9[542.163]=>1
+proton + O16 --> neutron + N gamma or e- + F16=>22
+proton + O16 --> neutron + N gamma or e- + Li6 + C10=>15
+proton + O16 --> neutron + N gamma or e- + Li7 + C9=>1
+proton + O16 --> neutron + alpha + 2 He3 + Li6=>2
+proton + O16 --> neutron + alpha + Li6 + Be6[200.504]=>1
+proton + O16 --> neutron + alpha + N gamma or e- + Li6 + Be6=>6
+proton + O16 --> neutron + alpha + N gamma or e- + N12=>44
+proton + O16 --> neutron + alpha + deuteron + He3 + Be7=>6
+proton + O16 --> neutron + alpha + deuteron + He3 + N gamma or e- + Be7=>1
+proton + O16 --> neutron + deuteron + 2 Be7=>1
+proton + O16 --> neutron + deuteron + He3 + N gamma or e- + C11=>2
+proton + O16 --> neutron + deuteron + N gamma or e- + O14=>16
+proton + O16 --> neutron + triton + N gamma or e- + O13=>1
+proton + O16 --> proton + 2 alpha + deuteron + Li6=>123
+proton + O16 --> proton + 2 alpha + deuteron + N gamma or e- + Li6=>1
+proton + O16 --> proton + 2 alpha + deuteron + triton + He3=>3
+proton + O16 --> proton + 2 deuteron + C12=>5
+proton + O16 --> proton + 2 deuteron + N gamma or e- + C12=>6
+proton + O16 --> proton + 2 neutron + 2 Be7=>1
+proton + O16 --> proton + 2 neutron + N gamma or e- + 2 Be7=>1
+proton + O16 --> proton + 2 neutron + N gamma or e- + O14=>241
+proton + O16 --> proton + 2 neutron + O14[1020.092]=>1
+proton + O16 --> proton + 2 neutron + O14[1269.440]=>1
+proton + O16 --> proton + 2 neutron + O14[1349.667]=>1
+proton + O16 --> proton + 2 neutron + O14[1472.880]=>1
+proton + O16 --> proton + 2 neutron + O14[1515.108]=>1
+proton + O16 --> proton + 2 neutron + O14[1718.475]=>1
+proton + O16 --> proton + 2 neutron + O14[195.069]=>1
+proton + O16 --> proton + 2 neutron + O14[2047.222]=>1
+proton + O16 --> proton + 2 neutron + O14[205.221]=>1
+proton + O16 --> proton + 2 neutron + O14[224.596]=>1
+proton + O16 --> proton + 2 neutron + O14[2300.566]=>1
+proton + O16 --> proton + 2 neutron + O14[2324.875]=>1
+proton + O16 --> proton + 2 neutron + O14[2427.167]=>1
+proton + O16 --> proton + 2 neutron + O14[2512.261]=>1
+proton + O16 --> proton + 2 neutron + O14[315.160]=>1
+proton + O16 --> proton + 2 neutron + O14[346.500]=>1
+proton + O16 --> proton + 2 neutron + O14[350.726]=>1
+proton + O16 --> proton + 2 neutron + O14[381.987]=>1
+proton + O16 --> proton + 2 neutron + O14[526.396]=>1
+proton + O16 --> proton + 2 neutron + O14[725.674]=>1
+proton + O16 --> proton + 2 neutron + O14[754.391]=>1
+proton + O16 --> proton + 2 neutron + O14[907.138]=>1
+proton + O16 --> proton + 2 neutron + alpha + He3 + N gamma or e- + Be7=>1
+proton + O16 --> proton + 2 neutron + deuteron + N gamma or e- + N12=>1
+proton + O16 --> proton + 3 alpha + 2 deuteron=>62
+proton + O16 --> proton + 3 neutron + N gamma or e- + O13=>2
+proton + O16 --> proton + 4 alpha=>535
+proton + O16 --> proton + He3 + C13=>2
+proton + O16 --> proton + He3 + Li6 + Li7=>1
+proton + O16 --> proton + He3 + N gamma or e- + C13=>1
+proton + O16 --> proton + O16=>6
+proton + O16 --> proton + O16 + N gamma or e-=>379
+proton + O16 --> proton + O16[1004.533]=>1
+proton + O16 --> proton + O16[1037.753]=>1
+proton + O16 --> proton + O16[1109.151]=>1
+proton + O16 --> proton + O16[1143.999]=>1
+proton + O16 --> proton + O16[1239.459]=>1
+proton + O16 --> proton + O16[126.825]=>1
+proton + O16 --> proton + O16[1301.899]=>1
+proton + O16 --> proton + O16[1305.831]=>1
+proton + O16 --> proton + O16[1333.350]=>1
+proton + O16 --> proton + O16[1333.361]=>1
+proton + O16 --> proton + O16[1349.307]=>1
+proton + O16 --> proton + O16[1377.415]=>1
+proton + O16 --> proton + O16[1380.091]=>1
+proton + O16 --> proton + O16[1400.243]=>1
+proton + O16 --> proton + O16[1405.409]=>1
+proton + O16 --> proton + O16[1450.049]=>1
+proton + O16 --> proton + O16[1456.142]=>1
+proton + O16 --> proton + O16[1475.009]=>1
+proton + O16 --> proton + O16[1490.542]=>1
+proton + O16 --> proton + O16[1516.571]=>1
+proton + O16 --> proton + O16[1525.841]=>1
+proton + O16 --> proton + O16[1558.162]=>1
+proton + O16 --> proton + O16[1572.619]=>1
+proton + O16 --> proton + O16[1593.320]=>1
+proton + O16 --> proton + O16[171.400]=>1
+proton + O16 --> proton + O16[1752.414]=>1
+proton + O16 --> proton + O16[1762.275]=>1
+proton + O16 --> proton + O16[1927.087]=>1
+proton + O16 --> proton + O16[2000.656]=>1
+proton + O16 --> proton + O16[2018.056]=>1
+proton + O16 --> proton + O16[2056.890]=>1
+proton + O16 --> proton + O16[2115.293]=>1
+proton + O16 --> proton + O16[2129.610]=>1
+proton + O16 --> proton + O16[2130.610]=>1
+proton + O16 --> proton + O16[2289.652]=>1
+proton + O16 --> proton + O16[2305.565]=>1
+proton + O16 --> proton + O16[2313.525]=>1
+proton + O16 --> proton + O16[2343.227]=>1
+proton + O16 --> proton + O16[2354.130]=>1
+proton + O16 --> proton + O16[2381.099]=>1
+proton + O16 --> proton + O16[2442.628]=>1
+proton + O16 --> proton + O16[2452.186]=>1
+proton + O16 --> proton + O16[2453.534]=>1
+proton + O16 --> proton + O16[2459.804]=>1
+proton + O16 --> proton + O16[2502.386]=>1
+proton + O16 --> proton + O16[2502.557]=>1
+proton + O16 --> proton + O16[2505.081]=>1
+proton + O16 --> proton + O16[2510.338]=>1
+proton + O16 --> proton + O16[2521.131]=>1
+proton + O16 --> proton + O16[2528.617]=>1
+proton + O16 --> proton + O16[2583.539]=>1
+proton + O16 --> proton + O16[2596.752]=>1
+proton + O16 --> proton + O16[262.906]=>1
+proton + O16 --> proton + O16[2635.639]=>1
+proton + O16 --> proton + O16[2638.725]=>1
+proton + O16 --> proton + O16[2644.362]=>1
+proton + O16 --> proton + O16[2649.927]=>1
+proton + O16 --> proton + O16[2669.600]=>1
+proton + O16 --> proton + O16[2681.168]=>1
+proton + O16 --> proton + O16[2686.693]=>1
+proton + O16 --> proton + O16[2692.143]=>1
+proton + O16 --> proton + O16[2697.034]=>1
+proton + O16 --> proton + O16[2723.187]=>1
+proton + O16 --> proton + O16[2766.221]=>1
+proton + O16 --> proton + O16[2769.760]=>1
+proton + O16 --> proton + O16[2780.457]=>1
+proton + O16 --> proton + O16[2786.039]=>1
+proton + O16 --> proton + O16[2791.195]=>1
+proton + O16 --> proton + O16[2822.395]=>1
+proton + O16 --> proton + O16[2844.688]=>1
+proton + O16 --> proton + O16[2867.320]=>1
+proton + O16 --> proton + O16[2889.691]=>1
+proton + O16 --> proton + O16[2893.681]=>1
+proton + O16 --> proton + O16[2921.530]=>1
+proton + O16 --> proton + O16[2943.647]=>1
+proton + O16 --> proton + O16[2960.430]=>1
+proton + O16 --> proton + O16[2960.629]=>1
+proton + O16 --> proton + O16[2986.045]=>1
+proton + O16 --> proton + O16[3010.327]=>1
+proton + O16 --> proton + O16[3017.236]=>1
+proton + O16 --> proton + O16[401.176]=>1
+proton + O16 --> proton + O16[502.040]=>1
+proton + O16 --> proton + O16[713.462]=>1
+proton + O16 --> proton + O16[812.638]=>1
+proton + O16 --> proton + O16[833.225]=>1
+proton + O16 --> proton + O16[843.293]=>1
+proton + O16 --> proton + O16[850.949]=>1
+proton + O16 --> proton + O16[862.178]=>1
+proton + O16 --> proton + O16[927.639]=>1
+proton + O16 --> proton + alpha + 2 Li6=>2
+proton + O16 --> proton + alpha + C12=>325
+proton + O16 --> proton + alpha + He3 + Be9=>2
+proton + O16 --> proton + alpha + N gamma or e- + C12=>354
+proton + O16 --> proton + alpha + deuteron + B10=>17
+proton + O16 --> proton + alpha + deuteron + He3 + Li7=>2
+proton + O16 --> proton + alpha + deuteron + He3 + N gamma or e- + Li7=>2
+proton + O16 --> proton + alpha + deuteron + N gamma or e- + B10=>22
+proton + O16 --> proton + alpha + deuteron + triton + Be7=>6
+proton + O16 --> proton + alpha + triton + He3 + Li6=>3
+proton + O16 --> proton + deuteron + Be7 + Li7=>2
+proton + O16 --> proton + deuteron + Be7 + Li7[204.408]=>1
+proton + O16 --> proton + deuteron + He3 + B11=>1
+proton + O16 --> proton + deuteron + He3 + N gamma or e- + B11=>1
+proton + O16 --> proton + deuteron + N gamma or e- + Be7 + Li7=>3
+proton + O16 --> proton + deuteron + N gamma or e- + N14=>52
+proton + O16 --> proton + deuteron + N14=>1
+proton + O16 --> proton + deuteron + N14[307.894]=>1
+proton + O16 --> proton + deuteron + N14[859.179]=>1
+proton + O16 --> proton + deuteron + triton + N gamma or e- + C11=>2
+proton + O16 --> proton + neutron + 2 alpha + Be7=>157
+proton + O16 --> proton + neutron + 2 alpha + N gamma or e- + Be7=>11
+proton + O16 --> proton + neutron + 2 deuteron + N gamma or e- + C11=>1
+proton + O16 --> proton + neutron + 3 alpha + He3=>148
+proton + O16 --> proton + neutron + He3 + C12=>49
+proton + O16 --> proton + neutron + He3 + N gamma or e- + C12=>29
+proton + O16 --> proton + neutron + N gamma or e- + O15=>1009
+proton + O16 --> proton + neutron + O15=>12
+proton + O16 --> proton + neutron + O15[1.640]=>1
+proton + O16 --> proton + neutron + O15[1.745]=>1
+proton + O16 --> proton + neutron + O15[1.911]=>1
+proton + O16 --> proton + neutron + O15[10.174]=>1
+proton + O16 --> proton + neutron + O15[1004.055]=>1
+proton + O16 --> proton + neutron + O15[1006.256]=>1
+proton + O16 --> proton + neutron + O15[101.973]=>1
+proton + O16 --> proton + neutron + O15[1017.487]=>1
+proton + O16 --> proton + neutron + O15[102.892]=>1
+proton + O16 --> proton + neutron + O15[1023.328]=>1
+proton + O16 --> proton + neutron + O15[1023.528]=>1
+proton + O16 --> proton + neutron + O15[1026.808]=>1
+proton + O16 --> proton + neutron + O15[1028.209]=>1
+proton + O16 --> proton + neutron + O15[1032.752]=>1
+proton + O16 --> proton + neutron + O15[1032.993]=>1
+proton + O16 --> proton + neutron + O15[1034.547]=>1
+proton + O16 --> proton + neutron + O15[1034.933]=>1
+proton + O16 --> proton + neutron + O15[1036.421]=>1
+proton + O16 --> proton + neutron + O15[1045.831]=>1
+proton + O16 --> proton + neutron + O15[1048.452]=>1
+proton + O16 --> proton + neutron + O15[105.110]=>1
+proton + O16 --> proton + neutron + O15[1052.739]=>1
+proton + O16 --> proton + neutron + O15[1054.876]=>1
+proton + O16 --> proton + neutron + O15[1055.351]=>1
+proton + O16 --> proton + neutron + O15[1058.690]=>1
+proton + O16 --> proton + neutron + O15[1059.235]=>1
+proton + O16 --> proton + neutron + O15[1059.392]=>1
+proton + O16 --> proton + neutron + O15[106.935]=>1
+proton + O16 --> proton + neutron + O15[1061.369]=>1
+proton + O16 --> proton + neutron + O15[1064.808]=>1
+proton + O16 --> proton + neutron + O15[1066.252]=>1
+proton + O16 --> proton + neutron + O15[1068.705]=>1
+proton + O16 --> proton + neutron + O15[1069.419]=>1
+proton + O16 --> proton + neutron + O15[107.155]=>1
+proton + O16 --> proton + neutron + O15[107.734]=>1
+proton + O16 --> proton + neutron + O15[1071.286]=>1
+proton + O16 --> proton + neutron + O15[1072.340]=>1
+proton + O16 --> proton + neutron + O15[1077.654]=>1
+proton + O16 --> proton + neutron + O15[108.894]=>1
+proton + O16 --> proton + neutron + O15[1083.676]=>1
+proton + O16 --> proton + neutron + O15[1083.728]=>1
+proton + O16 --> proton + neutron + O15[109.492]=>1
+proton + O16 --> proton + neutron + O15[1093.498]=>1
+proton + O16 --> proton + neutron + O15[1095.399]=>1
+proton + O16 --> proton + neutron + O15[1095.759]=>1
+proton + O16 --> proton + neutron + O15[1096.341]=>1
+proton + O16 --> proton + neutron + O15[11.773]=>1
+proton + O16 --> proton + neutron + O15[110.930]=>1
+proton + O16 --> proton + neutron + O15[1100.476]=>1
+proton + O16 --> proton + neutron + O15[1102.951]=>1
+proton + O16 --> proton + neutron + O15[111.477]=>1
+proton + O16 --> proton + neutron + O15[111.585]=>1
+proton + O16 --> proton + neutron + O15[111.691]=>1
+proton + O16 --> proton + neutron + O15[1113.598]=>1
+proton + O16 --> proton + neutron + O15[1115.103]=>1
+proton + O16 --> proton + neutron + O15[1118.109]=>1
+proton + O16 --> proton + neutron + O15[1118.180]=>1
+proton + O16 --> proton + neutron + O15[1119.940]=>1
+proton + O16 --> proton + neutron + O15[1122.478]=>1
+proton + O16 --> proton + neutron + O15[1126.711]=>1
+proton + O16 --> proton + neutron + O15[113.516]=>1
+proton + O16 --> proton + neutron + O15[113.813]=>1
+proton + O16 --> proton + neutron + O15[1133.617]=>1
+proton + O16 --> proton + neutron + O15[1136.370]=>1
+proton + O16 --> proton + neutron + O15[114.276]=>1
+proton + O16 --> proton + neutron + O15[115.593]=>1
+proton + O16 --> proton + neutron + O15[1152.553]=>1
+proton + O16 --> proton + neutron + O15[1153.700]=>1
+proton + O16 --> proton + neutron + O15[1155.028]=>1
+proton + O16 --> proton + neutron + O15[1157.555]=>1
+proton + O16 --> proton + neutron + O15[116.301]=>1
+proton + O16 --> proton + neutron + O15[116.628]=>1
+proton + O16 --> proton + neutron + O15[1162.754]=>1
+proton + O16 --> proton + neutron + O15[1165.357]=>1
+proton + O16 --> proton + neutron + O15[1166.331]=>1
+proton + O16 --> proton + neutron + O15[1167.599]=>1
+proton + O16 --> proton + neutron + O15[1169.826]=>1
+proton + O16 --> proton + neutron + O15[118.248]=>1
+proton + O16 --> proton + neutron + O15[1180.451]=>1
+proton + O16 --> proton + neutron + O15[1183.955]=>1
+proton + O16 --> proton + neutron + O15[1184.661]=>1
+proton + O16 --> proton + neutron + O15[1187.287]=>1
+proton + O16 --> proton + neutron + O15[1187.410]=>1
+proton + O16 --> proton + neutron + O15[119.919]=>1
+proton + O16 --> proton + neutron + O15[1193.208]=>1
+proton + O16 --> proton + neutron + O15[1197.599]=>1
+proton + O16 --> proton + neutron + O15[1198.475]=>1
+proton + O16 --> proton + neutron + O15[1198.621]=>1
+proton + O16 --> proton + neutron + O15[12.316]=>1
+proton + O16 --> proton + neutron + O15[12.581]=>1
+proton + O16 --> proton + neutron + O15[12.604]=>1
+proton + O16 --> proton + neutron + O15[1200.455]=>1
+proton + O16 --> proton + neutron + O15[1203.919]=>1
+proton + O16 --> proton + neutron + O15[1207.067]=>1
+proton + O16 --> proton + neutron + O15[1213.324]=>1
+proton + O16 --> proton + neutron + O15[1217.578]=>1
+proton + O16 --> proton + neutron + O15[1221.838]=>1
+proton + O16 --> proton + neutron + O15[1222.381]=>1
+proton + O16 --> proton + neutron + O15[123.279]=>1
+proton + O16 --> proton + neutron + O15[1231.288]=>1
+proton + O16 --> proton + neutron + O15[125.147]=>1
+proton + O16 --> proton + neutron + O15[1252.321]=>1
+proton + O16 --> proton + neutron + O15[1263.906]=>1
+proton + O16 --> proton + neutron + O15[1273.063]=>1
+proton + O16 --> proton + neutron + O15[1275.844]=>1
+proton + O16 --> proton + neutron + O15[1276.895]=>1
+proton + O16 --> proton + neutron + O15[1277.312]=>1
+proton + O16 --> proton + neutron + O15[1277.385]=>1
+proton + O16 --> proton + neutron + O15[1277.888]=>1
+proton + O16 --> proton + neutron + O15[1281.625]=>1
+proton + O16 --> proton + neutron + O15[1283.445]=>1
+proton + O16 --> proton + neutron + O15[1287.892]=>1
+proton + O16 --> proton + neutron + O15[1288.560]=>1
+proton + O16 --> proton + neutron + O15[1289.160]=>1
+proton + O16 --> proton + neutron + O15[129.349]=>1
+proton + O16 --> proton + neutron + O15[129.482]=>1
+proton + O16 --> proton + neutron + O15[1294.341]=>1
+proton + O16 --> proton + neutron + O15[1294.401]=>1
+proton + O16 --> proton + neutron + O15[1295.012]=>1
+proton + O16 --> proton + neutron + O15[1305.885]=>1
+proton + O16 --> proton + neutron + O15[131.973]=>1
+proton + O16 --> proton + neutron + O15[1314.514]=>1
+proton + O16 --> proton + neutron + O15[132.378]=>1
+proton + O16 --> proton + neutron + O15[132.541]=>1
+proton + O16 --> proton + neutron + O15[132.612]=>1
+proton + O16 --> proton + neutron + O15[1326.691]=>1
+proton + O16 --> proton + neutron + O15[1330.564]=>1
+proton + O16 --> proton + neutron + O15[1334.080]=>1
+proton + O16 --> proton + neutron + O15[1336.804]=>1
+proton + O16 --> proton + neutron + O15[1347.803]=>1
+proton + O16 --> proton + neutron + O15[1348.090]=>1
+proton + O16 --> proton + neutron + O15[1349.436]=>1
+proton + O16 --> proton + neutron + O15[135.028]=>1
+proton + O16 --> proton + neutron + O15[135.966]=>1
+proton + O16 --> proton + neutron + O15[1350.344]=>1
+proton + O16 --> proton + neutron + O15[1357.065]=>1
+proton + O16 --> proton + neutron + O15[136.390]=>1
+proton + O16 --> proton + neutron + O15[1367.561]=>1
+proton + O16 --> proton + neutron + O15[1367.826]=>1
+proton + O16 --> proton + neutron + O15[1371.508]=>1
+proton + O16 --> proton + neutron + O15[1372.214]=>1
+proton + O16 --> proton + neutron + O15[1382.873]=>1
+proton + O16 --> proton + neutron + O15[1388.765]=>1
+proton + O16 --> proton + neutron + O15[139.178]=>1
+proton + O16 --> proton + neutron + O15[139.506]=>1
+proton + O16 --> proton + neutron + O15[1392.670]=>1
+proton + O16 --> proton + neutron + O15[1395.208]=>1
+proton + O16 --> proton + neutron + O15[14.990]=>1
+proton + O16 --> proton + neutron + O15[140.725]=>1
+proton + O16 --> proton + neutron + O15[140.736]=>1
+proton + O16 --> proton + neutron + O15[1403.411]=>1
+proton + O16 --> proton + neutron + O15[1408.254]=>1
+proton + O16 --> proton + neutron + O15[1408.324]=>1
+proton + O16 --> proton + neutron + O15[1411.031]=>1
+proton + O16 --> proton + neutron + O15[1423.436]=>1
+proton + O16 --> proton + neutron + O15[1425.987]=>1
+proton + O16 --> proton + neutron + O15[1427.426]=>1
+proton + O16 --> proton + neutron + O15[1429.687]=>1
+proton + O16 --> proton + neutron + O15[1436.555]=>1
+proton + O16 --> proton + neutron + O15[1445.213]=>1
+proton + O16 --> proton + neutron + O15[1445.798]=>1
+proton + O16 --> proton + neutron + O15[1457.488]=>1
+proton + O16 --> proton + neutron + O15[1460.472]=>1
+proton + O16 --> proton + neutron + O15[1461.602]=>1
+proton + O16 --> proton + neutron + O15[1465.702]=>1
+proton + O16 --> proton + neutron + O15[1478.390]=>1
+proton + O16 --> proton + neutron + O15[148.072]=>1
+proton + O16 --> proton + neutron + O15[1482.056]=>1
+proton + O16 --> proton + neutron + O15[1482.478]=>1
+proton + O16 --> proton + neutron + O15[1483.356]=>1
+proton + O16 --> proton + neutron + O15[1489.884]=>1
+proton + O16 --> proton + neutron + O15[149.030]=>1
+proton + O16 --> proton + neutron + O15[1495.261]=>1
+proton + O16 --> proton + neutron + O15[1495.475]=>1
+proton + O16 --> proton + neutron + O15[15.064]=>1
+proton + O16 --> proton + neutron + O15[15.126]=>1
+proton + O16 --> proton + neutron + O15[15.481]=>1
+proton + O16 --> proton + neutron + O15[1510.210]=>1
+proton + O16 --> proton + neutron + O15[152.571]=>1
+proton + O16 --> proton + neutron + O15[1523.649]=>1
+proton + O16 --> proton + neutron + O15[153.291]=>1
+proton + O16 --> proton + neutron + O15[1532.596]=>1
+proton + O16 --> proton + neutron + O15[1534.729]=>1
+proton + O16 --> proton + neutron + O15[1536.952]=>1
+proton + O16 --> proton + neutron + O15[154.219]=>1
+proton + O16 --> proton + neutron + O15[154.425]=>1
+proton + O16 --> proton + neutron + O15[1545.536]=>1
+proton + O16 --> proton + neutron + O15[1548.845]=>1
+proton + O16 --> proton + neutron + O15[1559.510]=>1
+proton + O16 --> proton + neutron + O15[156.894]=>1
+proton + O16 --> proton + neutron + O15[1563.185]=>1
+proton + O16 --> proton + neutron + O15[1569.251]=>1
+proton + O16 --> proton + neutron + O15[157.111]=>1
+proton + O16 --> proton + neutron + O15[157.748]=>1
+proton + O16 --> proton + neutron + O15[1573.470]=>1
+proton + O16 --> proton + neutron + O15[1574.398]=>1
+proton + O16 --> proton + neutron + O15[1577.272]=>1
+proton + O16 --> proton + neutron + O15[1578.795]=>1
+proton + O16 --> proton + neutron + O15[1579.204]=>1
+proton + O16 --> proton + neutron + O15[1579.770]=>1
+proton + O16 --> proton + neutron + O15[1581.324]=>1
+proton + O16 --> proton + neutron + O15[159.964]=>1
+proton + O16 --> proton + neutron + O15[1592.048]=>1
+proton + O16 --> proton + neutron + O15[160.700]=>1
+proton + O16 --> proton + neutron + O15[1603.240]=>1
+proton + O16 --> proton + neutron + O15[1604.796]=>1
+proton + O16 --> proton + neutron + O15[1606.228]=>1
+proton + O16 --> proton + neutron + O15[1610.282]=>1
+proton + O16 --> proton + neutron + O15[1614.496]=>1
+proton + O16 --> proton + neutron + O15[1614.780]=>1
+proton + O16 --> proton + neutron + O15[1617.700]=>1
+proton + O16 --> proton + neutron + O15[162.695]=>1
+proton + O16 --> proton + neutron + O15[1629.627]=>1
+proton + O16 --> proton + neutron + O15[1633.163]=>1
+proton + O16 --> proton + neutron + O15[1635.072]=>1
+proton + O16 --> proton + neutron + O15[1637.764]=>1
+proton + O16 --> proton + neutron + O15[164.037]=>1
+proton + O16 --> proton + neutron + O15[164.564]=>1
+proton + O16 --> proton + neutron + O15[1646.976]=>1
+proton + O16 --> proton + neutron + O15[1658.850]=>1
+proton + O16 --> proton + neutron + O15[1673.817]=>1
+proton + O16 --> proton + neutron + O15[1674.350]=>1
+proton + O16 --> proton + neutron + O15[1674.545]=>1
+proton + O16 --> proton + neutron + O15[1680.564]=>1
+proton + O16 --> proton + neutron + O15[1682.474]=>1
+proton + O16 --> proton + neutron + O15[1686.560]=>1
+proton + O16 --> proton + neutron + O15[1688.784]=>1
+proton + O16 --> proton + neutron + O15[169.174]=>1
+proton + O16 --> proton + neutron + O15[1699.470]=>1
+proton + O16 --> proton + neutron + O15[170.625]=>1
+proton + O16 --> proton + neutron + O15[1701.563]=>1
+proton + O16 --> proton + neutron + O15[1702.716]=>1
+proton + O16 --> proton + neutron + O15[171.745]=>1
+proton + O16 --> proton + neutron + O15[1713.185]=>1
+proton + O16 --> proton + neutron + O15[1727.082]=>1
+proton + O16 --> proton + neutron + O15[1732.902]=>1
+proton + O16 --> proton + neutron + O15[174.029]=>1
+proton + O16 --> proton + neutron + O15[174.621]=>1
+proton + O16 --> proton + neutron + O15[1743.690]=>1
+proton + O16 --> proton + neutron + O15[1751.165]=>1
+proton + O16 --> proton + neutron + O15[1762.802]=>1
+proton + O16 --> proton + neutron + O15[177.209]=>1
+proton + O16 --> proton + neutron + O15[177.245]=>1
+proton + O16 --> proton + neutron + O15[1782.339]=>1
+proton + O16 --> proton + neutron + O15[1785.868]=>1
+proton + O16 --> proton + neutron + O15[1787.060]=>1
+proton + O16 --> proton + neutron + O15[179.779]=>1
+proton + O16 --> proton + neutron + O15[1793.185]=>1
+proton + O16 --> proton + neutron + O15[1799.692]=>1
+proton + O16 --> proton + neutron + O15[18.125]=>1
+proton + O16 --> proton + neutron + O15[18.451]=>1
+proton + O16 --> proton + neutron + O15[180.550]=>1
+proton + O16 --> proton + neutron + O15[180.640]=>1
+proton + O16 --> proton + neutron + O15[1803.423]=>1
+proton + O16 --> proton + neutron + O15[1805.689]=>1
+proton + O16 --> proton + neutron + O15[1807.871]=>1
+proton + O16 --> proton + neutron + O15[1809.196]=>1
+proton + O16 --> proton + neutron + O15[181.770]=>1
+proton + O16 --> proton + neutron + O15[1813.892]=>1
+proton + O16 --> proton + neutron + O15[1815.731]=>1
+proton + O16 --> proton + neutron + O15[1816.508]=>1
+proton + O16 --> proton + neutron + O15[182.511]=>1
+proton + O16 --> proton + neutron + O15[1825.410]=>1
+proton + O16 --> proton + neutron + O15[1825.665]=>1
+proton + O16 --> proton + neutron + O15[183.594]=>1
+proton + O16 --> proton + neutron + O15[183.605]=>1
+proton + O16 --> proton + neutron + O15[183.997]=>1
+proton + O16 --> proton + neutron + O15[1833.780]=>1
+proton + O16 --> proton + neutron + O15[1836.691]=>1
+proton + O16 --> proton + neutron + O15[1844.597]=>1
+proton + O16 --> proton + neutron + O15[1857.082]=>1
+proton + O16 --> proton + neutron + O15[1876.433]=>1
+proton + O16 --> proton + neutron + O15[188.075]=>1
+proton + O16 --> proton + neutron + O15[1881.984]=>1
+proton + O16 --> proton + neutron + O15[1884.661]=>1
+proton + O16 --> proton + neutron + O15[1887.272]=>1
+proton + O16 --> proton + neutron + O15[1889.808]=>1
+proton + O16 --> proton + neutron + O15[1894.324]=>1
+proton + O16 --> proton + neutron + O15[1899.936]=>1
+proton + O16 --> proton + neutron + O15[19.460]=>1
+proton + O16 --> proton + neutron + O15[190.988]=>1
+proton + O16 --> proton + neutron + O15[1906.056]=>1
+proton + O16 --> proton + neutron + O15[1906.373]=>1
+proton + O16 --> proton + neutron + O15[191.919]=>1
+proton + O16 --> proton + neutron + O15[1911.383]=>1
+proton + O16 --> proton + neutron + O15[1913.479]=>1
+proton + O16 --> proton + neutron + O15[192.342]=>1
+proton + O16 --> proton + neutron + O15[192.754]=>1
+proton + O16 --> proton + neutron + O15[1927.563]=>1
+proton + O16 --> proton + neutron + O15[193.154]=>1
+proton + O16 --> proton + neutron + O15[1935.209]=>1
+proton + O16 --> proton + neutron + O15[194.837]=>1
+proton + O16 --> proton + neutron + O15[1943.480]=>1
+proton + O16 --> proton + neutron + O15[1949.949]=>1
+proton + O16 --> proton + neutron + O15[1952.795]=>1
+proton + O16 --> proton + neutron + O15[1954.362]=>1
+proton + O16 --> proton + neutron + O15[196.911]=>1
+proton + O16 --> proton + neutron + O15[1962.441]=>1
+proton + O16 --> proton + neutron + O15[1962.538]=>1
+proton + O16 --> proton + neutron + O15[1963.611]=>1
+proton + O16 --> proton + neutron + O15[197.681]=>1
+proton + O16 --> proton + neutron + O15[1971.065]=>1
+proton + O16 --> proton + neutron + O15[1975.530]=>1
+proton + O16 --> proton + neutron + O15[1975.661]=>1
+proton + O16 --> proton + neutron + O15[1995.281]=>1
+proton + O16 --> proton + neutron + O15[2.046]=>1
+proton + O16 --> proton + neutron + O15[2.758]=>1
+proton + O16 --> proton + neutron + O15[2.811]=>1
+proton + O16 --> proton + neutron + O15[2.856]=>1
+proton + O16 --> proton + neutron + O15[200.491]=>1
+proton + O16 --> proton + neutron + O15[2000.704]=>1
+proton + O16 --> proton + neutron + O15[2003.547]=>1
+proton + O16 --> proton + neutron + O15[2004.630]=>1
+proton + O16 --> proton + neutron + O15[2006.746]=>1
+proton + O16 --> proton + neutron + O15[2008.039]=>1
+proton + O16 --> proton + neutron + O15[201.532]=>1
+proton + O16 --> proton + neutron + O15[2010.194]=>1
+proton + O16 --> proton + neutron + O15[2014.148]=>1
+proton + O16 --> proton + neutron + O15[2014.669]=>1
+proton + O16 --> proton + neutron + O15[2021.824]=>1
+proton + O16 --> proton + neutron + O15[2023.642]=>1
+proton + O16 --> proton + neutron + O15[2024.806]=>1
+proton + O16 --> proton + neutron + O15[2028.598]=>1
+proton + O16 --> proton + neutron + O15[2032.704]=>1
+proton + O16 --> proton + neutron + O15[2048.711]=>1
+proton + O16 --> proton + neutron + O15[205.332]=>1
+proton + O16 --> proton + neutron + O15[2053.576]=>1
+proton + O16 --> proton + neutron + O15[2053.960]=>1
+proton + O16 --> proton + neutron + O15[2057.322]=>1
+proton + O16 --> proton + neutron + O15[206.560]=>1
+proton + O16 --> proton + neutron + O15[206.581]=>1
+proton + O16 --> proton + neutron + O15[2063.261]=>1
+proton + O16 --> proton + neutron + O15[2063.896]=>1
+proton + O16 --> proton + neutron + O15[2069.567]=>1
+proton + O16 --> proton + neutron + O15[2072.711]=>1
+proton + O16 --> proton + neutron + O15[2074.117]=>1
+proton + O16 --> proton + neutron + O15[2081.477]=>1
+proton + O16 --> proton + neutron + O15[209.231]=>1
+proton + O16 --> proton + neutron + O15[2090.135]=>1
+proton + O16 --> proton + neutron + O15[21.430]=>1
+proton + O16 --> proton + neutron + O15[21.431]=>1
+proton + O16 --> proton + neutron + O15[210.460]=>1
+proton + O16 --> proton + neutron + O15[2107.246]=>1
+proton + O16 --> proton + neutron + O15[2110.300]=>1
+proton + O16 --> proton + neutron + O15[2129.599]=>1
+proton + O16 --> proton + neutron + O15[2129.673]=>1
+proton + O16 --> proton + neutron + O15[2129.941]=>1
+proton + O16 --> proton + neutron + O15[213.051]=>1
+proton + O16 --> proton + neutron + O15[213.721]=>1
+proton + O16 --> proton + neutron + O15[2132.078]=>1
+proton + O16 --> proton + neutron + O15[2132.761]=>1
+proton + O16 --> proton + neutron + O15[2134.694]=>1
+proton + O16 --> proton + neutron + O15[2135.378]=>1
+proton + O16 --> proton + neutron + O15[215.134]=>1
+proton + O16 --> proton + neutron + O15[2151.175]=>1
+proton + O16 --> proton + neutron + O15[2153.381]=>1
+proton + O16 --> proton + neutron + O15[2160.461]=>1
+proton + O16 --> proton + neutron + O15[217.985]=>1
+proton + O16 --> proton + neutron + O15[2184.514]=>1
+proton + O16 --> proton + neutron + O15[2185.702]=>1
+proton + O16 --> proton + neutron + O15[2186.963]=>1
+proton + O16 --> proton + neutron + O15[2188.176]=>1
+proton + O16 --> proton + neutron + O15[219.190]=>1
+proton + O16 --> proton + neutron + O15[2195.730]=>1
+proton + O16 --> proton + neutron + O15[22.072]=>1
+proton + O16 --> proton + neutron + O15[22.808]=>1
+proton + O16 --> proton + neutron + O15[2201.255]=>1
+proton + O16 --> proton + neutron + O15[2213.674]=>1
+proton + O16 --> proton + neutron + O15[222.319]=>1
+proton + O16 --> proton + neutron + O15[2220.075]=>1
+proton + O16 --> proton + neutron + O15[2222.913]=>1
+proton + O16 --> proton + neutron + O15[2224.286]=>1
+proton + O16 --> proton + neutron + O15[2225.151]=>1
+proton + O16 --> proton + neutron + O15[2226.745]=>1
+proton + O16 --> proton + neutron + O15[2229.014]=>1
+proton + O16 --> proton + neutron + O15[2230.760]=>1
+proton + O16 --> proton + neutron + O15[224.188]=>1
+proton + O16 --> proton + neutron + O15[2246.456]=>1
+proton + O16 --> proton + neutron + O15[225.957]=>1
+proton + O16 --> proton + neutron + O15[2252.943]=>1
+proton + O16 --> proton + neutron + O15[2258.494]=>1
+proton + O16 --> proton + neutron + O15[226.247]=>1
+proton + O16 --> proton + neutron + O15[2276.666]=>1
+proton + O16 --> proton + neutron + O15[2277.075]=>1
+proton + O16 --> proton + neutron + O15[2284.212]=>1
+proton + O16 --> proton + neutron + O15[229.883]=>1
+proton + O16 --> proton + neutron + O15[2290.771]=>1
+proton + O16 --> proton + neutron + O15[2294.166]=>1
+proton + O16 --> proton + neutron + O15[2298.591]=>1
+proton + O16 --> proton + neutron + O15[2298.722]=>1
+proton + O16 --> proton + neutron + O15[2300.128]=>1
+proton + O16 --> proton + neutron + O15[2300.309]=>1
+proton + O16 --> proton + neutron + O15[2310.592]=>1
+proton + O16 --> proton + neutron + O15[232.124]=>1
+proton + O16 --> proton + neutron + O15[2324.430]=>1
+proton + O16 --> proton + neutron + O15[2327.032]=>1
+proton + O16 --> proton + neutron + O15[2335.118]=>1
+proton + O16 --> proton + neutron + O15[2335.915]=>1
+proton + O16 --> proton + neutron + O15[2336.835]=>1
+proton + O16 --> proton + neutron + O15[235.620]=>1
+proton + O16 --> proton + neutron + O15[236.596]=>1
+proton + O16 --> proton + neutron + O15[2361.408]=>1
+proton + O16 --> proton + neutron + O15[237.595]=>1
+proton + O16 --> proton + neutron + O15[238.185]=>1
+proton + O16 --> proton + neutron + O15[2382.327]=>1
+proton + O16 --> proton + neutron + O15[2389.478]=>1
+proton + O16 --> proton + neutron + O15[239.438]=>1
+proton + O16 --> proton + neutron + O15[239.649]=>1
+proton + O16 --> proton + neutron + O15[24.295]=>1
+proton + O16 --> proton + neutron + O15[24.426]=>1
+proton + O16 --> proton + neutron + O15[24.759]=>1
+proton + O16 --> proton + neutron + O15[24.791]=>1
+proton + O16 --> proton + neutron + O15[2402.452]=>1
+proton + O16 --> proton + neutron + O15[2404.878]=>1
+proton + O16 --> proton + neutron + O15[2406.020]=>1
+proton + O16 --> proton + neutron + O15[241.491]=>1
+proton + O16 --> proton + neutron + O15[2414.626]=>1
+proton + O16 --> proton + neutron + O15[2414.826]=>1
+proton + O16 --> proton + neutron + O15[242.055]=>1
+proton + O16 --> proton + neutron + O15[2420.752]=>1
+proton + O16 --> proton + neutron + O15[2422.470]=>1
+proton + O16 --> proton + neutron + O15[2426.522]=>1
+proton + O16 --> proton + neutron + O15[2428.759]=>1
+proton + O16 --> proton + neutron + O15[243.486]=>1
+proton + O16 --> proton + neutron + O15[2430.536]=>1
+proton + O16 --> proton + neutron + O15[2433.538]=>1
+proton + O16 --> proton + neutron + O15[244.858]=>1
+proton + O16 --> proton + neutron + O15[245.541]=>1
+proton + O16 --> proton + neutron + O15[2451.953]=>1
+proton + O16 --> proton + neutron + O15[2452.710]=>1
+proton + O16 --> proton + neutron + O15[2456.517]=>1
+proton + O16 --> proton + neutron + O15[246.096]=>1
+proton + O16 --> proton + neutron + O15[246.824]=>1
+proton + O16 --> proton + neutron + O15[2460.771]=>1
+proton + O16 --> proton + neutron + O15[2469.766]=>1
+proton + O16 --> proton + neutron + O15[247.084]=>1
+proton + O16 --> proton + neutron + O15[247.375]=>1
+proton + O16 --> proton + neutron + O15[247.690]=>1
+proton + O16 --> proton + neutron + O15[2471.487]=>1
+proton + O16 --> proton + neutron + O15[2478.577]=>1
+proton + O16 --> proton + neutron + O15[2479.754]=>1
+proton + O16 --> proton + neutron + O15[2493.585]=>1
+proton + O16 --> proton + neutron + O15[2496.717]=>1
+proton + O16 --> proton + neutron + O15[250.922]=>1
+proton + O16 --> proton + neutron + O15[250.930]=>1
+proton + O16 --> proton + neutron + O15[2507.010]=>1
+proton + O16 --> proton + neutron + O15[2510.098]=>1
+proton + O16 --> proton + neutron + O15[2511.710]=>1
+proton + O16 --> proton + neutron + O15[2513.475]=>1
+proton + O16 --> proton + neutron + O15[2525.316]=>1
+proton + O16 --> proton + neutron + O15[2527.215]=>1
+proton + O16 --> proton + neutron + O15[2538.694]=>1
+proton + O16 --> proton + neutron + O15[2545.890]=>1
+proton + O16 --> proton + neutron + O15[2547.759]=>1
+proton + O16 --> proton + neutron + O15[255.361]=>1
+proton + O16 --> proton + neutron + O15[255.483]=>1
+proton + O16 --> proton + neutron + O15[2550.510]=>1
+proton + O16 --> proton + neutron + O15[2551.499]=>1
+proton + O16 --> proton + neutron + O15[2551.548]=>1
+proton + O16 --> proton + neutron + O15[2554.856]=>1
+proton + O16 --> proton + neutron + O15[2556.569]=>1
+proton + O16 --> proton + neutron + O15[2562.630]=>1
+proton + O16 --> proton + neutron + O15[2568.676]=>1
+proton + O16 --> proton + neutron + O15[257.835]=>1
+proton + O16 --> proton + neutron + O15[2576.633]=>1
+proton + O16 --> proton + neutron + O15[2576.992]=>1
+proton + O16 --> proton + neutron + O15[2584.743]=>1
+proton + O16 --> proton + neutron + O15[2585.073]=>1
+proton + O16 --> proton + neutron + O15[2589.344]=>1
+proton + O16 --> proton + neutron + O15[2589.999]=>1
+proton + O16 --> proton + neutron + O15[26.067]=>1
+proton + O16 --> proton + neutron + O15[266.694]=>1
+proton + O16 --> proton + neutron + O15[267.809]=>1
+proton + O16 --> proton + neutron + O15[268.005]=>1
+proton + O16 --> proton + neutron + O15[27.391]=>1
+proton + O16 --> proton + neutron + O15[27.600]=>1
+proton + O16 --> proton + neutron + O15[272.564]=>1
+proton + O16 --> proton + neutron + O15[272.592]=>1
+proton + O16 --> proton + neutron + O15[273.699]=>1
+proton + O16 --> proton + neutron + O15[28.534]=>1
+proton + O16 --> proton + neutron + O15[28.563]=>1
+proton + O16 --> proton + neutron + O15[28.564]=>1
+proton + O16 --> proton + neutron + O15[280.576]=>1
+proton + O16 --> proton + neutron + O15[281.844]=>1
+proton + O16 --> proton + neutron + O15[282.056]=>1
+proton + O16 --> proton + neutron + O15[282.214]=>1
+proton + O16 --> proton + neutron + O15[285.685]=>1
+proton + O16 --> proton + neutron + O15[286.476]=>1
+proton + O16 --> proton + neutron + O15[289.047]=>1
+proton + O16 --> proton + neutron + O15[29.157]=>1
+proton + O16 --> proton + neutron + O15[29.518]=>1
+proton + O16 --> proton + neutron + O15[29.898]=>1
+proton + O16 --> proton + neutron + O15[292.239]=>1
+proton + O16 --> proton + neutron + O15[294.230]=>1
+proton + O16 --> proton + neutron + O15[299.899]=>1
+proton + O16 --> proton + neutron + O15[3.612]=>1
+proton + O16 --> proton + neutron + O15[30.458]=>1
+proton + O16 --> proton + neutron + O15[30.845]=>1
+proton + O16 --> proton + neutron + O15[300.546]=>1
+proton + O16 --> proton + neutron + O15[303.877]=>1
+proton + O16 --> proton + neutron + O15[304.230]=>1
+proton + O16 --> proton + neutron + O15[305.357]=>1
+proton + O16 --> proton + neutron + O15[306.473]=>1
+proton + O16 --> proton + neutron + O15[306.736]=>1
+proton + O16 --> proton + neutron + O15[308.288]=>1
+proton + O16 --> proton + neutron + O15[309.532]=>1
+proton + O16 --> proton + neutron + O15[31.358]=>1
+proton + O16 --> proton + neutron + O15[311.379]=>1
+proton + O16 --> proton + neutron + O15[32.386]=>1
+proton + O16 --> proton + neutron + O15[325.246]=>1
+proton + O16 --> proton + neutron + O15[325.720]=>1
+proton + O16 --> proton + neutron + O15[328.555]=>1
+proton + O16 --> proton + neutron + O15[33.144]=>1
+proton + O16 --> proton + neutron + O15[33.973]=>1
+proton + O16 --> proton + neutron + O15[333.881]=>1
+proton + O16 --> proton + neutron + O15[335.320]=>1
+proton + O16 --> proton + neutron + O15[336.744]=>1
+proton + O16 --> proton + neutron + O15[337.283]=>1
+proton + O16 --> proton + neutron + O15[338.000]=>1
+proton + O16 --> proton + neutron + O15[339.135]=>1
+proton + O16 --> proton + neutron + O15[344.408]=>1
+proton + O16 --> proton + neutron + O15[346.343]=>1
+proton + O16 --> proton + neutron + O15[35.006]=>1
+proton + O16 --> proton + neutron + O15[35.267]=>1
+proton + O16 --> proton + neutron + O15[35.389]=>1
+proton + O16 --> proton + neutron + O15[351.254]=>1
+proton + O16 --> proton + neutron + O15[351.939]=>1
+proton + O16 --> proton + neutron + O15[355.780]=>1
+proton + O16 --> proton + neutron + O15[356.386]=>1
+proton + O16 --> proton + neutron + O15[358.918]=>1
+proton + O16 --> proton + neutron + O15[361.508]=>1
+proton + O16 --> proton + neutron + O15[362.517]=>1
+proton + O16 --> proton + neutron + O15[363.377]=>1
+proton + O16 --> proton + neutron + O15[364.267]=>1
+proton + O16 --> proton + neutron + O15[367.234]=>1
+proton + O16 --> proton + neutron + O15[369.804]=>1
+proton + O16 --> proton + neutron + O15[369.850]=>1
+proton + O16 --> proton + neutron + O15[37.571]=>1
+proton + O16 --> proton + neutron + O15[371.209]=>1
+proton + O16 --> proton + neutron + O15[371.852]=>1
+proton + O16 --> proton + neutron + O15[374.199]=>1
+proton + O16 --> proton + neutron + O15[374.733]=>1
+proton + O16 --> proton + neutron + O15[38.044]=>1
+proton + O16 --> proton + neutron + O15[381.634]=>1
+proton + O16 --> proton + neutron + O15[381.892]=>1
+proton + O16 --> proton + neutron + O15[386.079]=>1
+proton + O16 --> proton + neutron + O15[387.587]=>1
+proton + O16 --> proton + neutron + O15[387.935]=>1
+proton + O16 --> proton + neutron + O15[388.837]=>1
+proton + O16 --> proton + neutron + O15[389.527]=>1
+proton + O16 --> proton + neutron + O15[389.576]=>1
+proton + O16 --> proton + neutron + O15[389.756]=>1
+proton + O16 --> proton + neutron + O15[390.079]=>1
+proton + O16 --> proton + neutron + O15[390.257]=>1
+proton + O16 --> proton + neutron + O15[392.951]=>1
+proton + O16 --> proton + neutron + O15[395.089]=>1
+proton + O16 --> proton + neutron + O15[395.902]=>1
+proton + O16 --> proton + neutron + O15[397.004]=>1
+proton + O16 --> proton + neutron + O15[4.673]=>1
+proton + O16 --> proton + neutron + O15[40.551]=>1
+proton + O16 --> proton + neutron + O15[40.649]=>1
+proton + O16 --> proton + neutron + O15[400.501]=>1
+proton + O16 --> proton + neutron + O15[402.309]=>1
+proton + O16 --> proton + neutron + O15[402.898]=>1
+proton + O16 --> proton + neutron + O15[408.512]=>1
+proton + O16 --> proton + neutron + O15[409.095]=>1
+proton + O16 --> proton + neutron + O15[411.180]=>1
+proton + O16 --> proton + neutron + O15[414.936]=>1
+proton + O16 --> proton + neutron + O15[414.951]=>1
+proton + O16 --> proton + neutron + O15[42.195]=>1
+proton + O16 --> proton + neutron + O15[420.377]=>1
+proton + O16 --> proton + neutron + O15[421.634]=>1
+proton + O16 --> proton + neutron + O15[422.832]=>1
+proton + O16 --> proton + neutron + O15[425.640]=>1
+proton + O16 --> proton + neutron + O15[426.935]=>1
+proton + O16 --> proton + neutron + O15[43.309]=>1
+proton + O16 --> proton + neutron + O15[434.015]=>1
+proton + O16 --> proton + neutron + O15[435.440]=>1
+proton + O16 --> proton + neutron + O15[44.637]=>1
+proton + O16 --> proton + neutron + O15[44.671]=>1
+proton + O16 --> proton + neutron + O15[441.917]=>1
+proton + O16 --> proton + neutron + O15[443.615]=>1
+proton + O16 --> proton + neutron + O15[446.562]=>1
+proton + O16 --> proton + neutron + O15[448.315]=>1
+proton + O16 --> proton + neutron + O15[449.699]=>1
+proton + O16 --> proton + neutron + O15[451.720]=>1
+proton + O16 --> proton + neutron + O15[452.340]=>1
+proton + O16 --> proton + neutron + O15[454.139]=>1
+proton + O16 --> proton + neutron + O15[454.874]=>1
+proton + O16 --> proton + neutron + O15[458.460]=>1
+proton + O16 --> proton + neutron + O15[458.836]=>1
+proton + O16 --> proton + neutron + O15[459.366]=>1
+proton + O16 --> proton + neutron + O15[460.798]=>1
+proton + O16 --> proton + neutron + O15[463.707]=>1
+proton + O16 --> proton + neutron + O15[464.693]=>1
+proton + O16 --> proton + neutron + O15[466.071]=>1
+proton + O16 --> proton + neutron + O15[469.186]=>1
+proton + O16 --> proton + neutron + O15[470.172]=>1
+proton + O16 --> proton + neutron + O15[473.797]=>1
+proton + O16 --> proton + neutron + O15[477.764]=>1
+proton + O16 --> proton + neutron + O15[478.513]=>1
+proton + O16 --> proton + neutron + O15[481.040]=>1
+proton + O16 --> proton + neutron + O15[481.132]=>1
+proton + O16 --> proton + neutron + O15[483.390]=>1
+proton + O16 --> proton + neutron + O15[484.636]=>1
+proton + O16 --> proton + neutron + O15[488.791]=>1
+proton + O16 --> proton + neutron + O15[489.316]=>1
+proton + O16 --> proton + neutron + O15[490.427]=>1
+proton + O16 --> proton + neutron + O15[492.604]=>1
+proton + O16 --> proton + neutron + O15[498.173]=>1
+proton + O16 --> proton + neutron + O15[5.187]=>1
+proton + O16 --> proton + neutron + O15[501.715]=>1
+proton + O16 --> proton + neutron + O15[504.532]=>1
+proton + O16 --> proton + neutron + O15[508.558]=>1
+proton + O16 --> proton + neutron + O15[509.718]=>1
+proton + O16 --> proton + neutron + O15[509.815]=>1
+proton + O16 --> proton + neutron + O15[51.172]=>1
+proton + O16 --> proton + neutron + O15[51.236]=>1
+proton + O16 --> proton + neutron + O15[51.491]=>1
+proton + O16 --> proton + neutron + O15[510.831]=>1
+proton + O16 --> proton + neutron + O15[513.059]=>1
+proton + O16 --> proton + neutron + O15[514.845]=>1
+proton + O16 --> proton + neutron + O15[518.429]=>1
+proton + O16 --> proton + neutron + O15[52.015]=>1
+proton + O16 --> proton + neutron + O15[520.116]=>1
+proton + O16 --> proton + neutron + O15[520.847]=>1
+proton + O16 --> proton + neutron + O15[521.132]=>1
+proton + O16 --> proton + neutron + O15[523.395]=>1
+proton + O16 --> proton + neutron + O15[526.368]=>1
+proton + O16 --> proton + neutron + O15[528.590]=>1
+proton + O16 --> proton + neutron + O15[528.803]=>1
+proton + O16 --> proton + neutron + O15[53.819]=>1
+proton + O16 --> proton + neutron + O15[531.122]=>1
+proton + O16 --> proton + neutron + O15[532.924]=>1
+proton + O16 --> proton + neutron + O15[54.404]=>1
+proton + O16 --> proton + neutron + O15[54.950]=>1
+proton + O16 --> proton + neutron + O15[544.120]=>1
+proton + O16 --> proton + neutron + O15[546.062]=>1
+proton + O16 --> proton + neutron + O15[547.946]=>1
+proton + O16 --> proton + neutron + O15[55.148]=>1
+proton + O16 --> proton + neutron + O15[550.373]=>1
+proton + O16 --> proton + neutron + O15[555.050]=>1
+proton + O16 --> proton + neutron + O15[559.161]=>1
+proton + O16 --> proton + neutron + O15[559.194]=>1
+proton + O16 --> proton + neutron + O15[559.813]=>1
+proton + O16 --> proton + neutron + O15[56.740]=>1
+proton + O16 --> proton + neutron + O15[562.169]=>1
+proton + O16 --> proton + neutron + O15[563.663]=>1
+proton + O16 --> proton + neutron + O15[565.103]=>1
+proton + O16 --> proton + neutron + O15[565.725]=>1
+proton + O16 --> proton + neutron + O15[58.761]=>1
+proton + O16 --> proton + neutron + O15[580.282]=>1
+proton + O16 --> proton + neutron + O15[586.919]=>1
+proton + O16 --> proton + neutron + O15[592.632]=>1
+proton + O16 --> proton + neutron + O15[595.260]=>1
+proton + O16 --> proton + neutron + O15[599.987]=>1
+proton + O16 --> proton + neutron + O15[6.043]=>1
+proton + O16 --> proton + neutron + O15[6.156]=>1
+proton + O16 --> proton + neutron + O15[60.897]=>1
+proton + O16 --> proton + neutron + O15[604.308]=>1
+proton + O16 --> proton + neutron + O15[605.249]=>1
+proton + O16 --> proton + neutron + O15[605.698]=>1
+proton + O16 --> proton + neutron + O15[607.956]=>1
+proton + O16 --> proton + neutron + O15[614.446]=>1
+proton + O16 --> proton + neutron + O15[614.695]=>1
+proton + O16 --> proton + neutron + O15[614.796]=>1
+proton + O16 --> proton + neutron + O15[616.830]=>1
+proton + O16 --> proton + neutron + O15[617.938]=>1
+proton + O16 --> proton + neutron + O15[62.221]=>1
+proton + O16 --> proton + neutron + O15[622.821]=>1
+proton + O16 --> proton + neutron + O15[625.915]=>1
+proton + O16 --> proton + neutron + O15[626.202]=>1
+proton + O16 --> proton + neutron + O15[627.276]=>1
+proton + O16 --> proton + neutron + O15[627.689]=>1
+proton + O16 --> proton + neutron + O15[630.067]=>1
+proton + O16 --> proton + neutron + O15[633.484]=>1
+proton + O16 --> proton + neutron + O15[64.486]=>1
+proton + O16 --> proton + neutron + O15[641.459]=>1
+proton + O16 --> proton + neutron + O15[643.668]=>1
+proton + O16 --> proton + neutron + O15[646.506]=>1
+proton + O16 --> proton + neutron + O15[65.212]=>1
+proton + O16 --> proton + neutron + O15[65.233]=>1
+proton + O16 --> proton + neutron + O15[650.746]=>1
+proton + O16 --> proton + neutron + O15[651.411]=>1
+proton + O16 --> proton + neutron + O15[653.199]=>1
+proton + O16 --> proton + neutron + O15[654.923]=>1
+proton + O16 --> proton + neutron + O15[656.243]=>1
+proton + O16 --> proton + neutron + O15[657.430]=>1
+proton + O16 --> proton + neutron + O15[658.448]=>1
+proton + O16 --> proton + neutron + O15[661.356]=>1
+proton + O16 --> proton + neutron + O15[661.541]=>1
+proton + O16 --> proton + neutron + O15[666.447]=>1
+proton + O16 --> proton + neutron + O15[669.411]=>1
+proton + O16 --> proton + neutron + O15[670.800]=>1
+proton + O16 --> proton + neutron + O15[672.314]=>1
+proton + O16 --> proton + neutron + O15[677.420]=>1
+proton + O16 --> proton + neutron + O15[68.067]=>1
+proton + O16 --> proton + neutron + O15[68.882]=>1
+proton + O16 --> proton + neutron + O15[684.022]=>1
+proton + O16 --> proton + neutron + O15[685.547]=>1
+proton + O16 --> proton + neutron + O15[69.457]=>1
+proton + O16 --> proton + neutron + O15[69.645]=>1
+proton + O16 --> proton + neutron + O15[692.267]=>1
+proton + O16 --> proton + neutron + O15[692.425]=>1
+proton + O16 --> proton + neutron + O15[699.388]=>1
+proton + O16 --> proton + neutron + O15[7.726]=>1
+proton + O16 --> proton + neutron + O15[700.115]=>1
+proton + O16 --> proton + neutron + O15[703.013]=>1
+proton + O16 --> proton + neutron + O15[704.501]=>1
+proton + O16 --> proton + neutron + O15[705.929]=>1
+proton + O16 --> proton + neutron + O15[706.997]=>1
+proton + O16 --> proton + neutron + O15[708.945]=>1
+proton + O16 --> proton + neutron + O15[72.403]=>1
+proton + O16 --> proton + neutron + O15[720.485]=>1
+proton + O16 --> proton + neutron + O15[720.746]=>1
+proton + O16 --> proton + neutron + O15[721.283]=>1
+proton + O16 --> proton + neutron + O15[721.368]=>1
+proton + O16 --> proton + neutron + O15[727.381]=>1
+proton + O16 --> proton + neutron + O15[728.490]=>1
+proton + O16 --> proton + neutron + O15[731.785]=>1
+proton + O16 --> proton + neutron + O15[732.001]=>1
+proton + O16 --> proton + neutron + O15[732.161]=>1
+proton + O16 --> proton + neutron + O15[734.676]=>1
+proton + O16 --> proton + neutron + O15[74.528]=>1
+proton + O16 --> proton + neutron + O15[740.167]=>1
+proton + O16 --> proton + neutron + O15[741.284]=>1
+proton + O16 --> proton + neutron + O15[750.066]=>1
+proton + O16 --> proton + neutron + O15[752.157]=>1
+proton + O16 --> proton + neutron + O15[756.193]=>1
+proton + O16 --> proton + neutron + O15[758.455]=>1
+proton + O16 --> proton + neutron + O15[759.166]=>1
+proton + O16 --> proton + neutron + O15[76.172]=>1
+proton + O16 --> proton + neutron + O15[767.119]=>1
+proton + O16 --> proton + neutron + O15[767.840]=>1
+proton + O16 --> proton + neutron + O15[768.665]=>1
+proton + O16 --> proton + neutron + O15[769.619]=>1
+proton + O16 --> proton + neutron + O15[776.135]=>1
+proton + O16 --> proton + neutron + O15[776.495]=>1
+proton + O16 --> proton + neutron + O15[781.098]=>1
+proton + O16 --> proton + neutron + O15[781.820]=>1
+proton + O16 --> proton + neutron + O15[784.481]=>1
+proton + O16 --> proton + neutron + O15[786.825]=>1
+proton + O16 --> proton + neutron + O15[787.246]=>1
+proton + O16 --> proton + neutron + O15[789.002]=>1
+proton + O16 --> proton + neutron + O15[790.816]=>1
+proton + O16 --> proton + neutron + O15[791.013]=>1
+proton + O16 --> proton + neutron + O15[794.260]=>1
+proton + O16 --> proton + neutron + O15[796.154]=>1
+proton + O16 --> proton + neutron + O15[796.867]=>1
+proton + O16 --> proton + neutron + O15[80.303]=>1
+proton + O16 --> proton + neutron + O15[801.300]=>1
+proton + O16 --> proton + neutron + O15[804.466]=>1
+proton + O16 --> proton + neutron + O15[81.375]=>1
+proton + O16 --> proton + neutron + O15[811.528]=>1
+proton + O16 --> proton + neutron + O15[82.202]=>1
+proton + O16 --> proton + neutron + O15[827.159]=>1
+proton + O16 --> proton + neutron + O15[829.183]=>1
+proton + O16 --> proton + neutron + O15[830.661]=>1
+proton + O16 --> proton + neutron + O15[831.824]=>1
+proton + O16 --> proton + neutron + O15[832.213]=>1
+proton + O16 --> proton + neutron + O15[832.581]=>1
+proton + O16 --> proton + neutron + O15[832.712]=>1
+proton + O16 --> proton + neutron + O15[835.098]=>1
+proton + O16 --> proton + neutron + O15[835.827]=>1
+proton + O16 --> proton + neutron + O15[838.666]=>1
+proton + O16 --> proton + neutron + O15[840.254]=>1
+proton + O16 --> proton + neutron + O15[846.076]=>1
+proton + O16 --> proton + neutron + O15[85.138]=>1
+proton + O16 --> proton + neutron + O15[85.238]=>1
+proton + O16 --> proton + neutron + O15[854.965]=>1
+proton + O16 --> proton + neutron + O15[857.730]=>1
+proton + O16 --> proton + neutron + O15[862.090]=>1
+proton + O16 --> proton + neutron + O15[87.276]=>1
+proton + O16 --> proton + neutron + O15[87.523]=>1
+proton + O16 --> proton + neutron + O15[872.730]=>1
+proton + O16 --> proton + neutron + O15[879.017]=>1
+proton + O16 --> proton + neutron + O15[882.206]=>1
+proton + O16 --> proton + neutron + O15[884.025]=>1
+proton + O16 --> proton + neutron + O15[897.880]=>1
+proton + O16 --> proton + neutron + O15[898.992]=>1
+proton + O16 --> proton + neutron + O15[899.919]=>1
+proton + O16 --> proton + neutron + O15[9.843]=>1
+proton + O16 --> proton + neutron + O15[90.534]=>1
+proton + O16 --> proton + neutron + O15[900.120]=>1
+proton + O16 --> proton + neutron + O15[903.700]=>1
+proton + O16 --> proton + neutron + O15[91.573]=>1
+proton + O16 --> proton + neutron + O15[91.602]=>1
+proton + O16 --> proton + neutron + O15[91.791]=>1
+proton + O16 --> proton + neutron + O15[911.026]=>1
+proton + O16 --> proton + neutron + O15[911.441]=>1
+proton + O16 --> proton + neutron + O15[916.047]=>1
+proton + O16 --> proton + neutron + O15[920.820]=>1
+proton + O16 --> proton + neutron + O15[924.501]=>1
+proton + O16 --> proton + neutron + O15[933.143]=>1
+proton + O16 --> proton + neutron + O15[935.610]=>1
+proton + O16 --> proton + neutron + O15[936.315]=>1
+proton + O16 --> proton + neutron + O15[942.662]=>1
+proton + O16 --> proton + neutron + O15[943.597]=>1
+proton + O16 --> proton + neutron + O15[948.608]=>1
+proton + O16 --> proton + neutron + O15[950.855]=>1
+proton + O16 --> proton + neutron + O15[952.486]=>1
+proton + O16 --> proton + neutron + O15[953.236]=>1
+proton + O16 --> proton + neutron + O15[956.194]=>1
+proton + O16 --> proton + neutron + O15[959.192]=>1
+proton + O16 --> proton + neutron + O15[96.102]=>1
+proton + O16 --> proton + neutron + O15[96.207]=>1
+proton + O16 --> proton + neutron + O15[96.908]=>1
+proton + O16 --> proton + neutron + O15[963.446]=>1
+proton + O16 --> proton + neutron + O15[965.137]=>1
+proton + O16 --> proton + neutron + O15[966.081]=>1
+proton + O16 --> proton + neutron + O15[972.483]=>1
+proton + O16 --> proton + neutron + O15[972.907]=>1
+proton + O16 --> proton + neutron + O15[976.817]=>1
+proton + O16 --> proton + neutron + O15[981.744]=>1
+proton + O16 --> proton + neutron + O15[983.982]=>1
+proton + O16 --> proton + neutron + O15[987.501]=>1
+proton + O16 --> proton + neutron + O15[987.838]=>1
+proton + O16 --> proton + neutron + O15[989.941]=>1
+proton + O16 --> proton + neutron + O15[997.110]=>1
+proton + O16 --> proton + neutron + alpha + C11=>280
+proton + O16 --> proton + neutron + alpha + N gamma or e- + C11=>174
+proton + O16 --> proton + neutron + alpha + deuteron + He3 + Li6=>1
+proton + O16 --> proton + neutron + deuteron + Be7 + Li6=>1
+proton + O16 --> proton + neutron + deuteron + He3 + B10=>2
+proton + O16 --> proton + neutron + deuteron + He3 + N gamma or e- + B10=>1
+proton + O16 --> proton + neutron + deuteron + N13=>16
+proton + O16 --> proton + neutron + triton + N gamma or e- + N12=>2
+proton + O16 --> proton + triton + He3 + N gamma or e- + B10=>1
+proton + O16 --> triton + N gamma or e- + O14=>1
+END REACTIONS
+
+
+START PARTICLES
+B10->303
+B10[340.027]->1
+B11->305
+B12->1
+B8->26
+Be10->8
+Be6->6
+Be6[200.504]->1
+Be7->214
+Be9->44
+C10->15
+C10[1242.670]->1
+C10[1266.641]->1
+C10[384.100]->1
+C10[463.801]->1
+C10[544.084]->1
+C10[83.021]->1
+C10[833.474]->1
+C10[98.990]->1
+C11->461
+C12->1213
+C13->672
+C14->92
+C14[128.872]->1
+C14[1744.077]->1
+C14[1745.586]->1
+C14[192.746]->1
+C14[193.173]->1
+C14[2895.924]->1
+C9->2
+C9[542.163]->1
+F15->5
+F16->29
+F16[83.684]->1
+He3->340
+He6->1
+Li6->489
+Li7->86
+Li7[204.408]->1
+N11->8
+N12->53
+N13->48
+N14->1249
+N14[10.549]->1
+N14[1021.186]->1
+N14[1032.299]->1
+N14[1055.756]->1
+N14[193.009]->1
+N14[2.638]->1
+N14[200.512]->1
+N14[205.788]->1
+N14[22.546]->1
+N14[251.228]->1
+N14[274.819]->1
+N14[296.259]->1
+N14[307.894]->1
+N14[314.310]->1
+N14[324.634]->1
+N14[49.451]->1
+N14[508.081]->1
+N14[525.356]->1
+N14[537.841]->1
+N14[540.951]->1
+N14[547.070]->1
+N14[556.030]->1
+N14[653.408]->1
+N14[672.544]->1
+N14[677.548]->1
+N14[720.892]->1
+N14[730.099]->1
+N14[731.718]->1
+N14[757.476]->1
+N14[772.877]->1
+N14[779.695]->1
+N14[787.146]->1
+N14[82.150]->1
+N14[837.669]->1
+N14[859.179]->1
+N14[900.783]->1
+N14[981.607]->1
+N14[983.824]->1
+N14[997.150]->1
+N15->547
+N15[0.880]->1
+N15[1.564]->1
+N15[100.271]->1
+N15[101.189]->1
+N15[1011.123]->1
+N15[1016.956]->1
+N15[102.139]->1
+N15[1030.346]->1
+N15[1032.160]->1
+N15[1036.457]->1
+N15[1036.998]->1
+N15[1064.425]->1
+N15[107.558]->1
+N15[1075.946]->1
+N15[1086.097]->1
+N15[109.549]->1
+N15[109.706]->1
+N15[1098.324]->1
+N15[1102.062]->1
+N15[112.360]->1
+N15[1120.940]->1
+N15[1137.329]->1
+N15[116.634]->1
+N15[1170.918]->1
+N15[1174.323]->1
+N15[1181.066]->1
+N15[1192.711]->1
+N15[1196.332]->1
+N15[1197.114]->1
+N15[1198.444]->1
+N15[12.002]->1
+N15[12.352]->1
+N15[121.055]->1
+N15[1218.267]->1
+N15[1219.035]->1
+N15[1224.313]->1
+N15[1227.233]->1
+N15[1233.112]->1
+N15[125.142]->1
+N15[127.791]->1
+N15[1292.021]->1
+N15[131.800]->1
+N15[1311.614]->1
+N15[1313.850]->1
+N15[132.366]->1
+N15[134.995]->1
+N15[1349.475]->1
+N15[1359.404]->1
+N15[1363.746]->1
+N15[1379.808]->1
+N15[138.566]->1
+N15[1385.619]->1
+N15[140.336]->1
+N15[144.979]->1
+N15[1443.259]->1
+N15[1451.543]->1
+N15[1472.950]->1
+N15[1474.723]->1
+N15[150.790]->1
+N15[150.873]->1
+N15[1504.747]->1
+N15[1505.334]->1
+N15[1507.900]->1
+N15[1509.418]->1
+N15[1555.422]->1
+N15[158.502]->1
+N15[158.910]->1
+N15[1581.439]->1
+N15[1592.534]->1
+N15[16.718]->1
+N15[1608.075]->1
+N15[1614.513]->1
+N15[1626.577]->1
+N15[163.141]->1
+N15[1642.848]->1
+N15[1651.417]->1
+N15[1659.520]->1
+N15[1660.299]->1
+N15[1668.979]->1
+N15[1689.267]->1
+N15[1689.642]->1
+N15[169.579]->1
+N15[1696.523]->1
+N15[1699.779]->1
+N15[1710.303]->1
+N15[1715.463]->1
+N15[1723.768]->1
+N15[1729.633]->1
+N15[1732.647]->1
+N15[1757.737]->1
+N15[1770.932]->1
+N15[179.175]->1
+N15[1804.243]->1
+N15[181.619]->1
+N15[1827.361]->1
+N15[1865.906]->1
+N15[1866.262]->1
+N15[1867.655]->1
+N15[189.291]->1
+N15[1907.605]->1
+N15[1920.460]->1
+N15[1930.627]->1
+N15[1938.257]->1
+N15[1938.960]->1
+N15[1942.925]->1
+N15[1959.124]->1
+N15[196.412]->1
+N15[1962.074]->1
+N15[1980.104]->1
+N15[1988.798]->1
+N15[20.500]->1
+N15[20.623]->1
+N15[2004.895]->1
+N15[2024.735]->1
+N15[2058.172]->1
+N15[2065.237]->1
+N15[2072.715]->1
+N15[2072.880]->1
+N15[2085.593]->1
+N15[21.590]->1
+N15[2104.534]->1
+N15[2128.037]->1
+N15[2128.399]->1
+N15[215.116]->1
+N15[215.995]->1
+N15[2158.739]->1
+N15[2161.038]->1
+N15[2165.943]->1
+N15[219.657]->1
+N15[2202.182]->1
+N15[221.733]->1
+N15[2223.300]->1
+N15[2240.802]->1
+N15[2249.081]->1
+N15[2278.941]->1
+N15[228.214]->1
+N15[2289.617]->1
+N15[23.093]->1
+N15[23.117]->1
+N15[23.751]->1
+N15[2321.114]->1
+N15[2324.389]->1
+N15[2335.761]->1
+N15[2341.293]->1
+N15[2350.176]->1
+N15[2353.298]->1
+N15[237.102]->1
+N15[2378.742]->1
+N15[2384.683]->1
+N15[24.090]->1
+N15[2408.737]->1
+N15[241.890]->1
+N15[2427.664]->1
+N15[2433.928]->1
+N15[2438.939]->1
+N15[2439.647]->1
+N15[2440.045]->1
+N15[246.389]->1
+N15[2487.241]->1
+N15[2491.500]->1
+N15[2500.182]->1
+N15[251.286]->1
+N15[253.540]->1
+N15[2530.783]->1
+N15[2542.464]->1
+N15[2576.451]->1
+N15[2593.255]->1
+N15[2600.768]->1
+N15[262.363]->1
+N15[262.556]->1
+N15[267.695]->1
+N15[272.924]->1
+N15[274.026]->1
+N15[278.498]->1
+N15[289.153]->1
+N15[289.815]->1
+N15[29.652]->1
+N15[293.572]->1
+N15[296.134]->1
+N15[296.834]->1
+N15[3.989]->1
+N15[30.582]->1
+N15[303.194]->1
+N15[304.533]->1
+N15[314.008]->1
+N15[315.415]->1
+N15[321.426]->1
+N15[334.492]->1
+N15[336.186]->1
+N15[339.481]->1
+N15[339.593]->1
+N15[35.859]->1
+N15[352.977]->1
+N15[358.089]->1
+N15[359.727]->1
+N15[374.340]->1
+N15[378.066]->1
+N15[383.628]->1
+N15[385.173]->1
+N15[392.333]->1
+N15[392.944]->1
+N15[398.581]->1
+N15[398.730]->1
+N15[4.284]->1
+N15[404.932]->1
+N15[406.536]->1
+N15[413.425]->1
+N15[427.626]->1
+N15[432.358]->1
+N15[448.869]->1
+N15[454.295]->1
+N15[459.750]->1
+N15[46.925]->1
+N15[484.231]->1
+N15[485.738]->1
+N15[49.894]->1
+N15[498.593]->1
+N15[499.636]->1
+N15[5.495]->1
+N15[507.082]->1
+N15[509.412]->1
+N15[51.610]->1
+N15[51.924]->1
+N15[518.730]->1
+N15[523.845]->1
+N15[53.243]->1
+N15[549.484]->1
+N15[558.097]->1
+N15[560.458]->1
+N15[566.798]->1
+N15[570.720]->1
+N15[576.050]->1
+N15[576.122]->1
+N15[590.529]->1
+N15[599.162]->1
+N15[609.510]->1
+N15[614.839]->1
+N15[618.183]->1
+N15[618.200]->1
+N15[63.014]->1
+N15[636.711]->1
+N15[636.775]->1
+N15[644.005]->1
+N15[644.859]->1
+N15[659.058]->1
+N15[666.459]->1
+N15[668.237]->1
+N15[67.684]->1
+N15[685.750]->1
+N15[69.586]->1
+N15[692.971]->1
+N15[694.562]->1
+N15[694.903]->1
+N15[695.941]->1
+N15[697.288]->1
+N15[698.832]->1
+N15[7.637]->1
+N15[70.554]->1
+N15[700.181]->1
+N15[727.062]->1
+N15[741.052]->1
+N15[747.895]->1
+N15[748.612]->1
+N15[75.148]->1
+N15[75.475]->1
+N15[766.316]->1
+N15[77.778]->1
+N15[772.857]->1
+N15[774.522]->1
+N15[775.581]->1
+N15[778.544]->1
+N15[780.176]->1
+N15[791.501]->1
+N15[797.390]->1
+N15[80.603]->1
+N15[81.620]->1
+N15[83.335]->1
+N15[837.581]->1
+N15[84.012]->1
+N15[84.329]->1
+N15[845.958]->1
+N15[862.615]->1
+N15[866.509]->1
+N15[874.276]->1
+N15[882.972]->1
+N15[892.522]->1
+N15[902.446]->1
+N15[902.901]->1
+N15[914.924]->1
+N15[918.354]->1
+N15[922.196]->1
+N15[922.648]->1
+N15[926.527]->1
+N15[930.741]->1
+N15[932.960]->1
+N15[937.417]->1
+N15[950.073]->1
+N15[957.169]->1
+N15[959.717]->1
+N15[960.802]->1
+N15[963.845]->1
+N15[970.202]->1
+N15[993.099]->1
+O13->3
+O14->258
+O14[1020.092]->1
+O14[1269.440]->1
+O14[1349.667]->1
+O14[1472.880]->1
+O14[1515.108]->1
+O14[1718.475]->1
+O14[195.069]->1
+O14[2047.222]->1
+O14[205.221]->1
+O14[224.596]->1
+O14[2300.566]->1
+O14[2324.875]->1
+O14[2427.167]->1
+O14[2512.261]->1
+O14[315.160]->1
+O14[346.500]->1
+O14[350.726]->1
+O14[381.987]->1
+O14[526.396]->1
+O14[725.674]->1
+O14[754.391]->1
+O14[907.138]->1
+O15->1021
+O15[1.640]->1
+O15[1.745]->1
+O15[1.911]->1
+O15[10.174]->1
+O15[1004.055]->1
+O15[1006.256]->1
+O15[101.973]->1
+O15[1017.487]->1
+O15[102.892]->1
+O15[1023.328]->1
+O15[1023.528]->1
+O15[1026.808]->1
+O15[1028.209]->1
+O15[1032.752]->1
+O15[1032.993]->1
+O15[1034.547]->1
+O15[1034.933]->1
+O15[1036.421]->1
+O15[1045.831]->1
+O15[1048.452]->1
+O15[105.110]->1
+O15[1052.739]->1
+O15[1054.876]->1
+O15[1055.351]->1
+O15[1058.690]->1
+O15[1059.235]->1
+O15[1059.392]->1
+O15[106.935]->1
+O15[1061.369]->1
+O15[1064.808]->1
+O15[1066.252]->1
+O15[1068.705]->1
+O15[1069.419]->1
+O15[107.155]->1
+O15[107.734]->1
+O15[1071.286]->1
+O15[1072.340]->1
+O15[1077.654]->1
+O15[108.894]->1
+O15[1083.676]->1
+O15[1083.728]->1
+O15[109.492]->1
+O15[1093.498]->1
+O15[1095.399]->1
+O15[1095.759]->1
+O15[1096.341]->1
+O15[11.773]->1
+O15[110.930]->1
+O15[1100.476]->1
+O15[1102.951]->1
+O15[111.477]->1
+O15[111.585]->1
+O15[111.691]->1
+O15[1113.598]->1
+O15[1115.103]->1
+O15[1118.109]->1
+O15[1118.180]->1
+O15[1119.940]->1
+O15[1122.478]->1
+O15[1126.711]->1
+O15[113.516]->1
+O15[113.813]->1
+O15[1133.617]->1
+O15[1136.370]->1
+O15[114.276]->1
+O15[115.593]->1
+O15[1152.553]->1
+O15[1153.700]->1
+O15[1155.028]->1
+O15[1157.555]->1
+O15[116.301]->1
+O15[116.628]->1
+O15[1162.754]->1
+O15[1165.357]->1
+O15[1166.331]->1
+O15[1167.599]->1
+O15[1169.826]->1
+O15[118.248]->1
+O15[1180.451]->1
+O15[1183.955]->1
+O15[1184.661]->1
+O15[1187.287]->1
+O15[1187.410]->1
+O15[119.919]->1
+O15[1193.208]->1
+O15[1197.599]->1
+O15[1198.475]->1
+O15[1198.621]->1
+O15[12.316]->1
+O15[12.581]->1
+O15[12.604]->1
+O15[1200.455]->1
+O15[1203.919]->1
+O15[1207.067]->1
+O15[1213.324]->1
+O15[1217.578]->1
+O15[1221.838]->1
+O15[1222.381]->1
+O15[123.279]->1
+O15[1231.288]->1
+O15[125.147]->1
+O15[1252.321]->1
+O15[1263.906]->1
+O15[1273.063]->1
+O15[1275.844]->1
+O15[1276.895]->1
+O15[1277.312]->1
+O15[1277.385]->1
+O15[1277.888]->1
+O15[1281.625]->1
+O15[1283.445]->1
+O15[1287.892]->1
+O15[1288.560]->1
+O15[1289.160]->1
+O15[129.349]->1
+O15[129.482]->1
+O15[1294.341]->1
+O15[1294.401]->1
+O15[1295.012]->1
+O15[1305.885]->1
+O15[131.973]->1
+O15[1314.514]->1
+O15[132.378]->1
+O15[132.541]->1
+O15[132.612]->1
+O15[1326.691]->1
+O15[1330.564]->1
+O15[1334.080]->1
+O15[1336.804]->1
+O15[1347.803]->1
+O15[1348.090]->1
+O15[1349.436]->1
+O15[135.028]->1
+O15[135.966]->1
+O15[1350.344]->1
+O15[1357.065]->1
+O15[136.390]->1
+O15[1367.561]->1
+O15[1367.826]->1
+O15[1371.508]->1
+O15[1372.214]->1
+O15[1382.873]->1
+O15[1388.765]->1
+O15[139.178]->1
+O15[139.506]->1
+O15[1392.670]->1
+O15[1395.208]->1
+O15[14.990]->1
+O15[140.725]->1
+O15[140.736]->1
+O15[1403.411]->1
+O15[1408.254]->1
+O15[1408.324]->1
+O15[1411.031]->1
+O15[1423.436]->1
+O15[1425.987]->1
+O15[1427.426]->1
+O15[1429.687]->1
+O15[1436.555]->1
+O15[1445.213]->1
+O15[1445.798]->1
+O15[1457.488]->1
+O15[1460.472]->1
+O15[1461.602]->1
+O15[1465.702]->1
+O15[1478.390]->1
+O15[148.072]->1
+O15[1482.056]->1
+O15[1482.478]->1
+O15[1483.356]->1
+O15[1489.884]->1
+O15[149.030]->1
+O15[1495.261]->1
+O15[1495.475]->1
+O15[15.064]->1
+O15[15.126]->1
+O15[15.481]->1
+O15[1510.210]->1
+O15[152.571]->1
+O15[1523.649]->1
+O15[153.291]->1
+O15[1532.596]->1
+O15[1534.729]->1
+O15[1536.952]->1
+O15[154.219]->1
+O15[154.425]->1
+O15[1545.536]->1
+O15[1548.845]->1
+O15[1559.510]->1
+O15[156.894]->1
+O15[1563.185]->1
+O15[1569.251]->1
+O15[157.111]->1
+O15[157.748]->1
+O15[1573.470]->1
+O15[1574.398]->1
+O15[1577.272]->1
+O15[1578.795]->1
+O15[1579.204]->1
+O15[1579.770]->1
+O15[1581.324]->1
+O15[159.964]->1
+O15[1592.048]->1
+O15[160.700]->1
+O15[1603.240]->1
+O15[1604.796]->1
+O15[1606.228]->1
+O15[1610.282]->1
+O15[1614.496]->1
+O15[1614.780]->1
+O15[1617.700]->1
+O15[162.695]->1
+O15[1629.627]->1
+O15[1633.163]->1
+O15[1635.072]->1
+O15[1637.764]->1
+O15[164.037]->1
+O15[164.564]->1
+O15[1646.976]->1
+O15[1658.850]->1
+O15[1673.817]->1
+O15[1674.350]->1
+O15[1674.545]->1
+O15[1680.564]->1
+O15[1682.474]->1
+O15[1686.560]->1
+O15[1688.784]->1
+O15[169.174]->1
+O15[1699.470]->1
+O15[170.625]->1
+O15[1701.563]->1
+O15[1702.716]->1
+O15[171.745]->1
+O15[1713.185]->1
+O15[1727.082]->1
+O15[1732.902]->1
+O15[174.029]->1
+O15[174.621]->1
+O15[1743.690]->1
+O15[1751.165]->1
+O15[1762.802]->1
+O15[177.209]->1
+O15[177.245]->1
+O15[1782.339]->1
+O15[1785.868]->1
+O15[1787.060]->1
+O15[179.779]->1
+O15[1793.185]->1
+O15[1799.692]->1
+O15[18.125]->1
+O15[18.451]->1
+O15[180.550]->1
+O15[180.640]->1
+O15[1803.423]->1
+O15[1805.689]->1
+O15[1807.871]->1
+O15[1809.196]->1
+O15[181.770]->1
+O15[1813.892]->1
+O15[1815.731]->1
+O15[1816.508]->1
+O15[182.511]->1
+O15[1825.410]->1
+O15[1825.665]->1
+O15[183.594]->1
+O15[183.605]->1
+O15[183.997]->1
+O15[1833.780]->1
+O15[1836.691]->1
+O15[1844.597]->1
+O15[1857.082]->1
+O15[1876.433]->1
+O15[188.075]->1
+O15[1881.984]->1
+O15[1884.661]->1
+O15[1887.272]->1
+O15[1889.808]->1
+O15[1894.324]->1
+O15[1899.936]->1
+O15[19.460]->1
+O15[190.988]->1
+O15[1906.056]->1
+O15[1906.373]->1
+O15[191.919]->1
+O15[1911.383]->1
+O15[1913.479]->1
+O15[192.342]->1
+O15[192.754]->1
+O15[1927.563]->1
+O15[193.154]->1
+O15[1935.209]->1
+O15[194.837]->1
+O15[1943.480]->1
+O15[1949.949]->1
+O15[1952.795]->1
+O15[1954.362]->1
+O15[196.911]->1
+O15[1962.441]->1
+O15[1962.538]->1
+O15[1963.611]->1
+O15[197.681]->1
+O15[1971.065]->1
+O15[1975.530]->1
+O15[1975.661]->1
+O15[1995.281]->1
+O15[2.046]->1
+O15[2.758]->1
+O15[2.811]->1
+O15[2.856]->1
+O15[200.491]->1
+O15[2000.704]->1
+O15[2003.547]->1
+O15[2004.630]->1
+O15[2006.746]->1
+O15[2008.039]->1
+O15[201.532]->1
+O15[2010.194]->1
+O15[2014.148]->1
+O15[2014.669]->1
+O15[2021.824]->1
+O15[2023.642]->1
+O15[2024.806]->1
+O15[2028.598]->1
+O15[2032.704]->1
+O15[2048.711]->1
+O15[205.332]->1
+O15[2053.576]->1
+O15[2053.960]->1
+O15[2057.322]->1
+O15[206.560]->1
+O15[206.581]->1
+O15[2063.261]->1
+O15[2063.896]->1
+O15[2069.567]->1
+O15[2072.711]->1
+O15[2074.117]->1
+O15[2081.477]->1
+O15[209.231]->1
+O15[2090.135]->1
+O15[21.430]->1
+O15[21.431]->1
+O15[210.460]->1
+O15[2107.246]->1
+O15[2110.300]->1
+O15[2129.599]->1
+O15[2129.673]->1
+O15[2129.941]->1
+O15[213.051]->1
+O15[213.721]->1
+O15[2132.078]->1
+O15[2132.761]->1
+O15[2134.694]->1
+O15[2135.378]->1
+O15[215.134]->1
+O15[2151.175]->1
+O15[2153.381]->1
+O15[2160.461]->1
+O15[217.985]->1
+O15[2184.514]->1
+O15[2185.702]->1
+O15[2186.963]->1
+O15[2188.176]->1
+O15[219.190]->1
+O15[2195.730]->1
+O15[22.072]->1
+O15[22.808]->1
+O15[2201.255]->1
+O15[2213.674]->1
+O15[222.319]->1
+O15[2220.075]->1
+O15[2222.913]->1
+O15[2224.286]->1
+O15[2225.151]->1
+O15[2226.745]->1
+O15[2229.014]->1
+O15[2230.760]->1
+O15[224.188]->1
+O15[2246.456]->1
+O15[225.957]->1
+O15[2252.943]->1
+O15[2258.494]->1
+O15[226.247]->1
+O15[2276.666]->1
+O15[2277.075]->1
+O15[2284.212]->1
+O15[229.883]->1
+O15[2290.771]->1
+O15[2294.166]->1
+O15[2298.591]->1
+O15[2298.722]->1
+O15[2300.128]->1
+O15[2300.309]->1
+O15[2310.592]->1
+O15[232.124]->1
+O15[2324.430]->1
+O15[2327.032]->1
+O15[2335.118]->1
+O15[2335.915]->1
+O15[2336.835]->1
+O15[235.620]->1
+O15[236.596]->1
+O15[2361.408]->1
+O15[237.595]->1
+O15[238.185]->1
+O15[2382.327]->1
+O15[2389.478]->1
+O15[239.438]->1
+O15[239.649]->1
+O15[24.295]->1
+O15[24.426]->1
+O15[24.759]->1
+O15[24.791]->1
+O15[2402.452]->1
+O15[2404.878]->1
+O15[2406.020]->1
+O15[241.491]->1
+O15[2414.626]->1
+O15[2414.826]->1
+O15[242.055]->1
+O15[2420.752]->1
+O15[2422.470]->1
+O15[2426.522]->1
+O15[2428.759]->1
+O15[243.486]->1
+O15[2430.536]->1
+O15[2433.538]->1
+O15[244.858]->1
+O15[245.541]->1
+O15[2451.953]->1
+O15[2452.710]->1
+O15[2456.517]->1
+O15[246.096]->1
+O15[246.824]->1
+O15[2460.771]->1
+O15[2469.766]->1
+O15[247.084]->1
+O15[247.375]->1
+O15[247.690]->1
+O15[2471.487]->1
+O15[2478.577]->1
+O15[2479.754]->1
+O15[2493.585]->1
+O15[2496.717]->1
+O15[250.922]->1
+O15[250.930]->1
+O15[2507.010]->1
+O15[2510.098]->1
+O15[2511.710]->1
+O15[2513.475]->1
+O15[2525.316]->1
+O15[2527.215]->1
+O15[2538.694]->1
+O15[2545.890]->1
+O15[2547.759]->1
+O15[255.361]->1
+O15[255.483]->1
+O15[2550.510]->1
+O15[2551.499]->1
+O15[2551.548]->1
+O15[2554.856]->1
+O15[2556.569]->1
+O15[2562.630]->1
+O15[2568.676]->1
+O15[257.835]->1
+O15[2576.633]->1
+O15[2576.992]->1
+O15[2584.743]->1
+O15[2585.073]->1
+O15[2589.344]->1
+O15[2589.999]->1
+O15[26.067]->1
+O15[266.694]->1
+O15[267.809]->1
+O15[268.005]->1
+O15[27.391]->1
+O15[27.600]->1
+O15[272.564]->1
+O15[272.592]->1
+O15[273.699]->1
+O15[28.534]->1
+O15[28.563]->1
+O15[28.564]->1
+O15[280.576]->1
+O15[281.844]->1
+O15[282.056]->1
+O15[282.214]->1
+O15[285.685]->1
+O15[286.476]->1
+O15[289.047]->1
+O15[29.157]->1
+O15[29.518]->1
+O15[29.898]->1
+O15[292.239]->1
+O15[294.230]->1
+O15[299.899]->1
+O15[3.612]->1
+O15[30.458]->1
+O15[30.845]->1
+O15[300.546]->1
+O15[303.877]->1
+O15[304.230]->1
+O15[305.357]->1
+O15[306.473]->1
+O15[306.736]->1
+O15[308.288]->1
+O15[309.532]->1
+O15[31.358]->1
+O15[311.379]->1
+O15[32.386]->1
+O15[325.246]->1
+O15[325.720]->1
+O15[328.555]->1
+O15[33.144]->1
+O15[33.973]->1
+O15[333.881]->1
+O15[335.320]->1
+O15[336.744]->1
+O15[337.283]->1
+O15[338.000]->1
+O15[339.135]->1
+O15[344.408]->1
+O15[346.343]->1
+O15[35.006]->1
+O15[35.267]->1
+O15[35.389]->1
+O15[351.254]->1
+O15[351.939]->1
+O15[355.780]->1
+O15[356.386]->1
+O15[358.918]->1
+O15[361.508]->1
+O15[362.517]->1
+O15[363.377]->1
+O15[364.267]->1
+O15[367.234]->1
+O15[369.804]->1
+O15[369.850]->1
+O15[37.571]->1
+O15[371.209]->1
+O15[371.852]->1
+O15[374.199]->1
+O15[374.733]->1
+O15[38.044]->1
+O15[381.634]->1
+O15[381.892]->1
+O15[386.079]->1
+O15[387.587]->1
+O15[387.935]->1
+O15[388.837]->1
+O15[389.527]->1
+O15[389.576]->1
+O15[389.756]->1
+O15[390.079]->1
+O15[390.257]->1
+O15[392.951]->1
+O15[395.089]->1
+O15[395.902]->1
+O15[397.004]->1
+O15[4.673]->1
+O15[40.551]->1
+O15[40.649]->1
+O15[400.501]->1
+O15[402.309]->1
+O15[402.898]->1
+O15[408.512]->1
+O15[409.095]->1
+O15[411.180]->1
+O15[414.936]->1
+O15[414.951]->1
+O15[42.195]->1
+O15[420.377]->1
+O15[421.634]->1
+O15[422.832]->1
+O15[425.640]->1
+O15[426.935]->1
+O15[43.309]->1
+O15[434.015]->1
+O15[435.440]->1
+O15[44.637]->1
+O15[44.671]->1
+O15[441.917]->1
+O15[443.615]->1
+O15[446.562]->1
+O15[448.315]->1
+O15[449.699]->1
+O15[451.720]->1
+O15[452.340]->1
+O15[454.139]->1
+O15[454.874]->1
+O15[458.460]->1
+O15[458.836]->1
+O15[459.366]->1
+O15[460.798]->1
+O15[463.707]->1
+O15[464.693]->1
+O15[466.071]->1
+O15[469.186]->1
+O15[470.172]->1
+O15[473.797]->1
+O15[477.764]->1
+O15[478.513]->1
+O15[481.040]->1
+O15[481.132]->1
+O15[483.390]->1
+O15[484.636]->1
+O15[488.791]->1
+O15[489.316]->1
+O15[490.427]->1
+O15[492.604]->1
+O15[498.173]->1
+O15[5.187]->1
+O15[501.715]->1
+O15[504.532]->1
+O15[508.558]->1
+O15[509.718]->1
+O15[509.815]->1
+O15[51.172]->1
+O15[51.236]->1
+O15[51.491]->1
+O15[510.831]->1
+O15[513.059]->1
+O15[514.845]->1
+O15[518.429]->1
+O15[52.015]->1
+O15[520.116]->1
+O15[520.847]->1
+O15[521.132]->1
+O15[523.395]->1
+O15[526.368]->1
+O15[528.590]->1
+O15[528.803]->1
+O15[53.819]->1
+O15[531.122]->1
+O15[532.924]->1
+O15[54.404]->1
+O15[54.950]->1
+O15[544.120]->1
+O15[546.062]->1
+O15[547.946]->1
+O15[55.148]->1
+O15[550.373]->1
+O15[555.050]->1
+O15[559.161]->1
+O15[559.194]->1
+O15[559.813]->1
+O15[56.740]->1
+O15[562.169]->1
+O15[563.663]->1
+O15[565.103]->1
+O15[565.725]->1
+O15[58.761]->1
+O15[580.282]->1
+O15[586.919]->1
+O15[592.632]->1
+O15[595.260]->1
+O15[599.987]->1
+O15[6.043]->1
+O15[6.156]->1
+O15[60.897]->1
+O15[604.308]->1
+O15[605.249]->1
+O15[605.698]->1
+O15[607.956]->1
+O15[614.446]->1
+O15[614.695]->1
+O15[614.796]->1
+O15[616.830]->1
+O15[617.938]->1
+O15[62.221]->1
+O15[622.821]->1
+O15[625.915]->1
+O15[626.202]->1
+O15[627.276]->1
+O15[627.689]->1
+O15[630.067]->1
+O15[633.484]->1
+O15[64.486]->1
+O15[641.459]->1
+O15[643.668]->1
+O15[646.506]->1
+O15[65.212]->1
+O15[65.233]->1
+O15[650.746]->1
+O15[651.411]->1
+O15[653.199]->1
+O15[654.923]->1
+O15[656.243]->1
+O15[657.430]->1
+O15[658.448]->1
+O15[661.356]->1
+O15[661.541]->1
+O15[666.447]->1
+O15[669.411]->1
+O15[670.800]->1
+O15[672.314]->1
+O15[677.420]->1
+O15[68.067]->1
+O15[68.882]->1
+O15[684.022]->1
+O15[685.547]->1
+O15[69.457]->1
+O15[69.645]->1
+O15[692.267]->1
+O15[692.425]->1
+O15[699.388]->1
+O15[7.726]->1
+O15[700.115]->1
+O15[703.013]->1
+O15[704.501]->1
+O15[705.929]->1
+O15[706.997]->1
+O15[708.945]->1
+O15[72.403]->1
+O15[720.485]->1
+O15[720.746]->1
+O15[721.283]->1
+O15[721.368]->1
+O15[727.381]->1
+O15[728.490]->1
+O15[731.785]->1
+O15[732.001]->1
+O15[732.161]->1
+O15[734.676]->1
+O15[74.528]->1
+O15[740.167]->1
+O15[741.284]->1
+O15[750.066]->1
+O15[752.157]->1
+O15[756.193]->1
+O15[758.455]->1
+O15[759.166]->1
+O15[76.172]->1
+O15[767.119]->1
+O15[767.840]->1
+O15[768.665]->1
+O15[769.619]->1
+O15[776.135]->1
+O15[776.495]->1
+O15[781.098]->1
+O15[781.820]->1
+O15[784.481]->1
+O15[786.825]->1
+O15[787.246]->1
+O15[789.002]->1
+O15[790.816]->1
+O15[791.013]->1
+O15[794.260]->1
+O15[796.154]->1
+O15[796.867]->1
+O15[80.303]->1
+O15[801.300]->1
+O15[804.466]->1
+O15[81.375]->1
+O15[811.528]->1
+O15[82.202]->1
+O15[827.159]->1
+O15[829.183]->1
+O15[830.661]->1
+O15[831.824]->1
+O15[832.213]->1
+O15[832.581]->1
+O15[832.712]->1
+O15[835.098]->1
+O15[835.827]->1
+O15[838.666]->1
+O15[840.254]->1
+O15[846.076]->1
+O15[85.138]->1
+O15[85.238]->1
+O15[854.965]->1
+O15[857.730]->1
+O15[862.090]->1
+O15[87.276]->1
+O15[87.523]->1
+O15[872.730]->1
+O15[879.017]->1
+O15[882.206]->1
+O15[884.025]->1
+O15[897.880]->1
+O15[898.992]->1
+O15[899.919]->1
+O15[9.843]->1
+O15[90.534]->1
+O15[900.120]->1
+O15[903.700]->1
+O15[91.573]->1
+O15[91.602]->1
+O15[91.791]->1
+O15[911.026]->1
+O15[911.441]->1
+O15[916.047]->1
+O15[920.820]->1
+O15[924.501]->1
+O15[933.143]->1
+O15[935.610]->1
+O15[936.315]->1
+O15[942.662]->1
+O15[943.597]->1
+O15[948.608]->1
+O15[950.855]->1
+O15[952.486]->1
+O15[953.236]->1
+O15[956.194]->1
+O15[959.192]->1
+O15[96.102]->1
+O15[96.207]->1
+O15[96.908]->1
+O15[963.446]->1
+O15[965.137]->1
+O15[966.081]->1
+O15[972.483]->1
+O15[972.907]->1
+O15[976.817]->1
+O15[981.744]->1
+O15[983.982]->1
+O15[987.501]->1
+O15[987.838]->1
+O15[989.941]->1
+O15[997.110]->1
+O16->385
+O16[1004.533]->1
+O16[1037.753]->1
+O16[1109.151]->1
+O16[1143.999]->1
+O16[1239.459]->1
+O16[126.825]->1
+O16[1301.899]->1
+O16[1305.831]->1
+O16[1333.350]->1
+O16[1333.361]->1
+O16[1349.307]->1
+O16[1377.415]->1
+O16[1380.091]->1
+O16[1400.243]->1
+O16[1405.409]->1
+O16[1450.049]->1
+O16[1456.142]->1
+O16[1475.009]->1
+O16[1490.542]->1
+O16[1516.571]->1
+O16[1525.841]->1
+O16[1558.162]->1
+O16[1572.619]->1
+O16[1593.320]->1
+O16[171.400]->1
+O16[1752.414]->1
+O16[1762.275]->1
+O16[1927.087]->1
+O16[2000.656]->1
+O16[2018.056]->1
+O16[2056.890]->1
+O16[2115.293]->1
+O16[2129.610]->1
+O16[2130.610]->1
+O16[2289.652]->1
+O16[2305.565]->1
+O16[2313.525]->1
+O16[2343.227]->1
+O16[2354.130]->1
+O16[2381.099]->1
+O16[2442.628]->1
+O16[2452.186]->1
+O16[2453.534]->1
+O16[2459.804]->1
+O16[2502.386]->1
+O16[2502.557]->1
+O16[2505.081]->1
+O16[2510.338]->1
+O16[2521.131]->1
+O16[2528.617]->1
+O16[2583.539]->1
+O16[2596.752]->1
+O16[262.906]->1
+O16[2635.639]->1
+O16[2638.725]->1
+O16[2644.362]->1
+O16[2649.927]->1
+O16[2669.600]->1
+O16[2681.168]->1
+O16[2686.693]->1
+O16[2692.143]->1
+O16[2697.034]->1
+O16[2723.187]->1
+O16[2766.221]->1
+O16[2769.760]->1
+O16[2780.457]->1
+O16[2786.039]->1
+O16[2791.195]->1
+O16[2822.395]->1
+O16[2844.688]->1
+O16[2867.320]->1
+O16[2889.691]->1
+O16[2893.681]->1
+O16[2921.530]->1
+O16[2943.647]->1
+O16[2960.430]->1
+O16[2960.629]->1
+O16[2986.045]->1
+O16[3010.327]->1
+O16[3017.236]->1
+O16[401.176]->1
+O16[502.040]->1
+O16[713.462]->1
+O16[812.638]->1
+O16[833.225]->1
+O16[843.293]->1
+O16[850.949]->1
+O16[862.178]->1
+O16[927.639]->1
+alpha->7460
+deuteron->1070
+gamma->5076
+neutron->7130
+proton->15597
+triton->91

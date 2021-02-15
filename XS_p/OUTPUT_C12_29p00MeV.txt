@@ -1,0 +1,54 @@
+
+ The run is 10000 proton of 29 MeV through 20 m   of C12 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	10.3944 cm  +- 10.3037 cm 	massic: 46.4839 g/cm2 
+ CrossSection:	0.0962053 cm^-1 		massic: 2.15128 mm2/g 
+ crossSection per atom:	428.675 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 2.12448 mm2/g 	423.333 mbarn 
+               total= 2.12448 mm2/g 	423.333 mbarn 
+
+ List of nuclear reactions: 
+
+                               proton + C12 --> 2 proton + B11:     240   Q = -15.9565 MeV
+                           proton + C12 --> He3 + B10[257.963]:       1   Q = -19.9502 MeV
+                           proton + C12 --> He3 + B10[265.096]:       1   Q = -19.9573 MeV
+               proton + C12 --> N gamma or e- + 2 proton + B11:     316   Q = -15.9565 MeV
+                    proton + C12 --> N gamma or e- + He3 + B10:     100   Q = -19.6923 MeV
+       proton + C12 --> N gamma or e- + alpha + deuteron + Be7:       8   Q = -24.0402 MeV
+               proton + C12 --> N gamma or e- + deuteron + C11:     140   Q = -16.4973 MeV
+                proton + C12 --> N gamma or e- + neutron + N12:     251   Q = -18.1209 MeV
+             proton + C12 --> N gamma or e- + proton + 3 alpha:       6   Q = -7.27361 MeV
+                 proton + C12 --> N gamma or e- + proton + C12:       5   Q = 7.78044e-08 eV 
+       proton + C12 --> N gamma or e- + proton + neutron + C11:      40   Q = -18.7216 MeV
+                            proton + C12 --> alpha + He3 + Li6:       6   Q = -24.1528 MeV
+                       proton + C12 --> alpha + deuteron + Be7:      25   Q = -24.0402 MeV
+                             proton + C12 --> proton + 3 alpha:    8831   Q = -7.27361 MeV
+                       proton + C12 --> proton + neutron + C11:      30   Q = -18.7216 MeV
+
+                          number of gamma or e- (ic): N = 1 --> 4
+
+ List of generated particles:
+            B10:     100  Emean = 2.77134 MeV	( 326.722 keV --> 6.12946 MeV)
+   B10[257.963]:       1  Emean = 1.20855 MeV	( 1.20855 MeV --> 1.20855 MeV)
+   B10[265.096]:       1  Emean = 6.28405 MeV	( 6.28405 MeV --> 6.28405 MeV)
+            B11:     556  Emean = 2.58605 MeV	( 102.031 keV --> 6.49021 MeV)
+            Be7:      33  Emean = 1.94876 MeV	( 168.173 keV --> 4.09161 MeV)
+            C11:     210  Emean = 2.45929 MeV	( 336.358 keV --> 5.46285 MeV)
+            C12:       5  Emean = 3.75377 MeV	( 1.0417 MeV --> 6.89597 MeV)
+            He3:     108  Emean = 3.80945 MeV	( 309.725 keV --> 8.29736 MeV)
+            Li6:       6  Emean = 877.692 keV	( 80.3379 keV --> 1.97035 MeV)
+            N12:     251  Emean = 2.34365 MeV	( 682.207 keV --> 4.53239 MeV)
+          alpha:   26550  Emean = 5.09493 MeV	( 10.0901 keV --> 18.5618 MeV)
+       deuteron:     173  Emean = 3.34975 MeV	( 345.369 keV --> 8.0107 MeV)
+          gamma:    1055  Emean = 4.10226 MeV	( 208.104 keV --> 13.4041 MeV)
+        neutron:     321  Emean = 2.61839 MeV	( 42.2518 keV --> 9.00525 MeV)
+         proton:   10024  Emean = 6.12432 MeV	( 28.2814 keV --> 20.5274 MeV)
+
+   Momentum balance: Pmean = 8.32809e-06 eV 	( 2.08856e-07 eV  --> 0.000180172 eV ) 
+

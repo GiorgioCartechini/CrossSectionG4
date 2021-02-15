@@ -1,0 +1,69 @@
+EVENTS->10000
+TARGET->O16
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + O16 --> 2 proton + N gamma or e- + N15=>749
+proton + O16 --> 2 proton + N15=>332
+proton + O16 --> He3 + N gamma or e- + N14=>183
+proton + O16 --> He3 + N14[1008.570]=>1
+proton + O16 --> He3 + N14[1009.446]=>1
+proton + O16 --> He3 + N14[1112.815]=>1
+proton + O16 --> He3 + N14[1114.840]=>1
+proton + O16 --> He3 + N14[1124.120]=>1
+proton + O16 --> He3 + N14[1128.658]=>1
+proton + O16 --> He3 + N14[154.650]=>1
+proton + O16 --> He3 + N14[460.493]=>1
+proton + O16 --> He3 + N14[474.118]=>1
+proton + O16 --> He3 + N14[635.419]=>1
+proton + O16 --> He3 + N14[720.564]=>1
+proton + O16 --> He3 + N14[876.115]=>1
+proton + O16 --> He3 + N14[898.868]=>1
+proton + O16 --> He3 + N14[904.143]=>1
+proton + O16 --> He3 + N14[931.406]=>1
+proton + O16 --> deuteron + N gamma or e- + O15=>195
+proton + O16 --> neutron + N gamma or e- + F16=>17
+proton + O16 --> proton + 4 alpha=>2949
+proton + O16 --> proton + O16 + N gamma or e-=>62
+proton + O16 --> proton + alpha + C12=>1609
+proton + O16 --> proton + alpha + N gamma or e- + C12=>3465
+proton + O16 --> proton + deuteron + N14=>56
+proton + O16 --> proton + neutron + N gamma or e- + O15=>237
+proton + O16 --> proton + neutron + O15=>131
+END REACTIONS
+
+
+START PARTICLES
+C12->5074
+F16->17
+He3->198
+N14->239
+N14[1008.570]->1
+N14[1009.446]->1
+N14[1112.815]->1
+N14[1114.840]->1
+N14[1124.120]->1
+N14[1128.658]->1
+N14[154.650]->1
+N14[460.493]->1
+N14[474.118]->1
+N14[635.419]->1
+N14[720.564]->1
+N14[876.115]->1
+N14[898.868]->1
+N14[904.143]->1
+N14[931.406]->1
+N15->1081
+O15->563
+O16->62
+alpha->16870
+deuteron->251
+gamma->5210
+neutron->385
+proton->10671

@@ -1,0 +1,77 @@
+EVENTS->10000
+TARGET->Y89
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + Y89 --> N gamma or e- + 2 neutron + Zr88=>4412
+proton + Y89 --> N gamma or e- + 2 proton + Sr88=>31
+proton + Y89 --> N gamma or e- + alpha + Sr86=>84
+proton + Y89 --> N gamma or e- + deuteron + Y88=>211
+proton + Y89 --> N gamma or e- + neutron + Zr89=>1042
+proton + Y89 --> N gamma or e- + neutron + alpha + Sr85=>222
+proton + Y89 --> N gamma or e- + neutron + alpha + Sr85[238.790]=>11
+proton + Y89 --> N gamma or e- + proton + Y89=>831
+proton + Y89 --> N gamma or e- + proton + neutron + Y88=>3136
+proton + Y89 --> N gamma or e- + proton + neutron + Y88[1.670]=>1
+proton + Y89 --> N gamma or e- + proton + neutron + Y88[104.613]=>1
+proton + Y89 --> N gamma or e- + proton + neutron + Y88[46.596]=>1
+proton + Y89 --> N gamma or e- + triton + Y87[380.820]=>2
+proton + Y89 --> deuteron + Y88[104.175]=>1
+proton + Y89 --> deuteron + Y88[14.372]=>1
+proton + Y89 --> deuteron + Y88[25.399]=>1
+proton + Y89 --> deuteron + Y88[53.026]=>1
+proton + Y89 --> deuteron + Y88[69.850]=>1
+proton + Y89 --> neutron + Zr89[136.684]=>1
+proton + Y89 --> neutron + Zr89[151.142]=>1
+proton + Y89 --> neutron + Zr89[288.831]=>1
+proton + Y89 --> proton + Y89[167.642]=>1
+proton + Y89 --> proton + Y89[233.977]=>1
+proton + Y89 --> proton + Y89[235.199]=>1
+proton + Y89 --> proton + Y89[255.830]=>1
+proton + Y89 --> proton + Y89[73.762]=>1
+proton + Y89 --> proton + Y89[8.922]=>1
+proton + Y89 --> proton + neutron + Y88[8.169]=>1
+END REACTIONS
+
+
+START PARTICLES
+Sr85->222
+Sr85[238.790]->11
+Sr86->84
+Sr88->31
+Y87[380.820]->2
+Y88->3347
+Y88[1.670]->1
+Y88[104.175]->1
+Y88[104.613]->1
+Y88[14.372]->1
+Y88[25.399]->1
+Y88[46.596]->1
+Y88[53.026]->1
+Y88[69.850]->1
+Y88[8.169]->1
+Y89->831
+Y89[167.642]->1
+Y89[233.977]->1
+Y89[235.199]->1
+Y89[255.830]->1
+Y89[73.762]->1
+Y89[8.922]->1
+Zr88->4412
+Zr89->1042
+Zr89[136.684]->1
+Zr89[151.142]->1
+Zr89[288.831]->1
+alpha->317
+deuteron->216
+e-->4110
+gamma->77334
+neutron->13242
+proton->4039
+triton->2

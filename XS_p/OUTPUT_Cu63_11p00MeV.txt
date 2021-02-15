@@ -1,0 +1,41 @@
+
+ The run is 10000 proton of 11 MeV through 20 m   of Cu63 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	29.0313 cm  +- 29.4081 cm 	massic: 129.828 g/cm2 
+ CrossSection:	0.0344455 cm^-1 		massic: 770.249 um2/mg
+ crossSection per atom:	804.887 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 767.273 um2/mg	801.778 mbarn 
+               total= 767.273 um2/mg	801.778 mbarn 
+
+ List of nuclear reactions: 
+
+                proton + Cu63 --> N gamma or e- + alpha + Ni60:    4253   Q = 3.76098 MeV
+              proton + Cu63 --> N gamma or e- + neutron + Zn63:    3110   Q = -4.15237 MeV
+               proton + Cu63 --> N gamma or e- + proton + Cu63:    2634   Q = 0.00296473 eV 
+                      proton + Cu63 --> neutron + Zn63[11.283]:       1   Q = -4.16365 MeV
+                       proton + Cu63 --> proton + Cu63[15.276]:       1   Q = -15.2759 keV
+                       proton + Cu63 --> proton + Cu63[76.120]:       1   Q = -76.1196 keV
+
+                          number of gamma or e- (ic): N = 1 --> 10
+
+ List of generated particles:
+           Cu63:    2634  Emean =  248.08 keV	( 4.00626 keV --> 599.465 keV)
+   Cu63[15.276]:       1  Emean =  470.74 keV	( 470.74 keV --> 470.74 keV)
+   Cu63[76.120]:       1  Emean = 25.5574 keV	( 25.5574 keV --> 25.5574 keV)
+           Ni60:    4253  Emean = 649.443 keV	( 35.543 keV --> 1.61018 MeV)
+           Zn63:    3110  Emean = 200.119 keV	( 29.4238 keV --> 483.6 keV)
+   Zn63[11.283]:       1  Emean = 195.934 keV	( 195.934 keV --> 195.934 keV)
+          alpha:    4253  Emean = 7.36751 MeV	( 4.93908 MeV --> 11.4851 MeV)
+             e-:      23  Emean = 718.552 keV	( 119.359 keV --> 2.99485 MeV)
+          gamma:   39091  Emean = 1.49462 MeV	( 859.697 eV  --> 8.89193 MeV)
+        neutron:    3111  Emean = 1.70986 MeV	( 37.9626 keV --> 6.64042 MeV)
+         proton:    2636  Emean = 5.28928 MeV	( 3.29923 MeV --> 10.8983 MeV)
+
+   Momentum balance: Pmean = 3.61004 eV 	( 2.10901e-07 eV  --> 3.22883 keV) 
+

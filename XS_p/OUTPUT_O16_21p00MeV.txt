@@ -1,0 +1,77 @@
+
+ The run is 10000 proton of 21 MeV through 20 m   of O16 (density: 4.472 g/cm3 )
+
+ Process calls frequency:
+	protonInelastic= 10000
+
+
+ MeanFreePath:	11.0892 cm  +- 10.8789 cm 	massic: 49.5909 g/cm2 
+ CrossSection:	0.0901778 cm^-1 		massic: 2.0165 mm2/g 
+ crossSection per atom:	535.585 mbarn 
+
+ Verification: crossSections from G4HadronicProcessStore:
+     protonInelastic= 2.01806 mm2/g 	536 mbarn 
+               total= 2.01806 mm2/g 	536 mbarn 
+
+ List of nuclear reactions: 
+
+               proton + O16 --> 2 proton + N gamma or e- + N15:      34   Q = -12.1269 MeV
+                               proton + O16 --> 2 proton + N15:     485   Q = -12.1269 MeV
+                    proton + O16 --> He3 + N gamma or e- + N14:      18   Q = -15.2418 MeV
+                          proton + O16 --> He3 + N14[1111.518]:       1   Q = -16.3533 MeV
+                           proton + O16 --> He3 + N14[239.950]:       1   Q = -15.4817 MeV
+                           proton + O16 --> He3 + N14[270.986]:       1   Q = -15.5128 MeV
+                           proton + O16 --> He3 + N14[386.804]:       1   Q = -15.6286 MeV
+                           proton + O16 --> He3 + N14[451.038]:       1   Q = -15.6928 MeV
+                           proton + O16 --> He3 + N14[561.786]:       1   Q = -15.8036 MeV
+                           proton + O16 --> He3 + N14[635.500]:       1   Q = -15.8773 MeV
+                           proton + O16 --> He3 + N14[639.092]:       1   Q = -15.8809 MeV
+                           proton + O16 --> He3 + N14[705.281]:       1   Q = -15.9471 MeV
+                           proton + O16 --> He3 + N14[776.114]:       1   Q = -16.0179 MeV
+                           proton + O16 --> He3 + N14[777.897]:       1   Q = -16.0197 MeV
+                           proton + O16 --> He3 + N14[847.751]:       1   Q = -16.0895 MeV
+                           proton + O16 --> He3 + N14[861.780]:       1   Q = -16.1036 MeV
+                           proton + O16 --> He3 + N14[906.679]:       1   Q = -16.1485 MeV
+                           proton + O16 --> He3 + N14[923.014]:       1   Q = -16.1648 MeV
+               proton + O16 --> deuteron + N gamma or e- + O15:      33   Q = -13.4396 MeV
+                proton + O16 --> neutron + N gamma or e- + F16:      41   Q = -16.2003 MeV
+                             proton + O16 --> proton + 4 alpha:     634   Q = -14.4345 MeV
+                 proton + O16 --> proton + O16 + N gamma or e-:     208   Q = -4.76875e-07 eV 
+                         proton + O16 --> proton + alpha + C12:    3366   Q = -7.16085 MeV
+         proton + O16 --> proton + alpha + N gamma or e- + C12:    5055   Q = -7.16085 MeV
+       proton + O16 --> proton + neutron + N gamma or e- + O15:      17   Q = -15.6639 MeV
+                       proton + O16 --> proton + neutron + O15:      94   Q = -15.6639 MeV
+
+                          number of gamma or e- (ic): N = 1 --> 3
+
+ List of generated particles:
+            C12:    8421  Emean = 2.28459 MeV	( 142.474 eV  --> 7.79335 MeV)
+            F16:      41  Emean =   1.284 MeV	( 593.851 keV --> 2.1055 MeV)
+            He3:      33  Emean = 3.06975 MeV	( 1.10161 MeV --> 4.85372 MeV)
+            N14:      18  Emean = 1.09694 MeV	( 176.296 keV --> 2.88614 MeV)
+  N14[1111.518]:       1  Emean = 2.01549 MeV	( 2.01549 MeV --> 2.01549 MeV)
+   N14[239.950]:       1  Emean = 1.63565 MeV	( 1.63565 MeV --> 1.63565 MeV)
+   N14[270.986]:       1  Emean = 2.60666 MeV	( 2.60666 MeV --> 2.60666 MeV)
+   N14[386.804]:       1  Emean = 517.698 keV	( 517.698 keV --> 517.698 keV)
+   N14[451.038]:       1  Emean = 3.10476 MeV	( 3.10476 MeV --> 3.10476 MeV)
+   N14[561.786]:       1  Emean = 1.71258 MeV	( 1.71258 MeV --> 1.71258 MeV)
+   N14[635.500]:       1  Emean = 2.55089 MeV	( 2.55089 MeV --> 2.55089 MeV)
+   N14[639.092]:       1  Emean = 2.83002 MeV	( 2.83002 MeV --> 2.83002 MeV)
+   N14[705.281]:       1  Emean = 252.495 keV	( 252.495 keV --> 252.495 keV)
+   N14[776.114]:       1  Emean = 1.57384 MeV	( 1.57384 MeV --> 1.57384 MeV)
+   N14[777.897]:       1  Emean = 3.03315 MeV	( 3.03315 MeV --> 3.03315 MeV)
+   N14[847.751]:       1  Emean = 397.693 keV	( 397.693 keV --> 397.693 keV)
+   N14[861.780]:       1  Emean = 2.69435 MeV	( 2.69435 MeV --> 2.69435 MeV)
+   N14[906.679]:       1  Emean = 3.05099 MeV	( 3.05099 MeV --> 3.05099 MeV)
+   N14[923.014]:       1  Emean = 1.24267 MeV	( 1.24267 MeV --> 1.24267 MeV)
+            N15:     519  Emean = 1.55376 MeV	( 68.4764 keV --> 3.84675 MeV)
+            O15:     144  Emean = 1.40094 MeV	( 195.786 keV --> 2.89567 MeV)
+            O16:     208  Emean =  1.8721 MeV	( 55.1071 keV --> 3.84003 MeV)
+          alpha:   10957  Emean = 3.25019 MeV	( 1.97465 keV --> 12.2029 MeV)
+       deuteron:      33  Emean = 2.02767 MeV	( 659.32 keV --> 3.54317 MeV)
+          gamma:    5526  Emean = 4.44999 MeV	( 119.17 keV --> 9.24402 MeV)
+        neutron:     152  Emean = 1.37955 MeV	( 150.352 keV --> 3.28477 MeV)
+         proton:   10412  Emean = 4.76135 MeV	( 27.5712 keV --> 14.0584 MeV)
+
+   Momentum balance: Pmean = 3.31474e-05 eV 	( 3.45838e-07 eV  --> 0.00269888 eV ) 
+

@@ -1,0 +1,20 @@
+EVENTS->10000
+TARGET->Cu63
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+Transportation->8969
+protonInelastic->1031
+END PROCESS
+
+
+START REACTIONS
+proton + Cu63 --> N gamma or e- + Zn64=>1031
+END REACTIONS
+
+
+START PARTICLES
+Zn64->1031
+e-->3
+gamma->7640

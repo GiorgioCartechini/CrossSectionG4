@@ -1,0 +1,40 @@
+EVENTS->10000
+TARGET->O16
+DENSITY->4.472 g/cm3 
+
+
+START PROCESS
+protonInelastic->10000
+END PROCESS
+
+
+START REACTIONS
+proton + O16 --> 2 proton + N15=>445
+proton + O16 --> He3 + N14[18.934]=>1
+proton + O16 --> He3 + N14[256.567]=>1
+proton + O16 --> He3 + N14[349.177]=>1
+proton + O16 --> He3 + N14[83.791]=>1
+proton + O16 --> neutron + N gamma or e- + F16=>9
+proton + O16 --> proton + 4 alpha=>89
+proton + O16 --> proton + O16 + N gamma or e-=>400
+proton + O16 --> proton + alpha + C12=>4641
+proton + O16 --> proton + alpha + N gamma or e- + C12=>4401
+proton + O16 --> proton + neutron + O15=>11
+END REACTIONS
+
+
+START PARTICLES
+C12->9042
+F16->9
+He3->4
+N14[18.934]->1
+N14[256.567]->1
+N14[349.177]->1
+N14[83.791]->1
+N15->445
+O15->11
+O16->400
+alpha->9398
+gamma->5025
+neutron->20
+proton->10432
